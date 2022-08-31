@@ -11,5 +11,9 @@
 - sim new feature and add gh actions ([07f974e](https://github.com/BrandSourceDigital/alta/commit/07f974e89eb343befcdaa6d22b78e9b0b1de6e1c))
 - init npm ([7421b20](https://github.com/BrandSourceDigital/alta/commit/7421b202d729aac87785b3320c3ab67d85d8f9fe))
 
+### 🐛 Fixes
 
-## 1.4.0 (2022-8-31)
+- fix merge ([c662df4](https://github.com/BrandSourceDigital/alta/commit/c662df4b772c19be61273dcbdb973275770ef943))
+
+
+## v1.5.0 (2022-8-31)
