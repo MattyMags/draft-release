@@ -4,9 +4,6 @@ on:
     workflows: ["Publish new release"]
     types:
       - completed
-  push:
-    branches:
-      - master
 
 jobs:
   update:
