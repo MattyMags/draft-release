@@ -75,7 +75,7 @@ const parseCommitSubject = (subject) => {
 let curTag = releaseAsVersion ? `v${version}` : "unreleased";
 
 const log = gitLogSync({
-  startRef: "e7b9bdca12f77a3bbb39cf05c071b3b235c4c6e9",
+  startRef: "23f064e1dee8e8da0175aa25b506fe4a98f52b9d",
   dir: "./",
 }).map((entry) => {
   const { subject, body } = entry;
