@@ -1,6 +1,9 @@
 
 ## Unreleased 
 
+
+## v1.6.0 (2022-8-31)
+
 ### ✨ Features
 
 - idk ([143f464](https://github.com/BrandSourceDigital/alta/commit/143f46418871d13166c7313f53517a2e86b2b65e))
@@ -15,6 +18,3 @@
 ### 🐛 Fixes
 
 - fix merge ([c662df4](https://github.com/BrandSourceDigital/alta/commit/c662df4b772c19be61273dcbdb973275770ef943))
-
-
-## v1.6.0 (2022-8-31)
