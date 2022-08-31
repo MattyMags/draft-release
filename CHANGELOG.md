@@ -1,6 +1,13 @@
 
 ## Unreleased 
 
+### 🐛 Fixes
+
+- remove shit ([9097c73](https://github.com/BrandSourceDigital/alta/commit/9097c736d47a9c12e7e14e15c6454ea521b38bc9))
+
+
+## v1.11.0 (2022-8-31)
+
 
 ## v1.10.0 (2022-8-31)
 
