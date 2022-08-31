@@ -7,6 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "changelog": "node ./generateChangeLog.js && node ./changelog.js"
   },
+  "dependencies": {
+    "fs-extra": "^10.1.0",
+    "git-log-as-object": "^2.0.0",
+    "yargs": "^17.5.1"
+  },
   "author": "",
   "license": "ISC"
 }
