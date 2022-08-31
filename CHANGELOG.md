@@ -3,6 +3,7 @@
 
 ### ✨ Features
 
+- idk ([143f464](https://github.com/BrandSourceDigital/alta/commit/143f46418871d13166c7313f53517a2e86b2b65e))
 - fix commmit sha ([342a161](https://github.com/BrandSourceDigital/alta/commit/342a1614a81b7b59d7e5ca78e86541617173eff7))
 - add deps ([3c8503c](https://github.com/BrandSourceDigital/alta/commit/3c8503c43dfb5c4ea5ba36cadb212de72f1fd08c))
 - sim a new feature ([f4aba6b](https://github.com/BrandSourceDigital/alta/commit/f4aba6b4ae4421e60edee8fe76b918cb9c3c8d4d))
@@ -16,4 +17,4 @@
 - fix merge ([c662df4](https://github.com/BrandSourceDigital/alta/commit/c662df4b772c19be61273dcbdb973275770ef943))
 
 
-## v1.5.0 (2022-8-31)
+## v1.6.0 (2022-8-31)
