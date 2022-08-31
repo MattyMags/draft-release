@@ -1,0 +1,37 @@
+name: "Update Changelog"
+on:
+  workflow_run:
+    workflows: ["Publish new release"]
+    types:
+      - completed
+  push:
+    branches:
+      - master
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          ref: master
+          fetch-depth: 0
+
+      - name: Update changelog
+        run: git rev-list --remotes && yarn install && yarn changelog
+
+      - name: Commit updated CHANGELOG
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          branch: master
+          commit_message: Update CHANGELOG
+          file_pattern: CHANGELOG.md
+      - name: Merge master into dev branch
+        run: |
+          git fetch 
+          git checkout dev
+          git pull
+          git merge origin/master -m "chore: auto merge master back to nextjs"
+          git push
