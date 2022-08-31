@@ -1,6 +1,13 @@
 
 ## Unreleased 
 
+### 🐛 Fixes
+
+- fix aciton ([8c36747](https://github.com/BrandSourceDigital/alta/commit/8c36747ec9f5ffe820159e31fb468863631b5bba))
+
+
+## v1.8.0 (2022-8-31)
+
 
 ## v1.7.0 (2022-8-31)
 
