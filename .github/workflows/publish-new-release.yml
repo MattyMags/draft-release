@@ -56,6 +56,11 @@ jobs:
           draft: false
           prerelease: false
 
+      - name: Set Git config
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "Github Actions"
+
       - name: Merge master back to dev
         run: |
           git fetch --unshallow
