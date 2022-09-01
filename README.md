@@ -25,4 +25,7 @@
 # feature v1
 
 # test a hotfix
+
 # feature
+
+# Add a new feature
