@@ -1,6 +1,9 @@
 
 ## Unreleased 
 
+
+## v1.15.0 (2022-9-1)
+
 ### ✨ Features
 
 - idk ([b071a69](https://github.com/BrandSourceDigital/alta/commit/b071a690b2170dac42bfe9926bd91612b91b9213))
@@ -8,9 +11,6 @@
 ### 🐛 Fixes
 
 - add hotfix changelog action ([5238d7e](https://github.com/BrandSourceDigital/alta/commit/5238d7e335f5f04ee06b8d2662ec83edb78ce903))
-
-
-## v1.15.0 (2022-9-1)
 
 
 ## v1.13.0 (2022-9-1)
