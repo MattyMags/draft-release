@@ -1,13 +1,20 @@
 
 ## Unreleased 
 
+
+## v1.18.0 (2022-9-1)
+
+### 🐛 Fixes
+
+- idk ([c5be1a4](https://github.com/BrandSourceDigital/alta/commit/c5be1a4cae47f4c0ed33ace46eb6660ff094b48d))
+
+
+## v1.17.0 (2022-9-1)
+
 ### 🐛 Fixes
 
 - move around code ([fb4f767](https://github.com/BrandSourceDigital/alta/commit/fb4f767b77ded43fa1fb36ff1dc845e5c2c95dc1))
 - comment out changelog ([0484169](https://github.com/BrandSourceDigital/alta/commit/04841693f704a8804129bdd4cd412915551d830a))
-
-
-## v1.17.0 (2022-9-1)
 
 
 ## v1.16.0 (2022-9-1)
