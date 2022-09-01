@@ -8,6 +8,10 @@
 
 - new feat ([0aa01a0](https://github.com/BrandSourceDigital/alta/commit/0aa01a08a36d657c57581ba174d8db97f7199556))
 
+### 🐛 Fixes
+
+- hot hot hot fix ([c240851](https://github.com/BrandSourceDigital/alta/commit/c2408518952a55c8957f7a8333de08870176fa04))
+
 
 ## v1.25.1 (2022-9-1)
 
