@@ -3,6 +3,7 @@
 
 ### 🐛 Fixes
 
+- sim hotfix ([6d62e4a](https://github.com/BrandSourceDigital/alta/commit/6d62e4a061a2543f51d52bb7a7e166367826678a))
 - sim another hotfix ([fa40a23](https://github.com/BrandSourceDigital/alta/commit/fa40a23016850bc54827d5856ea82dbd33f75522))
 
 
