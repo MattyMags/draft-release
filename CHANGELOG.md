@@ -2,6 +2,16 @@
 ## Unreleased 
 
 
+## v1.25.0 (2022-9-1)
+
+### ✨ Features
+
+- new feta ([d0ec6a6](https://github.com/BrandSourceDigital/alta/commit/d0ec6a6df5c2f35202abebc652b7d86409e51c07))
+
+
+## v1.24.1 (2022-9-1)
+
+
 ## 1.24.0 (2022-9-1)
 
 ### ✨ Features
@@ -11,9 +21,6 @@
 ### 🐛 Fixes
 
 - this is a hotfix ([06f4440](https://github.com/BrandSourceDigital/alta/commit/06f44409450de213099adf979380720f70fda796))
-
-
-## v1.24.1 (2022-9-1)
 
 
 ## v1.23.1 (2022-9-1)
