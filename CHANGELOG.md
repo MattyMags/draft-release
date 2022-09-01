@@ -1,6 +1,10 @@
 
 ## Unreleased 
 
+### 🐛 Fixes
+
+- sim another hotfix ([fa40a23](https://github.com/BrandSourceDigital/alta/commit/fa40a23016850bc54827d5856ea82dbd33f75522))
+
 
 ## v1.15.0 (2022-9-1)
 
