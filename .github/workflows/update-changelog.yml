@@ -33,7 +33,7 @@ jobs:
 
       - name: Merge master back to dev
         run: |
-          git fetch --unshallow
+          git fetch --depth=1000
           git checkout dev
           git pull
           git merge --no-ff master -m "Auto-merge master back to dev"
