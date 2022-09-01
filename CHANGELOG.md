@@ -2,6 +2,13 @@
 ## Unreleased 
 
 
+## v1.20.0 (2022-9-1)
+
+### ✨ Features
+
+- bullshit ([c91d01a](https://github.com/BrandSourceDigital/alta/commit/c91d01a7eea32160082b89a28b2706c74dd89fbf))
+
+
 ## v1.19.0 (2022-9-1)
 
 ### ✨ Features
