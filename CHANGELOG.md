@@ -1,6 +1,13 @@
 
 ## Unreleased 
 
+### 🐛 Fixes
+
+- add hotfix changelog action ([5238d7e](https://github.com/BrandSourceDigital/alta/commit/5238d7e335f5f04ee06b8d2662ec83edb78ce903))
+
+
+## v1.14.0 (2022-9-1)
+
 
 ## v1.13.0 (2022-9-1)
 
@@ -8,6 +15,10 @@
 
 - add feature 2 ([1306fec](https://github.com/BrandSourceDigital/alta/commit/1306fec5d96a3be02295728b675d66dfec212453))
 - add feature 1 ([d34b9d9](https://github.com/BrandSourceDigital/alta/commit/d34b9d96ab4e0cbb11f599a540c916b288e6900c))
+
+### 🐛 Fixes
+
+- hotfix sim ([4d75b91](https://github.com/BrandSourceDigital/alta/commit/4d75b914f431319d8f8a37205964973d6b5bf895))
 
 
 ## v1.12.0 (2022-9-1)
