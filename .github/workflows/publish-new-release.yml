@@ -19,15 +19,15 @@ jobs:
           ref: master
           fetch-depth: 0
 
-      - name: Update changelog
-        run: yarn install && yarn changelog
+      # - name: Update changelog
+      #   run: yarn install && yarn changelog
 
-      - name: Commit updated CHANGELOG
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          branch: master
-          commit_message: Update CHANGELOG
-          file_pattern: CHANGELOG.md
+      # - name: Commit updated CHANGELOG
+      #   uses: stefanzweifel/git-auto-commit-action@v4
+      #   with:
+      #     branch: master
+      #     commit_message: Update CHANGELOG
+      #     file_pattern: CHANGELOG.md
 
       - name: Extract version from branch name (for release branches)
         if: startsWith(github.event.pull_request.head.ref, 'release/')
