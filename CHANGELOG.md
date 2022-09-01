@@ -8,6 +8,10 @@
 
 - new feat ([f8cb7ab](https://github.com/BrandSourceDigital/alta/commit/f8cb7ab36cab2b7cd147bc3501bab287d1151360))
 
+### 🐛 Fixes
+
+- sim hotfix ([4fe337b](https://github.com/BrandSourceDigital/alta/commit/4fe337b22282005cb491051fd1326094cc132e02))
+
 
 ## v1.21.1 (2022-9-1)
 
