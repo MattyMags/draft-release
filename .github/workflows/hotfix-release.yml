@@ -24,6 +24,10 @@ jobs:
 
       # - name: Update changelog
       #   run: git rev-list --remotes && yarn install && yarn changelog
+      - name: Set Git config
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "Github Actions"
 
       - name: Commit changelog and manifest files
         id: make-commit
@@ -46,11 +50,6 @@ jobs:
           name: ${{ github.event.inputs.version }}
           draft: false
           prerelease: false
-
-      - name: Set Git config
-        run: |
-          git config --local user.email "actions@github.com"
-          git config --local user.name "Github Actions"
 
       - name: Merge master back to dev
         run: |
