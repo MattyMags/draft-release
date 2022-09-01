@@ -1,12 +1,12 @@
 
 ## Unreleased 
 
+
+## v1.12.0 (2022-9-1)
+
 ### ✨ Features
 
 - add a new feature ([4ddc354](https://github.com/BrandSourceDigital/alta/commit/4ddc354528b51a08397f2e111eb5bb7060f34710))
-
-
-## v1.12.0 (2022-9-1)
 
 
 ## v1.11.0 (2022-8-31)
