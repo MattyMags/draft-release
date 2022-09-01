@@ -13,6 +13,9 @@
 - this is a hotfix ([06f4440](https://github.com/BrandSourceDigital/alta/commit/06f44409450de213099adf979380720f70fda796))
 
 
+## v1.24.1 (2022-9-1)
+
+
 ## v1.23.1 (2022-9-1)
 
 
