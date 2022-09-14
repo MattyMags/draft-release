@@ -6,7 +6,7 @@
 const fs = require("fs");
 const path = require("path");
 const { gitLogSync } = require("git-log-as-object");
-const { version } = require("../package.json");
+const { version } = require("./package.json");
 const commitTypes = require("./commitTypes");
 // const releaseAsVersion = argv.asVersion;
 const { promisify } = require("util");
