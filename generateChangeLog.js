@@ -2,13 +2,17 @@
  *  GENERATE CHANGELOG DATA TO A JSON FILE.
  */
 
-const { argv } = require("yargs");
+// const { argv } = require('yargs');
 const fs = require("fs");
 const path = require("path");
 const { gitLogSync } = require("git-log-as-object");
-const { version } = require("./package.json");
+const { version } = require("../package.json");
 const commitTypes = require("./commitTypes");
-const releaseAsVersion = argv.asVersion;
+// const releaseAsVersion = argv.asVersion;
+const { promisify } = require("util");
+const exec = promisify(require("child_process").exec);
+
+const AVB_DEV_BOT_EMAIL = "avb-dev-services@avb.net";
 
 const getTitleDate = (commitTime) => {
   const date = commitTime ? new Date(commitTime) : new Date();
@@ -72,11 +76,71 @@ const parseCommitSubject = (subject) => {
   };
 };
 
-let curTag = releaseAsVersion ? `v${version}` : "unreleased";
+const getGitTags = async (gitHash) => {
+  try {
+    const { stdout: tag } = await exec(
+      `git tag --contains ${gitHash} | head -n1`
+    );
+
+    // const { stdout: tags } = await exec(`git describe --contains ${gitHash}`);
+    // const [tag] = tags.split(/[\-_^~]/);
+
+    return tag;
+  } catch (error) {
+    console.error("There was an error gathering tags", error);
+  }
+};
+
+const getLogTree = async (log) => {
+  const logTree = {
+    unreleased: {
+      title: "Unreleased",
+      date: null,
+      commits: [],
+    },
+    [`v${version}`]: {
+      title: `v${version}`,
+      date: getTitleDate(),
+      commits: [],
+    },
+  };
+
+  for (entry of log) {
+    const {
+      commitTime,
+      fullHash,
+      committer: { email },
+    } = entry;
+
+    // ignore commits by the dev bot
+    if (email === AVB_DEV_BOT_EMAIL) {
+      continue;
+    }
+
+    const earliestTag = await getGitTags(fullHash);
+    // no tag so must be unreleased commit
+    if (!earliestTag) {
+      logTree["unreleased"].commits.push(entry);
+      continue;
+    }
+
+    if (!logTree[earliestTag]) {
+      logTree[earliestTag] = {
+        title: earliestTag,
+        date: getTitleDate(commitTime),
+        commits: [],
+      };
+    } else {
+      logTree[earliestTag].commits.push(entry);
+    }
+  }
+
+  return logTree;
+};
+// let curTag = releaseAsVersion ? `v${version}` : 'unreleased';
 
 const log = gitLogSync({
   startRef: "23f064e1dee8e8da0175aa25b506fe4a98f52b9d",
-  dir: "./",
 }).map((entry) => {
   const { subject, body } = entry;
   const subjectSanitize = subject.replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -90,37 +154,14 @@ const log = gitLogSync({
   };
 });
 
-const logTree = {
-  unreleased: {
-    title: "Unreleased",
-    date: null,
-    commits: [],
-  },
-  [`${version}`]: {
-    title: `${version}`,
-    date: getTitleDate(),
-    commits: [],
-  },
-};
-
-log.forEach((entry) => {
-  const { tags, commitTime } = entry;
-  if (tags.length > 0) {
-    curTag = tags[0];
-    console.log(curTag, "curTag");
-
-    logTree[curTag] = {
-      title: curTag,
-      date: getTitleDate(commitTime),
-      commits: [],
-    };
-  } else {
-    logTree[curTag].commits.push(entry);
-  }
-});
-
-fs.writeFileSync(
-  path.resolve(__dirname, "./", "changelog.json"),
-  JSON.stringify(logTree, null, 2),
-  "utf-8"
-);
+getLogTree(log)
+  .then((logTree) => {
+    fs.writeFileSync(
+      path.resolve(__dirname, "../", "changelog.json"),
+      JSON.stringify(logTree, null, 2),
+      "utf-8"
+    );
+  })
+  .catch((error) =>
+    console.error("There was an error creating the changelog", error)
+  );
