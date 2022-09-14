@@ -157,7 +157,7 @@ const log = gitLogSync({
 getLogTree(log)
   .then((logTree) => {
     fs.writeFileSync(
-      path.resolve(__dirname, "../", "changelog.json"),
+      path.resolve(__dirname, "./", "changelog.json"),
       JSON.stringify(logTree, null, 2),
       "utf-8"
     );
