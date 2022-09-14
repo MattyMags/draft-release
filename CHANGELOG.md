@@ -2,6 +2,13 @@
 ## Unreleased 
 
 
+## v1.29.0 (2022-9-14)
+
+### ✨ Features
+
+- showing Derek new feat ([0082d8f](https://github.com/BrandSourceDigital/alta/commit/0082d8f03eb3b3b521a2acab8556a184c96c3015))
+
+
 ## v1.28.0 (2022-9-14)
 
 ### ✨ Features
