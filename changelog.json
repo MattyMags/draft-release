@@ -1,0 +1,4907 @@
+{
+  "unreleased": {
+    "title": "Unreleased",
+    "date": null,
+    "commits": [
+      {
+        "fullHash": "f9c130a69f6f895569a51b7e1336f5356a26cf68",
+        "partialHash": "f9c130a",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-14T22:39:49.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-14T22:39:49.000Z",
+        "subject": "fix: change path again",
+        "body": "",
+        "tags": [],
+        "type": "fix",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "change path again"
+      },
+      {
+        "fullHash": "683e5335d16d2e05367e9289a1108d53162bfee1",
+        "partialHash": "683e533",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-14T22:38:54.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-14T22:38:54.000Z",
+        "subject": "fix: add package json path",
+        "body": "",
+        "tags": [],
+        "type": "fix",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "add package json path"
+      },
+      {
+        "fullHash": "c38b3083f747328eeee247817bd2ef981b129414",
+        "partialHash": "c38b308",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-14T22:36:11.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-14T22:36:11.000Z",
+        "subject": "fix: fix changelog",
+        "body": "",
+        "tags": [],
+        "type": "fix",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "fix changelog"
+      },
+      {
+        "fullHash": "ff3726b528f0c68fce8f347a4c25ce928a544072",
+        "partialHash": "ff3726b",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-14T22:18:13.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-14T22:18:13.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "dc7d074907046473f7a1965240eb0a8ac3af5b7f",
+        "partialHash": "dc7d074",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-14T22:18:11.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-09-14T22:18:11.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "74b3aeb4f4371df63c81b524b06548749d5f2216",
+        "partialHash": "74b3aeb",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-14T22:17:54.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-14T22:17:54.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      }
+    ]
+  },
+  "vv1.29.0": {
+    "title": "vv1.29.0",
+    "date": "2022-9-14",
+    "commits": []
+  },
+  "v1.29.0\n": {
+    "title": "v1.29.0\n",
+    "date": "2022-9-14",
+    "commits": [
+      {
+        "fullHash": "7749a42bd79e8263301d32cb12d0e938ebbada86",
+        "partialHash": "7749a42",
+        "author": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "authorTime": "2022-09-14T22:17:28.000Z",
+        "committer": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-14T22:17:28.000Z",
+        "subject": "Prepare release v1.29.0",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Prepare release v1.29.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "0082d8f03eb3b3b521a2acab8556a184c96c3015",
+        "partialHash": "0082d8f",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-14T22:16:36.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-14T22:16:36.000Z",
+        "subject": "feat: showing Derek new feat",
+        "body": "",
+        "tags": [],
+        "type": "feat",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "showing Derek new feat"
+      },
+      {
+        "fullHash": "ca19b8e3e97638bb917f67cec85a62a3e369d4b4",
+        "partialHash": "ca19b8e",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-14T19:06:07.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-14T19:06:07.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "3d8300977018b6fc39240a11c1aa3b36380d6b6a",
+        "partialHash": "3d83009",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-14T19:06:06.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-09-14T19:06:06.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "60aa50d93bf65ef4b87c4169cfe5740268867434",
+        "partialHash": "60aa50d",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-14T19:05:46.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-14T19:05:46.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      }
+    ]
+  },
+  "v1.28.0\n": {
+    "title": "v1.28.0\n",
+    "date": "2022-9-14",
+    "commits": [
+      {
+        "fullHash": "bf544e9a3236772e37aec6ede57a3524c27e0fa8",
+        "partialHash": "bf544e9",
+        "author": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "authorTime": "2022-09-14T19:03:03.000Z",
+        "committer": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-14T19:03:03.000Z",
+        "subject": "Prepare release v1.28.0",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Prepare release v1.28.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "053cb2555d1169f36f0537732e402fa8aa1703e1",
+        "partialHash": "053cb25",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-14T19:02:31.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-14T19:02:31.000Z",
+        "subject": "Merge branch 'dev' of https://github.com/MattyMags/draft-release into dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "//github.com/MattyMags/draft-release into dev"
+      },
+      {
+        "fullHash": "fd3ac03012dbec5187349c11b02aa06dff010f3b",
+        "partialHash": "fd3ac03",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-14T19:02:25.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-14T19:02:25.000Z",
+        "subject": "feat: add new feat",
+        "body": "",
+        "tags": [],
+        "type": "feat",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "add new feat"
+      },
+      {
+        "fullHash": "490a9afa49142d5fa4db46513521653b4e279e94",
+        "partialHash": "490a9af",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-14T18:59:59.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-14T18:59:59.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "39ed5f859bda0c694e4a6af94ae24a12f65957c9",
+        "partialHash": "39ed5f8",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-14T18:59:57.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-09-14T18:59:57.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "01eb79fe8cadb573f89df3276b8d31befb592a36",
+        "partialHash": "01eb79f",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-14T18:59:40.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-14T18:59:40.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      }
+    ]
+  },
+  "v1.27.0\n": {
+    "title": "v1.27.0\n",
+    "date": "2022-9-14",
+    "commits": [
+      {
+        "fullHash": "467c94c2a7b9c676d2128e2808ef9c3fa6a0cc20",
+        "partialHash": "467c94c",
+        "author": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "authorTime": "2022-09-14T18:58:51.000Z",
+        "committer": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-14T18:58:51.000Z",
+        "subject": "Prepare release v1.27.0",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Prepare release v1.27.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "8a939cb35023d37d67233d54f04abb5f90213104",
+        "partialHash": "8a939cb",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T21:04:25.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T21:04:25.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "2629f45850fcc3e92c6eefc15337e12159d48630",
+        "partialHash": "2629f45",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T21:04:23.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-09-01T21:04:23.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "c89efb0b929d37eaea0228d1232306a05762dfb2",
+        "partialHash": "c89efb0",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T21:04:06.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T21:04:06.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "30d89170637eb202dcd162a2cc22ff1bd3e1a4f0",
+        "partialHash": "30d8917",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T21:04:05.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T21:04:05.000Z",
+        "subject": "Hotfix v1.26.1",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Hotfix v1.26.1",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "420a3be97c368fcc58cfcbd54b90b8aadf46bbba",
+        "partialHash": "420a3be",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T21:03:56.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T21:03:56.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "ed99c7df2cbb9ac4d0373fa7909f62035216f01e",
+        "partialHash": "ed99c7d",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T21:03:54.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-09-01T21:03:54.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "9ef2228af80e07d50ae360b36a52bfe8521767fe",
+        "partialHash": "9ef2228",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T21:02:59.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T21:02:59.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "232b42688be8b7657d12ddf1cacdd48530848213",
+        "partialHash": "232b426",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T21:02:33.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T21:02:33.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      }
+    ]
+  },
+  "v1.26.1\n": {
+    "title": "v1.26.1\n",
+    "date": "2022-9-1",
+    "commits": [
+      {
+        "fullHash": "177da9f6bcdbc72b6ce8808aaa3facba31978231",
+        "partialHash": "177da9f",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T21:02:54.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-09-01T21:02:54.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "c2408518952a55c8957f7a8333de08870176fa04",
+        "partialHash": "c240851",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T21:01:04.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T21:01:04.000Z",
+        "subject": "fix: hot hot hot fix",
+        "body": "",
+        "tags": [],
+        "type": "fix",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "hot hot hot fix"
+      }
+    ]
+  },
+  "v1.26.0\n": {
+    "title": "v1.26.0\n",
+    "date": "2022-9-1",
+    "commits": [
+      {
+        "fullHash": "1939a8f14b596ff95b715f2dac31c1e4221849aa",
+        "partialHash": "1939a8f",
+        "author": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "authorTime": "2022-09-01T21:01:30.000Z",
+        "committer": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T21:01:30.000Z",
+        "subject": "Prepare release v1.26.0",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Prepare release v1.26.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "0aa01a08a36d657c57581ba174d8db97f7199556",
+        "partialHash": "0aa01a0",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T21:00:24.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T21:00:24.000Z",
+        "subject": "feat: new feat",
+        "body": "",
+        "tags": [],
+        "type": "feat",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "new feat"
+      },
+      {
+        "fullHash": "ec24fd18272eb66bbce04bf2e08c351b62fc5d69",
+        "partialHash": "ec24fd1",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T20:51:25.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T20:51:25.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "bc5233ed9660b34e0920861625f22c55e51ee265",
+        "partialHash": "bc5233e",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T20:51:22.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-09-01T20:51:22.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "5dc2ce8b5cb79b7cbf645a355fcf01fc1c6bc0cb",
+        "partialHash": "5dc2ce8",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T20:51:00.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T20:51:00.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "9a2a8d611238d7751fecb341305e5e29e1466369",
+        "partialHash": "9a2a8d6",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T20:50:58.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T20:50:58.000Z",
+        "subject": "Hotfix v1.25.1",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Hotfix v1.25.1",
+        "breakingChange": false
+      }
+    ]
+  },
+  "v1.25.1\n": {
+    "title": "v1.25.1\n",
+    "date": "2022-9-1",
+    "commits": [
+      {
+        "fullHash": "a5a83e1d6c0cd819587ccf23683db259965ca71b",
+        "partialHash": "a5a83e1",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T20:44:46.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T20:44:46.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "d913e831d9f79ab19cfabd88fee5448f4c166dbb",
+        "partialHash": "d913e83",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T20:44:14.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T20:44:14.000Z",
+        "subject": "Merge pull request #39 from MattyMags/jiosdjfos",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #39 from MattyMags/jiosdjfos",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "5aae3c2e8bc6aba98cdd872bab0316e3ab4106c5",
+        "partialHash": "5aae3c2",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T20:43:41.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T20:43:41.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "4977989b829676973da2c7387155d05b90cf4182",
+        "partialHash": "4977989",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T20:43:40.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-09-01T20:43:40.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "3d34d0a9911e1ed3271b8efbbe5cbd86d3d35ee0",
+        "partialHash": "3d34d0a",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T20:43:23.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T20:43:23.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "6c9b035915a7b7dd9bafb3a02c8430824d1b426e",
+        "partialHash": "6c9b035",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T20:43:04.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T20:43:04.000Z",
+        "subject": "Merge branch 'master' into jiosdjfos",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge branch 'master' into jiosdjfos",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "e6fedb9b38ab655a2c9a93a0511cd1dc88e8ba31",
+        "partialHash": "e6fedb9",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T20:41:04.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T20:41:04.000Z",
+        "subject": "hotfix",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "hotfix",
+        "breakingChange": false
+      }
+    ]
+  },
+  "v1.25.0\n": {
+    "title": "v1.25.0\n",
+    "date": "2022-9-1",
+    "commits": [
+      {
+        "fullHash": "0357b4b9548e5c4a61ae5959117ae609508fadd2",
+        "partialHash": "0357b4b",
+        "author": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "authorTime": "2022-09-01T20:41:42.000Z",
+        "committer": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T20:41:42.000Z",
+        "subject": "Prepare release v1.25.0",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Prepare release v1.25.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "d0ec6a6df5c2f35202abebc652b7d86409e51c07",
+        "partialHash": "d0ec6a6",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T20:40:32.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T20:40:32.000Z",
+        "subject": "feat: new feta",
+        "body": "",
+        "tags": [],
+        "type": "feat",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "new feta"
+      },
+      {
+        "fullHash": "7ad74a6c33a16d6d3a42a246f96c6712609e7991",
+        "partialHash": "7ad74a6",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T20:24:58.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T20:24:58.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "ce0220b45206ea49ef70afb82f1abebc9ded862e",
+        "partialHash": "ce0220b",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T20:24:56.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-09-01T20:24:56.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "f519a62ce1b9ae8c9ffe17500d6b17e64c1d711d",
+        "partialHash": "f519a62",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T20:24:34.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T20:24:34.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "81bc2cf9dee6167f60496e4755c5fcd0b90699fd",
+        "partialHash": "81bc2cf",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T20:24:33.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-09-01T20:24:33.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "b8bdda3d18cf834e8ef6a091d55f31dfeedee1a7",
+        "partialHash": "b8bdda3",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T20:23:48.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T20:23:48.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      }
+    ]
+  },
+  "v1.24.1\n": {
+    "title": "v1.24.1\n",
+    "date": "2022-9-1",
+    "commits": [
+      {
+        "fullHash": "5dc1e4df32746634d32b8de5f5ddce1c64ed8632",
+        "partialHash": "5dc1e4d",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T20:24:01.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T20:24:01.000Z",
+        "subject": "Merge branch 'master' into hotfix-bs",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge branch 'master' into hotfix-bs",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "06f44409450de213099adf979380720f70fda796",
+        "partialHash": "06f4440",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T20:22:26.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T20:22:26.000Z",
+        "subject": "fix: this is a hotfix",
+        "body": "",
+        "tags": [],
+        "type": "fix",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "this is a hotfix"
+      }
+    ]
+  },
+  "1.24.0\n": {
+    "title": "1.24.0\n",
+    "date": "2022-9-1",
+    "commits": [
+      {
+        "fullHash": "285a9a37b7d0e6bc4dc5860a138a3643aaa5c813",
+        "partialHash": "285a9a3",
+        "author": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "authorTime": "2022-09-01T20:23:21.000Z",
+        "committer": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T20:23:21.000Z",
+        "subject": "Prepare release 1.24.0",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Prepare release 1.24.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "d786debc89a7d6779f82cb0089ea54e019ff062f",
+        "partialHash": "d786deb",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T20:21:46.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T20:21:46.000Z",
+        "subject": "feat: new feat",
+        "body": "",
+        "tags": [],
+        "type": "feat",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "new feat"
+      },
+      {
+        "fullHash": "6ec7a7be1783b7e5ac81c85e6a298c79142a76e7",
+        "partialHash": "6ec7a7b",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T20:16:19.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T20:16:19.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [
+          "v1.23.1"
+        ],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "27faf5202ad7f06d4ab9c76279d7ea379f5e92b0",
+        "partialHash": "27faf52",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T20:16:16.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-09-01T20:16:16.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "feae9505e843a75473fe35b8da7ebd0cd09d9c83",
+        "partialHash": "feae950",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T20:15:58.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T20:15:58.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "1920f21829cc015ed94ff0a2fc4c3dfdb3eb1ba4",
+        "partialHash": "1920f21",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T20:15:53.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T20:15:53.000Z",
+        "subject": "Merge pull request #34 from MattyMags/hotfix-again",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #34 from MattyMags/hotfix-again",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "118c8015a44a594df66216b31b4ac771737bc007",
+        "partialHash": "118c801",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T20:15:43.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T20:15:43.000Z",
+        "subject": "Merge pull request #35 from MattyMags/release/v1.23.0",
+        "body": "",
+        "tags": [
+          "v1.23.0"
+        ],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #35 from MattyMags/release/v1.23.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "95272dde2aa82c988aedfd18f2f730f7eb61101f",
+        "partialHash": "95272dd",
+        "author": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "authorTime": "2022-09-01T20:13:40.000Z",
+        "committer": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T20:13:40.000Z",
+        "subject": "Prepare release v1.23.0",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Prepare release v1.23.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "006e8cd396180d8a2560655d5a63a65f0011a555",
+        "partialHash": "006e8cd",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T20:13:05.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T20:13:05.000Z",
+        "subject": "fix: hotfix",
+        "body": "",
+        "tags": [],
+        "type": "fix",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "hotfix"
+      },
+      {
+        "fullHash": "4714b40cd7ae5579d5d76108847f14d62cefb6e2",
+        "partialHash": "4714b40",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T20:11:15.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T20:11:15.000Z",
+        "subject": "feat: add new feature",
+        "body": "",
+        "tags": [],
+        "type": "feat",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "add new feature"
+      },
+      {
+        "fullHash": "f8c8c2ab543f23c5aa58a31ff8f5858d60fa90a9",
+        "partialHash": "f8c8c2a",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T20:02:07.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T20:02:07.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "fe6846862a9f4317c11d06b832bb071ffa1a3e6e",
+        "partialHash": "fe68468",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T20:02:05.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-09-01T20:02:05.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "187072269b6ae788950fb3a8784b80414bcc334f",
+        "partialHash": "1870722",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T20:01:57.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T20:01:57.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "2faa5e4f36751cc30a57f2e0912bab358e13dde8",
+        "partialHash": "2faa5e4",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T20:01:31.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T20:01:31.000Z",
+        "subject": "Merge pull request #33 from MattyMags/this-is-hotfix",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #33 from MattyMags/this-is-hotfix",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "e03b8d9570d14d6153203160f826f18d1a6eb9ae",
+        "partialHash": "e03b8d9",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T20:01:13.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T20:01:13.000Z",
+        "subject": "Merge branch 'master' into this-is-hotfix",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge branch 'master' into this-is-hotfix",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "00992b6facf863a9addef5f711b6a4793cdb0b7b",
+        "partialHash": "00992b6",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T20:00:48.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T20:00:48.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [
+          "v1.22.1"
+        ],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "6f967a793542bff58b8054db1bbc09bcff89099b",
+        "partialHash": "6f967a7",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T20:00:47.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-09-01T20:00:47.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "3950933aca67b6678e9d511d3752e45bb52f8a84",
+        "partialHash": "3950933",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T20:00:30.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T20:00:30.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "f5d2afaf35217a6f85a2635c361bb17619fdfbef",
+        "partialHash": "f5d2afa",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T20:00:17.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T20:00:17.000Z",
+        "subject": "Merge pull request #32 from MattyMags/release/v1.22.0",
+        "body": "",
+        "tags": [
+          "v1.22.0"
+        ],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #32 from MattyMags/release/v1.22.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "4fe337b22282005cb491051fd1326094cc132e02",
+        "partialHash": "4fe337b",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T20:00:05.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T20:00:05.000Z",
+        "subject": "fix: sim hotfix",
+        "body": "",
+        "tags": [],
+        "type": "fix",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "sim hotfix"
+      },
+      {
+        "fullHash": "2ff920c5ddef71644a030f3c95c1c5120226797e",
+        "partialHash": "2ff920c",
+        "author": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "authorTime": "2022-09-01T19:57:24.000Z",
+        "committer": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T19:57:24.000Z",
+        "subject": "Prepare release v1.22.0",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Prepare release v1.22.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "f8cb7ab36cab2b7cd147bc3501bab287d1151360",
+        "partialHash": "f8cb7ab",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T18:52:00.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T18:52:00.000Z",
+        "subject": "feat:new feat",
+        "body": "",
+        "tags": [],
+        "type": "feat",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "new feat"
+      },
+      {
+        "fullHash": "aa71634767937a12c9be2966a86fc5b57965ff1e",
+        "partialHash": "aa71634",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T17:40:37.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T17:40:37.000Z",
+        "subject": "feat: add hotfix action",
+        "body": "",
+        "tags": [
+          "v1.21.1"
+        ],
+        "type": "feat",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "add hotfix action"
+      },
+      {
+        "fullHash": "04db7ad4bee769348d38c4795423835cc6ea9ce7",
+        "partialHash": "04db7ad",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T16:43:49.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T16:43:49.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "3ef037a9c7063d937b827833d9f28b67f9ef2b1d",
+        "partialHash": "3ef037a",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T16:43:47.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-09-01T16:43:47.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "1f40a3d085e811290650cb9a5b9ef4017208dee6",
+        "partialHash": "1f40a3d",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T16:43:24.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T16:43:24.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "9e58887b2cc316f67d50409f405e1b6870ac46cf",
+        "partialHash": "9e58887",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T16:42:54.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T16:42:54.000Z",
+        "subject": "Merge pull request #30 from MattyMags/hotfix/this-is-hotfix",
+        "body": "",
+        "tags": [
+          "this-is-hotfix"
+        ],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #30 from MattyMags/hotfix/this-is-hotfix",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "e8b11ffc76feca17b87cb5de694985e1ab696fca",
+        "partialHash": "e8b11ff",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T16:42:29.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T16:42:29.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "51d522696ac9acdc516208a771ea09e4e819fa3c",
+        "partialHash": "51d5226",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T16:42:26.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-09-01T16:42:26.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "74173f50eafaff8ccf16b9e04194a6ff7379a671",
+        "partialHash": "74173f5",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T16:42:05.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T16:42:05.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "5eeee00e5b08d75a20a08ee66839a3fcdafadb28",
+        "partialHash": "5eeee00",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T16:41:53.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T16:41:53.000Z",
+        "subject": "Merge pull request #31 from MattyMags/release/v1.21.0",
+        "body": "",
+        "tags": [
+          "v1.21.0"
+        ],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #31 from MattyMags/release/v1.21.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "ecd6de294a27dadf4073d7f442e0c72444840a64",
+        "partialHash": "ecd6de2",
+        "author": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "authorTime": "2022-09-01T16:41:10.000Z",
+        "committer": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T16:41:10.000Z",
+        "subject": "Prepare release v1.21.0",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Prepare release v1.21.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "74750cafe03b3eb5adf6aeac26ec28d8d3720e53",
+        "partialHash": "74750ca",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T16:40:15.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T16:40:15.000Z",
+        "subject": "hotfix: sim",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "sim"
+      },
+      {
+        "fullHash": "8dcc8f9ecf5c6ef4c881141a749414976b801fcf",
+        "partialHash": "8dcc8f9",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T16:39:35.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T16:39:35.000Z",
+        "subject": "feat: v2",
+        "body": "",
+        "tags": [],
+        "type": "feat",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "v2"
+      },
+      {
+        "fullHash": "aecde849f707ae4372c44044869422ace161db06",
+        "partialHash": "aecde84",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T16:39:18.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T16:39:18.000Z",
+        "subject": "feat: v1",
+        "body": "",
+        "tags": [],
+        "type": "feat",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "v1"
+      },
+      {
+        "fullHash": "0cbfb592a9f5be38648a18a43b12be52b85ee373",
+        "partialHash": "0cbfb59",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T16:38:24.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T16:38:24.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "35af1d819fcb1912bc801dccc4328e619310df41",
+        "partialHash": "35af1d8",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T16:38:22.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-09-01T16:38:22.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "8897f296b036d908c310f0a971aa42aad8d95e8d",
+        "partialHash": "8897f29",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T16:38:00.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T16:38:00.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "58ce96e599f2ec89b22e96aef947b61644205f3d",
+        "partialHash": "58ce96e",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T16:37:44.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T16:37:44.000Z",
+        "subject": "Merge pull request #29 from MattyMags/release/v1.20.0",
+        "body": "",
+        "tags": [
+          "v1.20.0"
+        ],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #29 from MattyMags/release/v1.20.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "2d500fff69251633cc37c57a22c0df6fd4e948eb",
+        "partialHash": "2d500ff",
+        "author": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "authorTime": "2022-09-01T16:37:30.000Z",
+        "committer": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T16:37:30.000Z",
+        "subject": "Prepare release v1.20.0",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Prepare release v1.20.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "c707f891350683d394329cf7b21a78f7f3f6498f",
+        "partialHash": "c707f89",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T16:36:46.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T16:36:46.000Z",
+        "subject": "Merge branch 'dev' of https://github.com/MattyMags/draft-release into dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "//github.com/MattyMags/draft-release into dev"
+      },
+      {
+        "fullHash": "c91d01a7eea32160082b89a28b2706c74dd89fbf",
+        "partialHash": "c91d01a",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T16:36:43.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T16:36:43.000Z",
+        "subject": "feat: bullshit",
+        "body": "",
+        "tags": [],
+        "type": "feat",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "bullshit"
+      },
+      {
+        "fullHash": "f95c47b48a7897806d7200f7865603ff742b0fa2",
+        "partialHash": "f95c47b",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T16:35:48.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T16:35:48.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "11cb84aefa75187a4b3ae86ce9566595057f08ef",
+        "partialHash": "11cb84a",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T16:35:45.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-09-01T16:35:45.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "3be59174490ce9a88c1446cbe934c45b3de52a5a",
+        "partialHash": "3be5917",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T16:35:05.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T16:35:05.000Z",
+        "subject": "Merge pull request #28 from MattyMags/release/v1.19.0",
+        "body": "",
+        "tags": [
+          "v1.19.0"
+        ],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #28 from MattyMags/release/v1.19.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "dd5db83323438e5f7a725e045886029bf7877647",
+        "partialHash": "dd5db83",
+        "author": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "authorTime": "2022-09-01T16:34:09.000Z",
+        "committer": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T16:34:09.000Z",
+        "subject": "Prepare release v1.19.0",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Prepare release v1.19.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "f5c7fcb01fa296db7edb95a7c64f1a979d53f326",
+        "partialHash": "f5c7fcb",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T16:33:49.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T16:33:49.000Z",
+        "subject": "feat: new feature",
+        "body": "",
+        "tags": [],
+        "type": "feat",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "new feature"
+      },
+      {
+        "fullHash": "3456d412876f796f5bc9cc98c20ee504ea29a72d",
+        "partialHash": "3456d41",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T16:31:52.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T16:31:52.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "2da92dc9ea4b9b5a4a865157ba32c0611c3eceff",
+        "partialHash": "2da92dc",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T16:31:49.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-09-01T16:31:49.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "6d36d37f67739fcd967a4b74519f58110a9f2931",
+        "partialHash": "6d36d37",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T16:31:11.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T16:31:11.000Z",
+        "subject": "Merge pull request #27 from MattyMags/release/v1.18.0",
+        "body": "",
+        "tags": [
+          "v1.18.0"
+        ],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #27 from MattyMags/release/v1.18.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "840b6ea3a987cd29627274c8f93b9e2bf2cedd7b",
+        "partialHash": "840b6ea",
+        "author": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "authorTime": "2022-09-01T16:30:57.000Z",
+        "committer": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T16:30:57.000Z",
+        "subject": "Prepare release v1.18.0",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Prepare release v1.18.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "c5be1a4cae47f4c0ed33ace46eb6660ff094b48d",
+        "partialHash": "c5be1a4",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T16:30:31.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T16:30:31.000Z",
+        "subject": "fix:idk",
+        "body": "",
+        "tags": [],
+        "type": "fix",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "idk"
+      },
+      {
+        "fullHash": "6f8efe82398e5035cf2997197df53bc38bdf31eb",
+        "partialHash": "6f8efe8",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T16:28:58.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T16:28:58.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "4eafee4f1b47d84768afc71aaedc8d8d1ffd1db7",
+        "partialHash": "4eafee4",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T16:28:57.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-09-01T16:28:57.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "b6591eae7fc358f713ebaa165b10ea56f55154c1",
+        "partialHash": "b6591ea",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T16:28:43.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T16:28:43.000Z",
+        "subject": "Merge pull request #26 from MattyMags/release/v1.17.0",
+        "body": "",
+        "tags": [
+          "v1.17.0"
+        ],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #26 from MattyMags/release/v1.17.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "89acbd579005ab37f961b67abff53b1ec11b08eb",
+        "partialHash": "89acbd5",
+        "author": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "authorTime": "2022-09-01T16:28:24.000Z",
+        "committer": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T16:28:24.000Z",
+        "subject": "Prepare release v1.17.0",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Prepare release v1.17.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "fb4f767b77ded43fa1fb36ff1dc845e5c2c95dc1",
+        "partialHash": "fb4f767",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T16:27:16.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T16:27:16.000Z",
+        "subject": "fix: move around code",
+        "body": "",
+        "tags": [],
+        "type": "fix",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "move around code"
+      },
+      {
+        "fullHash": "82dd9578afb9189c18bdc3ead6511dd915d9ec74",
+        "partialHash": "82dd957",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T16:25:25.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T16:25:25.000Z",
+        "subject": "Merge branch 'dev' of https://github.com/MattyMags/draft-release into dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "//github.com/MattyMags/draft-release into dev"
+      },
+      {
+        "fullHash": "04841693f704a8804129bdd4cd412915551d830a",
+        "partialHash": "0484169",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T16:25:21.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T16:25:21.000Z",
+        "subject": "fix: comment out changelog",
+        "body": "",
+        "tags": [],
+        "type": "fix",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "comment out changelog"
+      },
+      {
+        "fullHash": "c9868478a6355303135e50080dea8b81eb586548",
+        "partialHash": "c986847",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T16:24:30.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T16:24:30.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "07d3ed575f2be032b5ea3a7a56baa02b82edf68c",
+        "partialHash": "07d3ed5",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T16:24:28.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-09-01T16:24:28.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "c5649b95ca3fb7bbed42cda4798bf89be4e81091",
+        "partialHash": "c5649b9",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T16:24:12.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T16:24:12.000Z",
+        "subject": "Merge pull request #25 from MattyMags/release/v1.16.0",
+        "body": "",
+        "tags": [
+          "v1.16.0"
+        ],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #25 from MattyMags/release/v1.16.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "b43b22a6745b7659d3a2c4c8710ede7554fccca9",
+        "partialHash": "b43b22a",
+        "author": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "authorTime": "2022-09-01T16:23:53.000Z",
+        "committer": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T16:23:53.000Z",
+        "subject": "Prepare release v1.16.0",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Prepare release v1.16.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "03a0cb0a6ef8c778860e450506f9bf5dd6a3ce60",
+        "partialHash": "03a0cb0",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T16:22:38.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T16:22:38.000Z",
+        "subject": "fix: new fex",
+        "body": "",
+        "tags": [],
+        "type": "fix",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "new fex"
+      },
+      {
+        "fullHash": "56c69c2d9f91d106718fd52de84c20f03395a0df",
+        "partialHash": "56c69c2",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T16:19:45.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T16:19:45.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "5f95d4ad5f831e98303b3fc7a5b18798c927dd47",
+        "partialHash": "5f95d4a",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T16:19:42.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-09-01T16:19:42.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "a6ddca4255fdf6457669d6ac1980a4452c0cad13",
+        "partialHash": "a6ddca4",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T16:19:34.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T16:19:34.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "3a8a470a7768db5424c5d689631ae81a8dde7b01",
+        "partialHash": "3a8a470",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T16:19:32.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-09-01T16:19:32.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "c813aeab1e0aa10d2c5a8817bccc861ac3bdcdc2",
+        "partialHash": "c813aea",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T16:19:20.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T16:19:20.000Z",
+        "subject": "Merge pull request #24 from MattyMags/hotfix/idk",
+        "body": "",
+        "tags": [
+          "idk"
+        ],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #24 from MattyMags/hotfix/idk",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "6d62e4a061a2543f51d52bb7a7e166367826678a",
+        "partialHash": "6d62e4a",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T16:18:34.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T16:18:34.000Z",
+        "subject": "fix: sim hotfix",
+        "body": "",
+        "tags": [],
+        "type": "fix",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "sim hotfix"
+      },
+      {
+        "fullHash": "6b4cc0a420ecb530ee76a5868e2433eaece8105c",
+        "partialHash": "6b4cc0a",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T16:17:24.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-09-01T16:17:24.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "2fcb5ab2b191ff4ad6fd2ce26a1dd8edad175848",
+        "partialHash": "2fcb5ab",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T16:17:07.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T16:17:07.000Z",
+        "subject": "Merge pull request #23 from MattyMags/idk",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #23 from MattyMags/idk",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "fa40a23016850bc54827d5856ea82dbd33f75522",
+        "partialHash": "fa40a23",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T16:16:45.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T16:16:45.000Z",
+        "subject": "fix: sim another hotfix",
+        "body": "",
+        "tags": [],
+        "type": "fix",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "sim another hotfix"
+      },
+      {
+        "fullHash": "007086eb259409c3e944e66806f3ce1bcfa3fdd9",
+        "partialHash": "007086e",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T16:11:48.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T16:11:48.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "861b0cdf343248da81b949fc56817f5676c7f9b5",
+        "partialHash": "861b0cd",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T16:11:45.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-09-01T16:11:45.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "76d70e4f00d4d8bff8dd1eea6db97ddf60e4fa09",
+        "partialHash": "76d70e4",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T16:11:24.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T16:11:24.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "39f66e662704164a1f1e094a9ace1ea8c400ce51",
+        "partialHash": "39f66e6",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T16:11:22.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-09-01T16:11:22.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "009cb3628b4a4d341fb691912fdcac4ae1c8093a",
+        "partialHash": "009cb36",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T16:11:05.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T16:11:05.000Z",
+        "subject": "Merge pull request #22 from MattyMags/release/v1.15.0",
+        "body": "",
+        "tags": [
+          "v1.15.0"
+        ],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #22 from MattyMags/release/v1.15.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "d9a6c1a4dfeaf6eb4311c8dab72ef2f9c1d8dd39",
+        "partialHash": "d9a6c1a",
+        "author": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "authorTime": "2022-09-01T16:09:56.000Z",
+        "committer": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T16:09:56.000Z",
+        "subject": "Prepare release v1.15.0",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Prepare release v1.15.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "b071a690b2170dac42bfe9926bd91612b91b9213",
+        "partialHash": "b071a69",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T16:09:31.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T16:09:31.000Z",
+        "subject": "feat: idk",
+        "body": "",
+        "tags": [],
+        "type": "feat",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "idk"
+      },
+      {
+        "fullHash": "f38036dad8544cab014d5140a79f09534bdbd9b5",
+        "partialHash": "f38036d",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T16:08:04.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T16:08:04.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "63630c5ba9a5b16fce19599293855804b8f9db39",
+        "partialHash": "63630c5",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T16:08:02.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-09-01T16:08:02.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "c1284bb0883ba8d54e1afce182b0c7a69c7c6451",
+        "partialHash": "c1284bb",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T16:07:45.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T16:07:45.000Z",
+        "subject": "Merge pull request #21 from MattyMags/release/v1.14.0",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #21 from MattyMags/release/v1.14.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "2359c8b665ea690d8158d2f49509a572c33a1093",
+        "partialHash": "2359c8b",
+        "author": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "authorTime": "2022-09-01T16:07:03.000Z",
+        "committer": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T16:07:03.000Z",
+        "subject": "Prepare release v1.14.0",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Prepare release v1.14.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "dcc39cf908b87ebfaff22ee21bf184eb62cab19a",
+        "partialHash": "dcc39cf",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T16:06:03.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T16:06:03.000Z",
+        "subject": "Merge remote-tracking branch 'origin/master' into dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge remote-tracking branch 'origin/master' into dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "5238d7e335f5f04ee06b8d2662ec83edb78ce903",
+        "partialHash": "5238d7e",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T16:05:46.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T16:05:46.000Z",
+        "subject": "fix: add hotfix changelog action",
+        "body": "",
+        "tags": [],
+        "type": "fix",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "add hotfix changelog action"
+      },
+      {
+        "fullHash": "2314e03df9e0af282bf188093b8f2d5a224cdb7d",
+        "partialHash": "2314e03",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T15:56:48.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T15:56:48.000Z",
+        "subject": "Merge pull request #19 from MattyMags/hotfix-1",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #19 from MattyMags/hotfix-1",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "a9e26052d8a078da0e27e36155734eed5f0e5161",
+        "partialHash": "a9e2605",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T15:54:55.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T15:54:55.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "ca1d3fa3073dbaab09f11080a7bdcafbfb381bba",
+        "partialHash": "ca1d3fa",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T15:54:54.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-09-01T15:54:54.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "c5f0a424d19c66414c8673c8bd6d7138aac7d9f8",
+        "partialHash": "c5f0a42",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T15:54:35.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T15:54:35.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "48f79b0b0f37f357c4b6fdd2ec0f3d92db06e94c",
+        "partialHash": "48f79b0",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T15:54:32.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-09-01T15:54:32.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "8b50451ebf72f9fae321cf928d3a11a97f236692",
+        "partialHash": "8b50451",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T15:54:05.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T15:54:05.000Z",
+        "subject": "Merge pull request #20 from MattyMags/release/v1.13.0",
+        "body": "",
+        "tags": [
+          "v1.13.0"
+        ],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #20 from MattyMags/release/v1.13.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "0d50ef9fc84943e8562fe9f2222d765d09268d02",
+        "partialHash": "0d50ef9",
+        "author": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "authorTime": "2022-09-01T15:53:48.000Z",
+        "committer": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T15:53:48.000Z",
+        "subject": "Prepare release v1.13.0",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Prepare release v1.13.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "078f014cf90971ef087d59128afc3e7bfc918a08",
+        "partialHash": "078f014",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T15:52:36.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T15:52:36.000Z",
+        "subject": "Merge pull request #17 from MattyMags/2",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #17 from MattyMags/2",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "5c1449d8ce2a0df755076347e61aed4bb7c328e8",
+        "partialHash": "5c1449d",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T15:52:25.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T15:52:25.000Z",
+        "subject": "Merge pull request #18 from MattyMags/1",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #18 from MattyMags/1",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "4d75b914f431319d8f8a37205964973d6b5bf895",
+        "partialHash": "4d75b91",
+        "author": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "authorTime": "2022-09-01T15:52:04.000Z",
+        "committer": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "commitTime": "2022-09-01T15:52:04.000Z",
+        "subject": "fix: hotfix sim",
+        "body": "",
+        "tags": [],
+        "type": "fix",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "hotfix sim"
+      },
+      {
+        "fullHash": "1306fec5d96a3be02295728b675d66dfec212453",
+        "partialHash": "1306fec",
+        "author": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "authorTime": "2022-09-01T15:50:48.000Z",
+        "committer": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "commitTime": "2022-09-01T15:50:48.000Z",
+        "subject": "feat: add feature 2",
+        "body": "",
+        "tags": [],
+        "type": "feat",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "add feature 2"
+      },
+      {
+        "fullHash": "d34b9d96ab4e0cbb11f599a540c916b288e6900c",
+        "partialHash": "d34b9d9",
+        "author": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "authorTime": "2022-09-01T15:50:15.000Z",
+        "committer": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "commitTime": "2022-09-01T15:50:15.000Z",
+        "subject": "feat: add feature 1",
+        "body": "",
+        "tags": [],
+        "type": "feat",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "add feature 1"
+      },
+      {
+        "fullHash": "e74d5ac3e79ae187d2a9a0e8969233b897030871",
+        "partialHash": "e74d5ac",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T15:41:59.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T15:41:59.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "072ad60a26fbe6d95943a71405abd0faca6f18c7",
+        "partialHash": "072ad60",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T15:41:57.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-09-01T15:41:57.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "d371ba7c3a4e5f83d6eca27bbb2b78fe588b2fc5",
+        "partialHash": "d371ba7",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-09-01T15:41:37.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-09-01T15:41:37.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "8504f7e8b1addea937ee1af350b5cb93576fd85c",
+        "partialHash": "8504f7e",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T15:41:32.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-09-01T15:41:32.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "5c82ba9bfc442656fbff174f50d2a08d222d8df0",
+        "partialHash": "5c82ba9",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-09-01T15:40:54.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T15:40:54.000Z",
+        "subject": "Merge pull request #16 from MattyMags/release/v1.12.0",
+        "body": "",
+        "tags": [
+          "v1.12.0"
+        ],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #16 from MattyMags/release/v1.12.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "696b7279be6ffa0d4aee50f84cd447bc17c36b34",
+        "partialHash": "696b727",
+        "author": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "authorTime": "2022-09-01T15:40:38.000Z",
+        "committer": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-09-01T15:40:38.000Z",
+        "subject": "Prepare release v1.12.0",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Prepare release v1.12.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "4ddc354528b51a08397f2e111eb5bb7060f34710",
+        "partialHash": "4ddc354",
+        "author": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "authorTime": "2022-09-01T15:40:06.000Z",
+        "committer": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "commitTime": "2022-09-01T15:40:06.000Z",
+        "subject": "feat: add a new feature",
+        "body": "",
+        "tags": [],
+        "type": "feat",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "add a new feature"
+      },
+      {
+        "fullHash": "4787623c2d42132cffec5061cf4b12af0d2d5f7e",
+        "partialHash": "4787623",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-08-31T16:20:42.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-08-31T16:20:42.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "12a57d38feb41042c81d8ff59b5e8ef1c0f5b2e9",
+        "partialHash": "12a57d3",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-08-31T16:20:41.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-08-31T16:20:41.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "226ea076d6d4d8d9b6554bb889a73b65f8fce7da",
+        "partialHash": "226ea07",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-08-31T16:20:26.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-08-31T16:20:26.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "7dcf176adbb998b5f76a142c7bd07a010099600c",
+        "partialHash": "7dcf176",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-08-31T16:20:24.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-08-31T16:20:24.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "8d90c459a9477e6f74cb91f47574b8e0079cfc84",
+        "partialHash": "8d90c45",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-08-31T16:20:07.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-08-31T16:20:07.000Z",
+        "subject": "Merge pull request #15 from MattyMags/release/v1.11.0",
+        "body": "",
+        "tags": [
+          "v1.11.0"
+        ],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #15 from MattyMags/release/v1.11.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "dae41d51b06fcccc8398750c597f49d7cc88c2db",
+        "partialHash": "dae41d5",
+        "author": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "authorTime": "2022-08-31T16:18:59.000Z",
+        "committer": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-08-31T16:18:59.000Z",
+        "subject": "Prepare release v1.11.0",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Prepare release v1.11.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "9097c736d47a9c12e7e14e15c6454ea521b38bc9",
+        "partialHash": "9097c73",
+        "author": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "authorTime": "2022-08-31T16:18:32.000Z",
+        "committer": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "commitTime": "2022-08-31T16:18:32.000Z",
+        "subject": "fix: remove shit",
+        "body": "",
+        "tags": [],
+        "type": "fix",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "remove shit"
+      },
+      {
+        "fullHash": "a63b3552b01b7e0af904966eb0f56991f956acac",
+        "partialHash": "a63b355",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-08-31T16:17:27.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-08-31T16:17:27.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "2a814de63881e304abd38eee8c06a69c8b77f973",
+        "partialHash": "2a814de",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-08-31T16:17:26.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-08-31T16:17:26.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "133b9c85b56c2dd8f04eaf76f2819f1a11f2de27",
+        "partialHash": "133b9c8",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-08-31T16:17:00.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-08-31T16:17:00.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "d9cadf2ed89cf09a00915072f264d102b8a7a794",
+        "partialHash": "d9cadf2",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-08-31T16:16:58.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-08-31T16:16:58.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "05464b8638e2b7273af958678291ca97b47e1728",
+        "partialHash": "05464b8",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-08-31T16:16:45.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-08-31T16:16:45.000Z",
+        "subject": "Merge pull request #14 from MattyMags/release/v1.10.0",
+        "body": "",
+        "tags": [
+          "v1.10.0"
+        ],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #14 from MattyMags/release/v1.10.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "6cecd5f12bca40ca13b2a53901ef10f42199b70b",
+        "partialHash": "6cecd5f",
+        "author": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "authorTime": "2022-08-31T16:16:13.000Z",
+        "committer": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-08-31T16:16:13.000Z",
+        "subject": "Prepare release v1.10.0",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Prepare release v1.10.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "c92eb6e0556ab17f71814678d5fecd041ed31843",
+        "partialHash": "c92eb6e",
+        "author": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "authorTime": "2022-08-31T16:15:34.000Z",
+        "committer": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "commitTime": "2022-08-31T16:15:34.000Z",
+        "subject": "feat: new code",
+        "body": "",
+        "tags": [],
+        "type": "feat",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "new code"
+      },
+      {
+        "fullHash": "f8f4799cb77d3ab4d05be2b95b6783856ad4cf9a",
+        "partialHash": "f8f4799",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-08-31T16:13:17.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-08-31T16:13:17.000Z",
+        "subject": "Auto-merge master back to dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Auto-merge master back to dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "9925710a33d94c42596a3dd6d691ce7828e928ce",
+        "partialHash": "9925710",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-08-31T16:13:15.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-08-31T16:13:15.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "56ed794dfe2899f401c793d956528a7850154697",
+        "partialHash": "56ed794",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-08-31T16:13:00.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-08-31T16:13:00.000Z",
+        "subject": "Merge pull request #13 from MattyMags/release/v1.9.0",
+        "body": "",
+        "tags": [
+          "v1.9.0"
+        ],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #13 from MattyMags/release/v1.9.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "d14245cce1c946f8acdcf62a6d36d3fa2e5ac499",
+        "partialHash": "d14245c",
+        "author": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "authorTime": "2022-08-31T16:12:12.000Z",
+        "committer": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-08-31T16:12:12.000Z",
+        "subject": "Prepare release v1.9.0",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Prepare release v1.9.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "6709669f5fce550ce3f5bc07aa06d6c9e1f68cbb",
+        "partialHash": "6709669",
+        "author": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "authorTime": "2022-08-31T16:10:57.000Z",
+        "committer": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "commitTime": "2022-08-31T16:10:57.000Z",
+        "subject": "feat",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "feat",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "7b6a4b311dfa641c82f6817b548719e9ea61b4ae",
+        "partialHash": "7b6a4b3",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-08-31T16:10:45.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-08-31T16:10:45.000Z",
+        "subject": "Merge pull request #12 from MattyMags/master",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #12 from MattyMags/master",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "6917086bc118ff3a3d96fb87cdcf1cfc816933a2",
+        "partialHash": "6917086",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-08-31T16:09:30.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-08-31T16:09:30.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "85abb186784962cfc9a642a1aea62082f7f4735e",
+        "partialHash": "85abb18",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-08-31T16:09:19.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-08-31T16:09:19.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "1aa9d45b01fb21aa5dec12689070595439fe1457",
+        "partialHash": "1aa9d45",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-08-31T16:09:02.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-08-31T16:09:02.000Z",
+        "subject": "Merge pull request #11 from MattyMags/release/v1.8.0",
+        "body": "",
+        "tags": [
+          "v1.8.0"
+        ],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #11 from MattyMags/release/v1.8.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "09f302ffa056d202f5816b6593a21ff3ceff0d52",
+        "partialHash": "09f302f",
+        "author": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "authorTime": "2022-08-31T16:08:15.000Z",
+        "committer": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-08-31T16:08:15.000Z",
+        "subject": "Prepare release v1.8.0",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Prepare release v1.8.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "7b3bf1af3c820146141688fb15d3ca745746f049",
+        "partialHash": "7b3bf1a",
+        "author": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "authorTime": "2022-08-31T16:07:42.000Z",
+        "committer": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "commitTime": "2022-08-31T16:07:42.000Z",
+        "subject": "Merge branch 'dev' of https://github.com/MattyMags/draft-release into dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "//github.com/MattyMags/draft-release into dev"
+      },
+      {
+        "fullHash": "8c36747ec9f5ffe820159e31fb468863631b5bba",
+        "partialHash": "8c36747",
+        "author": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "authorTime": "2022-08-31T16:07:38.000Z",
+        "committer": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "commitTime": "2022-08-31T16:07:38.000Z",
+        "subject": "fix: fix aciton",
+        "body": "",
+        "tags": [],
+        "type": "fix",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "fix aciton"
+      },
+      {
+        "fullHash": "0beed1c9771f50fa4cf688a32e6a715a6227074c",
+        "partialHash": "0beed1c",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-08-31T16:05:27.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-08-31T16:05:27.000Z",
+        "subject": "Merge pull request #10 from MattyMags/master",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #10 from MattyMags/master",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "f19a289bc6d99b6da31f01bfec7b72859da4ee24",
+        "partialHash": "f19a289",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-08-31T16:05:03.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-08-31T16:05:03.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "c92ac2dfc6a76ba4b584333025192555d8c9fbb3",
+        "partialHash": "c92ac2d",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-08-31T16:04:37.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-08-31T16:04:37.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "37011830df6f172e52e612716e68edab02ba17c5",
+        "partialHash": "3701183",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-08-31T16:04:23.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-08-31T16:04:23.000Z",
+        "subject": "Merge pull request #9 from MattyMags/release/v1.7.0",
+        "body": "",
+        "tags": [
+          "v1.7.0"
+        ],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #9 from MattyMags/release/v1.7.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "4725f0d22600d9c57ecb479aab87abd9abcf44e2",
+        "partialHash": "4725f0d",
+        "author": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "authorTime": "2022-08-31T16:04:07.000Z",
+        "committer": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-08-31T16:04:07.000Z",
+        "subject": "Prepare release v1.7.0",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Prepare release v1.7.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "a187dd59733777c678cc8a4c1cd7757351baca0d",
+        "partialHash": "a187dd5",
+        "author": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "authorTime": "2022-08-31T16:03:36.000Z",
+        "committer": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "commitTime": "2022-08-31T16:03:36.000Z",
+        "subject": "feat: new feature",
+        "body": "",
+        "tags": [],
+        "type": "feat",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "new feature"
+      },
+      {
+        "fullHash": "8b242f30f6df1f9aff856571fbd5b33eec775d27",
+        "partialHash": "8b242f3",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-08-31T16:02:31.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-08-31T16:02:31.000Z",
+        "subject": "Merge pull request #8 from MattyMags/master",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #8 from MattyMags/master",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "538dcd3dc5db7cd41ee3883e89b18c10f71809d6",
+        "partialHash": "538dcd3",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-08-31T16:02:08.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-08-31T16:02:08.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "9c1ee8225d3c495cd22c3e8bbc255d434812dd49",
+        "partialHash": "9c1ee82",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-08-31T16:01:44.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-08-31T16:01:44.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "c456aedb2d7cf3037d4480d18bebe734c425313d",
+        "partialHash": "c456aed",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-08-31T16:01:27.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-08-31T16:01:27.000Z",
+        "subject": "Merge pull request #7 from MattyMags/release/v1.6.0",
+        "body": "",
+        "tags": [
+          "v1.6.0"
+        ],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #7 from MattyMags/release/v1.6.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "6b3fb83557110e00dea43b8b1b007658c1fae410",
+        "partialHash": "6b3fb83",
+        "author": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "authorTime": "2022-08-31T16:01:18.000Z",
+        "committer": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-08-31T16:01:18.000Z",
+        "subject": "Prepare release v1.6.0",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Prepare release v1.6.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "f165b0661cbc2737247df75550dbfc272a98b584",
+        "partialHash": "f165b06",
+        "author": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "authorTime": "2022-08-31T16:00:41.000Z",
+        "committer": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "commitTime": "2022-08-31T16:00:41.000Z",
+        "subject": "Merge branch 'dev' of https://github.com/MattyMags/draft-release into dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "//github.com/MattyMags/draft-release into dev"
+      },
+      {
+        "fullHash": "143f46418871d13166c7313f53517a2e86b2b65e",
+        "partialHash": "143f464",
+        "author": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "authorTime": "2022-08-31T16:00:37.000Z",
+        "committer": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "commitTime": "2022-08-31T16:00:37.000Z",
+        "subject": "feat: idk",
+        "body": "",
+        "tags": [],
+        "type": "feat",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "idk"
+      },
+      {
+        "fullHash": "061bc8e029730cd89a193672064e3aa0cd4ab2a3",
+        "partialHash": "061bc8e",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-08-31T15:59:49.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-08-31T15:59:49.000Z",
+        "subject": "Merge pull request #6 from MattyMags/master",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #6 from MattyMags/master",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "ccdcebdf3d85d906a186158da38acf84e8dc5341",
+        "partialHash": "ccdcebd",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-08-31T15:59:09.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-08-31T15:59:09.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "2a4159743f9e9e1e5584bbf979b9139d1ff09611",
+        "partialHash": "2a41597",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-08-31T15:58:54.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-08-31T15:58:54.000Z",
+        "subject": "Merge pull request #5 from MattyMags/release/v1.5.0",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #5 from MattyMags/release/v1.5.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "510dc0d4cabf652f6636c6f13b6c47ce3519ff1a",
+        "partialHash": "510dc0d",
+        "author": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "authorTime": "2022-08-31T15:58:36.000Z",
+        "committer": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-08-31T15:58:36.000Z",
+        "subject": "Prepare release v1.5.0",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Prepare release v1.5.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "57f6fcc9bdbd7a9761a329046aae63c6a4022a66",
+        "partialHash": "57f6fcc",
+        "author": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "authorTime": "2022-08-31T15:58:03.000Z",
+        "committer": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "commitTime": "2022-08-31T15:58:03.000Z",
+        "subject": "Merge branch 'dev' of https://github.com/MattyMags/draft-release into dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "//github.com/MattyMags/draft-release into dev"
+      },
+      {
+        "fullHash": "c662df4b772c19be61273dcbdb973275770ef943",
+        "partialHash": "c662df4",
+        "author": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "authorTime": "2022-08-31T15:57:49.000Z",
+        "committer": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "commitTime": "2022-08-31T15:57:49.000Z",
+        "subject": "fix: fix merge",
+        "body": "",
+        "tags": [],
+        "type": "fix",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "fix merge"
+      },
+      {
+        "fullHash": "f86607f4a971f7a81b568f15d8780f1f089b7841",
+        "partialHash": "f86607f",
+        "author": {
+          "name": "MattyMags",
+          "email": "MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-08-31T15:53:19.000Z",
+        "committer": {
+          "name": "github-actions[bot]",
+          "email": "github-actions[bot]@users.noreply.github.com"
+        },
+        "commitTime": "2022-08-31T15:53:19.000Z",
+        "subject": "Update CHANGELOG",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Update CHANGELOG",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "928a7fc897c80feec2107ab3741477505eeb7662",
+        "partialHash": "928a7fc",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-08-31T15:53:05.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-08-31T15:53:05.000Z",
+        "subject": "Merge pull request #4 from MattyMags/release/1.4.0",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #4 from MattyMags/release/1.4.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "43204e9997c510a71ae7708d25ae8b686f683a55",
+        "partialHash": "43204e9",
+        "author": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "authorTime": "2022-08-31T15:52:50.000Z",
+        "committer": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-08-31T15:52:50.000Z",
+        "subject": "Prepare release 1.4.0",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Prepare release 1.4.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "342a1614a81b7b59d7e5ca78e86541617173eff7",
+        "partialHash": "342a161",
+        "author": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "authorTime": "2022-08-31T15:52:17.000Z",
+        "committer": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "commitTime": "2022-08-31T15:52:17.000Z",
+        "subject": "feat: fix commmit sha",
+        "body": "",
+        "tags": [],
+        "type": "feat",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "fix commmit sha"
+      },
+      {
+        "fullHash": "55053ee0e23ff0321a54f88d7f2c1668159325ef",
+        "partialHash": "55053ee",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-08-31T15:50:13.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-08-31T15:50:13.000Z",
+        "subject": "Merge pull request #3 from MattyMags/release/1.3.0",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #3 from MattyMags/release/1.3.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "0d4c6415b1329b74f606ab4e86a5f9de4a4922d4",
+        "partialHash": "0d4c641",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-08-31T15:50:08.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-08-31T15:50:08.000Z",
+        "subject": "Merge branch 'master' into release/1.3.0",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge branch 'master' into release/1.3.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "f716c5192abc32b3d9078e6bb49e14c3ee65e6e5",
+        "partialHash": "f716c51",
+        "author": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "authorTime": "2022-08-31T15:49:11.000Z",
+        "committer": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-08-31T15:49:11.000Z",
+        "subject": "Prepare release 1.3.0",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Prepare release 1.3.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "3c8503c43dfb5c4ea5ba36cadb212de72f1fd08c",
+        "partialHash": "3c8503c",
+        "author": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "authorTime": "2022-08-31T15:48:46.000Z",
+        "committer": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "commitTime": "2022-08-31T15:48:46.000Z",
+        "subject": "feat: add deps",
+        "body": "",
+        "tags": [],
+        "type": "feat",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "add deps"
+      },
+      {
+        "fullHash": "c0d9a69ab6262d707f6d8bff487be8a16102c68c",
+        "partialHash": "c0d9a69",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-08-31T15:47:53.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-08-31T15:47:53.000Z",
+        "subject": "Merge pull request #2 from MattyMags/release/v1.2.0",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #2 from MattyMags/release/v1.2.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "9ae0375b3eb498217a050411147a4edb85037e5b",
+        "partialHash": "9ae0375",
+        "author": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "authorTime": "2022-08-31T15:47:29.000Z",
+        "committer": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-08-31T15:47:29.000Z",
+        "subject": "Prepare release v1.2.0",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Prepare release v1.2.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "f4aba6b4ae4421e60edee8fe76b918cb9c3c8d4d",
+        "partialHash": "f4aba6b",
+        "author": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "authorTime": "2022-08-31T15:45:45.000Z",
+        "committer": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "commitTime": "2022-08-31T15:45:45.000Z",
+        "subject": "feat: sim a new feature",
+        "body": "",
+        "tags": [],
+        "type": "feat",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "sim a new feature"
+      },
+      {
+        "fullHash": "0b4377aa7b36edd46ab54614eb7ad9d9bb758849",
+        "partialHash": "0b4377a",
+        "author": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "authorTime": "2022-08-31T15:44:11.000Z",
+        "committer": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "commitTime": "2022-08-31T15:44:11.000Z",
+        "subject": "Merge remote-tracking branch 'origin/master' into dev",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge remote-tracking branch 'origin/master' into dev",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "11d804747c5ebfc5a70aa8f9c5cf770b8c46d063",
+        "partialHash": "11d8047",
+        "author": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "authorTime": "2022-08-31T15:43:59.000Z",
+        "committer": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "commitTime": "2022-08-31T15:43:59.000Z",
+        "subject": "feat: add changlog script to package.json",
+        "body": "",
+        "tags": [],
+        "type": "feat",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "add changlog script to package.json"
+      },
+      {
+        "fullHash": "32a6c42e3aa31721f5d2c2dfe8be4c8fb6fa2cff",
+        "partialHash": "32a6c42",
+        "author": {
+          "name": "MM",
+          "email": "85508050+MattyMags@users.noreply.github.com"
+        },
+        "authorTime": "2022-08-31T15:42:28.000Z",
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-08-31T15:42:28.000Z",
+        "subject": "Merge pull request #1 from MattyMags/release/v1.1.0",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Merge pull request #1 from MattyMags/release/v1.1.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "88ba9b66665e68c2a62f3995f1c4e270f4a0465f",
+        "partialHash": "88ba9b6",
+        "author": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "authorTime": "2022-08-31T15:42:11.000Z",
+        "committer": {
+          "name": "GitHub actions",
+          "email": "noreply@github.com"
+        },
+        "commitTime": "2022-08-31T15:42:11.000Z",
+        "subject": "Prepare release v1.1.0",
+        "body": "",
+        "tags": [],
+        "type": null,
+        "scope": null,
+        "scopeText": null,
+        "description": "Prepare release v1.1.0",
+        "breakingChange": false
+      },
+      {
+        "fullHash": "783d91f8918183a8e5f3e2cf70b451d02a92683c",
+        "partialHash": "783d91f",
+        "author": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "authorTime": "2022-08-31T15:41:45.000Z",
+        "committer": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "commitTime": "2022-08-31T15:41:45.000Z",
+        "subject": "feat: remove changelog from action",
+        "body": "",
+        "tags": [],
+        "type": "feat",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "remove changelog from action"
+      },
+      {
+        "fullHash": "07f974e89eb343befcdaa6d22b78e9b0b1de6e1c",
+        "partialHash": "07f974e",
+        "author": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "authorTime": "2022-08-31T15:38:01.000Z",
+        "committer": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "commitTime": "2022-08-31T15:38:01.000Z",
+        "subject": "feat: sim new feature and add gh actions",
+        "body": "",
+        "tags": [],
+        "type": "feat",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "sim new feature and add gh actions"
+      },
+      {
+        "fullHash": "7421b202d729aac87785b3320c3ab67d85d8f9fe",
+        "partialHash": "7421b20",
+        "author": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "authorTime": "2022-08-31T15:34:54.000Z",
+        "committer": {
+          "name": "MattyMags",
+          "email": "matthew.magnotta@avb.net"
+        },
+        "commitTime": "2022-08-31T15:34:54.000Z",
+        "subject": "feat: init npm",
+        "body": "",
+        "tags": [],
+        "type": "feat",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "init npm"
+      }
+    ]
+  }
+}
