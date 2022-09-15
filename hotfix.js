@@ -4,3 +4,5 @@ const sdf = "sdfsdf";
 const ssdf = "sdfsd";
 const dsf = "sdfs";
 const dsfs = "sdfs";
+
+const thisIsAHotfix = "hotfix";
