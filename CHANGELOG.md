@@ -15,6 +15,10 @@
 
 - another new feat ([27c1cb6](https://github.com/BrandSourceDigital/alta/commit/27c1cb6911e1df700183a44b4a5d7970255987c1))
 
+### 🐛 Fixes
+
+- this is a sim hotfix ([c483bb9](https://github.com/BrandSourceDigital/alta/commit/c483bb986fd717f50c8d36869f0e2009f787e882))
+
 
 ## v1.28.0 (2022-9-14)
 
