@@ -98,11 +98,11 @@ const getLogTree = async (log) => {
       date: null,
       commits: [],
     },
-    [`${version}`]: {
-      title: `${version}`,
-      date: getTitleDate(),
-      commits: [],
-    },
+    // [`${version}`]: {
+    //   title: `${version}`,
+    //   date: getTitleDate(),
+    //   commits: [],
+    // },
   };
 
   for (entry of log) {
