@@ -2,7 +2,12 @@
 ## Unreleased 
 
 
-## v1.32.0 (2022-9-15)
+## v1.33.0
+ (2022-9-15)
+
+### 🐛 Fixes
+
+- change changelog ([b1b58ba](https://github.com/BrandSourceDigital/alta/commit/b1b58bac23409c784ad3be452ea400bbe338893d))
 
 
 ## v1.32.0
