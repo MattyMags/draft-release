@@ -1,6 +1,6 @@
 {
   "name": "draft-release",
-  "version": "v1.35.0",
+  "version": "v1.35.1",
   "description": "",
   "main": "index.js",
   "scripts": {
