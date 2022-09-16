@@ -6,6 +6,10 @@
 - hotfix ([de7d31f](https://github.com/BrandSourceDigital/alta/commit/de7d31f69d6058c077d46f07412d01789a52808b))
 
 
+## v2.0.1
+ (2022-9-16)
+
+
 ## v2.0.0
  (2022-9-16)
 
