@@ -1,96 +1,16 @@
 
 ## Unreleased 
 
-### 🐛 Fixes
 
-- hotfix ([de7d31f](https://github.com/BrandSourceDigital/alta/commit/de7d31f69d6058c077d46f07412d01789a52808b))
-
-
-## v2.0.1 (2022-9-16)
-
-
-## v2.0.0 (2022-9-16)
+## 2.1.0 (2022-9-16)
 
 ### ✨ Features
 
 - newish feat ([57d8ca9](https://github.com/BrandSourceDigital/alta/commit/57d8ca98125811e8697c8ddd9f484f31f1e27e2d))
-
-
-## v1.50.0 (2022-9-16)
-
-### 🐛 Fixes
-
-- publish new releaser ([d539505](https://github.com/BrandSourceDigital/alta/commit/d5395053b3e61bb5b13a1ebe5be808c8d22631e9))
-- hotttt fixxx! ([8caffff](https://github.com/BrandSourceDigital/alta/commit/8cafffffc067f676e5cc773b9b42c1797f3e7710))
-- fix aciton and add new feat ([15769d5](https://github.com/BrandSourceDigital/alta/commit/15769d561da3cb37e45ec5d9f68de439ef03ab4e))
-- 3 hotfix ([18ce3ba](https://github.com/BrandSourceDigital/alta/commit/18ce3babf0754568986fc2e6d6115472bd555ba6))
-
-
-## v1.37.1 (2022-9-16)
-
-### ✨ Features
-
 - add new feat ([0eb14aa](https://github.com/BrandSourceDigital/alta/commit/0eb14aa90bd8306c1674f40c9749df28365406f9))
-
-### 🐛 Fixes
-
-- this is a hotfix ([8627bb9](https://github.com/BrandSourceDigital/alta/commit/8627bb9b5a00febb2c7a1466e48e0058f4cb8a19))
-
-
-## v1.35.1 (2022-9-16)
-
-### ✨ Features
-
 - add a new feature ([568c772](https://github.com/BrandSourceDigital/alta/commit/568c77299a29470cb7e375a56636856e5a5c9439))
-
-### 🐛 Fixes
-
-- hook up publish release to button ([5887c53](https://github.com/BrandSourceDigital/alta/commit/5887c5342f8942ec2deaa5d7d6eab45a0838da2e))
-- this is a shotfix ([bcce59f](https://github.com/BrandSourceDigital/alta/commit/bcce59fb5a63054349a6dbde9ba1097d5d53d0fe))
-
-
-## v1.34.0 (2022-9-16)
-
-### 🐛 Fixes
-
-- add fix to readme ([b285bbf](https://github.com/BrandSourceDigital/alta/commit/b285bbfbc58c7bfa7f264fa68cf5265d107722de))
-
-
-## v1.33.0 (2022-9-15)
-
-### 🐛 Fixes
-
-- change changelog ([b1b58ba](https://github.com/BrandSourceDigital/alta/commit/b1b58bac23409c784ad3be452ea400bbe338893d))
-
-
-## v1.32.0 (2022-9-15)
-
-### ✨ Features
-
 - new feat ([6d20dd6](https://github.com/BrandSourceDigital/alta/commit/6d20dd621f6c7233f51d3ac0127480e9c971dae6))
-
-
-## v1.31.0 (2022-9-15)
-
-
-## v1.30.0 (2022-9-15)
-
-### ✨ Features
-
 - new feat ([2b55056](https://github.com/BrandSourceDigital/alta/commit/2b55056a37ef63d59059357567dcf432239e7007))
-
-### 🐛 Fixes
-
-- change path again ([f9c130a](https://github.com/BrandSourceDigital/alta/commit/f9c130a69f6f895569a51b7e1336f5356a26cf68))
-- add package json path ([683e533](https://github.com/BrandSourceDigital/alta/commit/683e5335d16d2e05367e9289a1108d53162bfee1))
-- fix changelog ([c38b308](https://github.com/BrandSourceDigital/alta/commit/c38b3083f747328eeee247817bd2ef981b129414))
-- this is a sim hotfix ([c483bb9](https://github.com/BrandSourceDigital/alta/commit/c483bb986fd717f50c8d36869f0e2009f787e882))
-
-
-## test-test (2022-9-14)
-
-### ✨ Features
-
 - another new feat ([27c1cb6](https://github.com/BrandSourceDigital/alta/commit/27c1cb6911e1df700183a44b4a5d7970255987c1))
 - showing Derek new feat ([0082d8f](https://github.com/BrandSourceDigital/alta/commit/0082d8f03eb3b3b521a2acab8556a184c96c3015))
 - add new feat ([fd3ac03](https://github.com/BrandSourceDigital/alta/commit/fd3ac03012dbec5187349c11b02aa06dff010f3b))
@@ -99,6 +19,21 @@
 
 ### 🐛 Fixes
 
+- idk at this point ([eaed166](https://github.com/BrandSourceDigital/alta/commit/eaed166d8fb9abdd142e465a7f2645c38b557b43))
+- hotfix ([de7d31f](https://github.com/BrandSourceDigital/alta/commit/de7d31f69d6058c077d46f07412d01789a52808b))
+- publish new releaser ([d539505](https://github.com/BrandSourceDigital/alta/commit/d5395053b3e61bb5b13a1ebe5be808c8d22631e9))
+- hotttt fixxx! ([8caffff](https://github.com/BrandSourceDigital/alta/commit/8cafffffc067f676e5cc773b9b42c1797f3e7710))
+- fix aciton and add new feat ([15769d5](https://github.com/BrandSourceDigital/alta/commit/15769d561da3cb37e45ec5d9f68de439ef03ab4e))
+- 3 hotfix ([18ce3ba](https://github.com/BrandSourceDigital/alta/commit/18ce3babf0754568986fc2e6d6115472bd555ba6))
+- this is a hotfix ([8627bb9](https://github.com/BrandSourceDigital/alta/commit/8627bb9b5a00febb2c7a1466e48e0058f4cb8a19))
+- hook up publish release to button ([5887c53](https://github.com/BrandSourceDigital/alta/commit/5887c5342f8942ec2deaa5d7d6eab45a0838da2e))
+- this is a shotfix ([bcce59f](https://github.com/BrandSourceDigital/alta/commit/bcce59fb5a63054349a6dbde9ba1097d5d53d0fe))
+- add fix to readme ([b285bbf](https://github.com/BrandSourceDigital/alta/commit/b285bbfbc58c7bfa7f264fa68cf5265d107722de))
+- change changelog ([b1b58ba](https://github.com/BrandSourceDigital/alta/commit/b1b58bac23409c784ad3be452ea400bbe338893d))
+- change path again ([f9c130a](https://github.com/BrandSourceDigital/alta/commit/f9c130a69f6f895569a51b7e1336f5356a26cf68))
+- add package json path ([683e533](https://github.com/BrandSourceDigital/alta/commit/683e5335d16d2e05367e9289a1108d53162bfee1))
+- fix changelog ([c38b308](https://github.com/BrandSourceDigital/alta/commit/c38b3083f747328eeee247817bd2ef981b129414))
+- this is a sim hotfix ([c483bb9](https://github.com/BrandSourceDigital/alta/commit/c483bb986fd717f50c8d36869f0e2009f787e882))
 - hot hot hot fix ([c240851](https://github.com/BrandSourceDigital/alta/commit/c2408518952a55c8957f7a8333de08870176fa04))
 - this is a hotfix ([06f4440](https://github.com/BrandSourceDigital/alta/commit/06f44409450de213099adf979380720f70fda796))
 
