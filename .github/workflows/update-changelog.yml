@@ -17,7 +17,7 @@ jobs:
           fetch-depth: 0
 
       - name: Update changelog
-        run: git rev-list --remotes && yarn install && yarn changelog
+        run: yarn install && yarn changelog
 
       - name: Commit updated CHANGELOG
         uses: stefanzweifel/git-auto-commit-action@v4

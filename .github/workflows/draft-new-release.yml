@@ -16,22 +16,15 @@ jobs:
       - name: Create release branch
         run: git checkout -b release/${{ github.event.inputs.version }}
 
-      # In order to make a commit, we need to initialize a user.
-      # You may choose to write something less generic here if you want, it doesn't matter functionality wise.
       - name: Initialize mandatory git config
         run: |
           git config user.name "GitHub actions"
           git config user.email noreply@github.com
 
-      # This step will differ depending on your project setup
-      # Fortunately, yarn has a built-in command for doing this!
       - name: Bump version in package.json
         run: yarn version --new-version ${{ github.event.inputs.version }} --no-git-tag-version
 
-      # - name: Update changelog
-      #   run: git rev-list --remotes && yarn install && yarn changelog
-
-      - name: Commit changelog and manifest files
+      - name: Commit package.json
         id: make-commit
         run: |
           git add package.json
@@ -50,10 +43,8 @@ jobs:
           head: release/${{ github.event.inputs.version }}
           base: master
           title: Release version ${{ github.event.inputs.version }}
-          reviewers: ${{ github.actor }} # By default, we request a review from the person who triggered the workflow.
-          # Write a nice message to the user.
-          # We are claiming things here based on the `publish-new-release.yml` workflow.
-          # You should obviously adopt it to say the truth depending on your release workflow :)
+          reviewers: ${{ github.actor }}
+
           body: |
             Hi @${{ github.actor }}!
 

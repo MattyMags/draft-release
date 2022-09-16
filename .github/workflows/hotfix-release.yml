@@ -21,8 +21,6 @@ jobs:
       - name: Bump version in package.json
         run: yarn version --new-version ${{ github.event.inputs.version }} --no-git-tag-version
 
-      # - name: Update changelog
-      #   run: git rev-list --remotes && yarn install && yarn changelog
       - name: Set Git config
         run: |
           git config --local user.email "actions@github.com"
@@ -32,7 +30,7 @@ jobs:
         id: make-commit
         run: |
           git add package.json
-          git commit --message "Hotfix ${{ github.event.inputs.version }}"
+          git commit --message "Hotfix release/${{ github.event.inputs.version }}"
 
           echo "::set-output name=commit::$(git rev-parse HEAD)"
 
@@ -49,16 +47,6 @@ jobs:
           name: ${{ github.event.inputs.version }}
           draft: false
           prerelease: false
-      # - name: Create Release
-      #   uses: thomaseizinger/create-release@1.0.0
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #   with:
-      #     target_commitish: ${{ github.event.pull_request.merge_commit_sha }}
-      #     tag_name: ${{ github.event.inputs.version }}
-      #     name: ${{ github.event.inputs.version }}
-      #     draft: false
-      #     prerelease: false
 
       - name: Merge master back to dev
         run: |
