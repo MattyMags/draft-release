@@ -6,3 +6,4 @@ const dsf = "sdfs";
 const dsfs = "sdfs";
 
 const thisIsAHotfix = "hotfix";
+const shotfix = "hotfix";
