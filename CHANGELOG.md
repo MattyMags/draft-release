@@ -2,6 +2,14 @@
 ## Unreleased 
 
 
+## v5.1.0
+ (2022-9-16)
+
+### 🐛 Fixes
+
+- clean up more code and remove unused stuff ([139ee8e](https://github.com/BrandSourceDigital/alta/commit/139ee8e3d126a3e71c810e18c03189564b2dff30))
+
+
 ## v5.0.0
  (2022-9-16)
 
