@@ -2,6 +2,14 @@
 ## Unreleased 
 
 
+## v3.3.0
+ (2022-9-16)
+
+### ✨ Features
+
+- idk ([311469f](https://github.com/BrandSourceDigital/alta/commit/311469fe9841a750da9e819a1b0d1c8780bb033f))
+
+
 ## v3.2.0
  (2022-9-16)
 
