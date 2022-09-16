@@ -6,20 +6,17 @@
 - hotfix ([de7d31f](https://github.com/BrandSourceDigital/alta/commit/de7d31f69d6058c077d46f07412d01789a52808b))
 
 
-## v2.0.1
- (2022-9-16)
+## v2.0.1 (2022-9-16)
 
 
-## v2.0.0
- (2022-9-16)
+## v2.0.0 (2022-9-16)
 
 ### ✨ Features
 
 - newish feat ([57d8ca9](https://github.com/BrandSourceDigital/alta/commit/57d8ca98125811e8697c8ddd9f484f31f1e27e2d))
 
 
-## v1.50.0
- (2022-9-16)
+## v1.50.0 (2022-9-16)
 
 ### 🐛 Fixes
 
@@ -29,8 +26,7 @@
 - 3 hotfix ([18ce3ba](https://github.com/BrandSourceDigital/alta/commit/18ce3babf0754568986fc2e6d6115472bd555ba6))
 
 
-## v1.37.1
- (2022-9-16)
+## v1.37.1 (2022-9-16)
 
 ### ✨ Features
 
@@ -41,8 +37,7 @@
 - this is a hotfix ([8627bb9](https://github.com/BrandSourceDigital/alta/commit/8627bb9b5a00febb2c7a1466e48e0058f4cb8a19))
 
 
-## v1.35.1
- (2022-9-16)
+## v1.35.1 (2022-9-16)
 
 ### ✨ Features
 
@@ -54,36 +49,31 @@
 - this is a shotfix ([bcce59f](https://github.com/BrandSourceDigital/alta/commit/bcce59fb5a63054349a6dbde9ba1097d5d53d0fe))
 
 
-## v1.34.0
- (2022-9-16)
+## v1.34.0 (2022-9-16)
 
 ### 🐛 Fixes
 
 - add fix to readme ([b285bbf](https://github.com/BrandSourceDigital/alta/commit/b285bbfbc58c7bfa7f264fa68cf5265d107722de))
 
 
-## v1.33.0
- (2022-9-15)
+## v1.33.0 (2022-9-15)
 
 ### 🐛 Fixes
 
 - change changelog ([b1b58ba](https://github.com/BrandSourceDigital/alta/commit/b1b58bac23409c784ad3be452ea400bbe338893d))
 
 
-## v1.32.0
- (2022-9-15)
+## v1.32.0 (2022-9-15)
 
 ### ✨ Features
 
 - new feat ([6d20dd6](https://github.com/BrandSourceDigital/alta/commit/6d20dd621f6c7233f51d3ac0127480e9c971dae6))
 
 
-## v1.31.0
- (2022-9-15)
+## v1.31.0 (2022-9-15)
 
 
-## v1.30.0
- (2022-9-15)
+## v1.30.0 (2022-9-15)
 
 ### ✨ Features
 
@@ -97,8 +87,7 @@
 - this is a sim hotfix ([c483bb9](https://github.com/BrandSourceDigital/alta/commit/c483bb986fd717f50c8d36869f0e2009f787e882))
 
 
-## test-test
- (2022-9-15)
+## test-test (2022-9-14)
 
 ### ✨ Features
 
@@ -114,8 +103,7 @@
 - this is a hotfix ([06f4440](https://github.com/BrandSourceDigital/alta/commit/06f44409450de213099adf979380720f70fda796))
 
 
-## 1.24.0
- (2022-9-1)
+## 1.24.0 (2022-9-1)
 
 ### ✨ Features
 
