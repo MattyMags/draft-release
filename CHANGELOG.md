@@ -1,6 +1,10 @@
 
 ## Unreleased 
 
+
+## v4.0.1
+ (2022-9-16)
+
 ### 🐛 Fixes
 
 - sim hotfix ([7797e09](https://github.com/BrandSourceDigital/alta/commit/7797e0944fbb16fd7061ec7a31651d9465dc8a63))
