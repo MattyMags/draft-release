@@ -2,6 +2,15 @@
 ## Unreleased 
 
 
+## v4.0.0
+ (2022-9-16)
+
+### 🐛 Fixes
+
+- fix hotfix release ([b9b6b14](https://github.com/BrandSourceDigital/alta/commit/b9b6b1473486c43c1574c04ad9c276a3028a7ac7))
+- hotfixy ([22ab978](https://github.com/BrandSourceDigital/alta/commit/22ab9782ad73b0a77ea7788cf7a5e94c6d8dcc8b))
+
+
 ## v3.3.4
  (2022-9-16)
 
