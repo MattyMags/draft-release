@@ -1,6 +1,14 @@
 
 ## Unreleased 
 
+### 🐛 Fixes
+
+- 3 hotfix ([18ce3ba](https://github.com/BrandSourceDigital/alta/commit/18ce3babf0754568986fc2e6d6115472bd555ba6))
+
+
+## v1.37.1
+ (2022-9-16)
+
 ### ✨ Features
 
 - add new feat ([0eb14aa](https://github.com/BrandSourceDigital/alta/commit/0eb14aa90bd8306c1674f40c9749df28365406f9))
