@@ -49,6 +49,16 @@ jobs:
           name: ${{ github.event.inputs.version }}
           draft: false
           prerelease: false
+      # - name: Create Release
+      #   uses: thomaseizinger/create-release@1.0.0
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   with:
+      #     target_commitish: ${{ github.event.pull_request.merge_commit_sha }}
+      #     tag_name: ${{ github.event.inputs.version }}
+      #     name: ${{ github.event.inputs.version }}
+      #     draft: false
+      #     prerelease: false
 
       - name: Merge master back to dev
         run: |
