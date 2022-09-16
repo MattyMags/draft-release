@@ -17,8 +17,7 @@ jobs:
         with:
           ref: master
           fetch-depth: 0
-      # This step will differ depending on your project setup
-      # Fortunately, yarn has a built-in command for doing this!
+
       - name: Bump version in package.json
         run: yarn version --new-version ${{ github.event.inputs.version }} --no-git-tag-version
 

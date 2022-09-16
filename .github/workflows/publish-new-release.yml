@@ -11,7 +11,7 @@ jobs:
   release:
     name: Publish new release
     runs-on: ubuntu-latest
-    if: startsWith(github.event.pull_request.head.ref, 'release/') # only merged pull requests must trigger this job
+    if: startsWith(github.event.pull_request.head.ref, 'release/') # make sure this only runs when its a release branch
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -19,29 +19,10 @@ jobs:
           ref: master
           fetch-depth: 0
 
-      # - name: Update changelog
-      #   run: yarn install && yarn changelog
-
-      # - name: Commit updated CHANGELOG
-      #   uses: stefanzweifel/git-auto-commit-action@v4
-      #   with:
-      #     branch: master
-      #     commit_message: Update CHANGELOG
-      #     file_pattern: CHANGELOG.md
-
       - name: Extract version from branch name (for release branches)
-        if: startsWith(github.event.pull_request.head.ref, 'release/')
         run: |
           BRANCH_NAME="${{ github.event.pull_request.head.ref }}"
           VERSION=${BRANCH_NAME#release/}
-
-          echo "RELEASE_VERSION=$VERSION" >> $GITHUB_ENV
-
-      - name: Extract version from branch name (for hotfix branches)
-        if: startsWith(github.event.pull_request.head.ref, 'hotfix/')
-        run: |
-          BRANCH_NAME="${{ github.event.pull_request.head.ref }}"
-          VERSION=${BRANCH_NAME#hotfix/}
 
           echo "RELEASE_VERSION=$VERSION" >> $GITHUB_ENV
 
@@ -55,16 +36,6 @@ jobs:
           name: ${{ env.RELEASE_VERSION }}
           draft: false
           prerelease: false
-
-      # - name: Update changelog
-      #   run: yarn install && yarn changelog
-
-      # - name: Commit updated CHANGELOG
-      #   uses: stefanzweifel/git-auto-commit-action@v4
-      #   with:
-      #     branch: master
-      #     commit_message: Update CHANGELOG
-      #     file_pattern: CHANGELOG.md
 
       - name: Set Git config
         run: |
