@@ -1,8 +1,13 @@
 
 ## Unreleased 
 
+
+## v1.50.0
+ (2022-9-16)
+
 ### 🐛 Fixes
 
+- publish new releaser ([d539505](https://github.com/BrandSourceDigital/alta/commit/d5395053b3e61bb5b13a1ebe5be808c8d22631e9))
 - hotttt fixxx! ([8caffff](https://github.com/BrandSourceDigital/alta/commit/8cafffffc067f676e5cc773b9b42c1797f3e7710))
 - fix aciton and add new feat ([15769d5](https://github.com/BrandSourceDigital/alta/commit/15769d561da3cb37e45ec5d9f68de439ef03ab4e))
 - 3 hotfix ([18ce3ba](https://github.com/BrandSourceDigital/alta/commit/18ce3babf0754568986fc2e6d6115472bd555ba6))
