@@ -3,6 +3,8 @@
 
 ### 🐛 Fixes
 
+- hotttt fixxx! ([8caffff](https://github.com/BrandSourceDigital/alta/commit/8cafffffc067f676e5cc773b9b42c1797f3e7710))
+- fix aciton and add new feat ([15769d5](https://github.com/BrandSourceDigital/alta/commit/15769d561da3cb37e45ec5d9f68de439ef03ab4e))
 - 3 hotfix ([18ce3ba](https://github.com/BrandSourceDigital/alta/commit/18ce3babf0754568986fc2e6d6115472bd555ba6))
 
 
