@@ -2,6 +2,14 @@
 ## Unreleased 
 
 
+## v1.34.0
+ (2022-9-16)
+
+### 🐛 Fixes
+
+- add fix to readme ([b285bbf](https://github.com/BrandSourceDigital/alta/commit/b285bbfbc58c7bfa7f264fa68cf5265d107722de))
+
+
 ## v1.33.0
  (2022-9-15)
 
