@@ -2,6 +2,14 @@
 ## Unreleased 
 
 
+## v2.0.0
+ (2022-9-16)
+
+### ✨ Features
+
+- newish feat ([57d8ca9](https://github.com/BrandSourceDigital/alta/commit/57d8ca98125811e8697c8ddd9f484f31f1e27e2d))
+
+
 ## v1.50.0
  (2022-9-16)
 
