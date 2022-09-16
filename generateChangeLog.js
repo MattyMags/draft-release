@@ -82,6 +82,9 @@ const getGitTags = async (gitHash) => {
       `git tag --contains ${gitHash} | head -n1`
     );
 
+    // const { stdout: tags } = await exec(`git describe --contains ${gitHash}`);
+    // const [tag] = tags.split(/[\-_^~]/);
+
     return tag;
   } catch (error) {
     console.error("There was an error gathering tags", error);
@@ -95,6 +98,11 @@ const getLogTree = async (log) => {
       date: null,
       commits: [],
     },
+    // [`${version}`]: {
+    //   title: `${version}`,
+    //   date: getTitleDate(),
+    //   commits: [],
+    // },
   };
 
   for (entry of log) {
@@ -116,16 +124,14 @@ const getLogTree = async (log) => {
       continue;
     }
 
-    const earliestTagFormatted = earliestTag.trim();
-
-    if (!logTree[earliestTagFormatted]) {
-      logTree[earliestTagFormatted] = {
-        title: earliestTagFormatted,
+    if (!logTree[earliestTag]) {
+      logTree[earliestTag] = {
+        title: earliestTag,
         date: getTitleDate(commitTime),
         commits: [],
       };
     } else {
-      logTree[earliestTagFormatted].commits.push(entry);
+      logTree[earliestTag].commits.push(entry);
     }
   }
 
