@@ -2,10 +2,20 @@
 ## Unreleased 
 
 
-## v3.0.0 (2022-9-16)
+## v3.2.0
+ (2022-9-16)
+
+### 🐛 Fixes
+
+- idk ([9595054](https://github.com/BrandSourceDigital/alta/commit/9595054f4f074539692c94d011df11bd2afad9ba))
 
 
-## 2.1.0 (2022-9-16)
+## v3.0.0
+ (2022-9-16)
+
+
+## 2.1.0
+ (2022-9-16)
 
 ### ✨ Features
 
@@ -41,7 +51,8 @@
 - this is a hotfix ([06f4440](https://github.com/BrandSourceDigital/alta/commit/06f44409450de213099adf979380720f70fda796))
 
 
-## 1.24.0 (2022-9-1)
+## 1.24.0
+ (2022-9-1)
 
 ### ✨ Features
 
