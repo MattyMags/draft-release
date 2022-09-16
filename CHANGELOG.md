@@ -1,8 +1,13 @@
 
 ## Unreleased 
 
+### ✨ Features
+
+- add a new feature ([568c772](https://github.com/BrandSourceDigital/alta/commit/568c77299a29470cb7e375a56636856e5a5c9439))
+
 ### 🐛 Fixes
 
+- hook up publish release to button ([5887c53](https://github.com/BrandSourceDigital/alta/commit/5887c5342f8942ec2deaa5d7d6eab45a0838da2e))
 - this is a shotfix ([bcce59f](https://github.com/BrandSourceDigital/alta/commit/bcce59fb5a63054349a6dbde9ba1097d5d53d0fe))
 
 
