@@ -24,6 +24,12 @@ jobs:
       - name: Bump version in package.json
         run: yarn version --new-version ${{ github.event.inputs.version }} --no-git-tag-version
 
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          ref: master
+          fetch-depth: 0
+
       - name: Update changelog
         run: yarn install && yarn changelog:unreleased
 
