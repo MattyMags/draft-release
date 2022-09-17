@@ -4,8 +4,6 @@ name: Add comment
 
 on:
   pull_request:
-    types:
-      - opened
     branches:
       # branches in the case of PR specifies target/base branch
       - 'release/*'
