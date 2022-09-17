@@ -59,36 +59,36 @@ jobs:
             I've updated the changelog and bumped the versions in the manifest files in this commit: ${{ steps.make-commit.outputs.commit }}.
             Merging this PR will create a GitHub release and upload any assets that are created as part of the release build.
       
-      - name: Generate Comment String from Markdown
-        id: getCommentContent
-        uses: juliangruber/read-file-action@v1
-        with:
-          path: ./URELEASEDCHANGELOG.md
+#       - name: Generate Comment String from Markdown
+#         id: getCommentContent
+#         uses: juliangruber/read-file-action@v1
+#         with:
+#           path: ./URELEASEDCHANGELOG.md
 
-        # - name: Remove Prettier Ignore Comment Start
-        #   uses: rishabhgupta/split-by@v1
-        #   id: splitCommentFront
-        #   with:
-        #     string: ${{ steps.getCommentContent.outputs.content }}
-        #     split-by: "--> "
+#         # - name: Remove Prettier Ignore Comment Start
+#         #   uses: rishabhgupta/split-by@v1
+#         #   id: splitCommentFront
+#         #   with:
+#         #     string: ${{ steps.getCommentContent.outputs.content }}
+#         #     split-by: "--> "
 
-        # - name: Remove Prettier Ignore Comment End
-        #   uses: rishabhgupta/split-by@v1
-        #   id: splitCommentBack
-        #   with:
-        #     string: ${{ steps.splitCommentFront.outputs._1 }}
-        #     split-by: " <!--"
+#         # - name: Remove Prettier Ignore Comment End
+#         #   uses: rishabhgupta/split-by@v1
+#         #   id: splitCommentBack
+#         #   with:
+#         #     string: ${{ steps.splitCommentFront.outputs._1 }}
+#         #     split-by: " <!--"
 
-      - name: Add Comment to PR
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        if: steps.findExistingComment.outputs.comment-id == 0
-        # In the event of 401 bad credentials, check PAT expiry on bot
-        run: |
-          git config --local user.email "matthew.magnotta@avb.net"
-          git config --local user.name "MattyMags"
-          gh api \
-            --method POST \
-            -H "Accept: application/vnd.github+json" \
-            https://api.github.com/repos/${{ github.event.repository.name }}/issues/${{github.event.pull_request.number}}/comments \
-            -f body="${{ steps.splitCommentBack.outputs._0 }}"
+#       - name: Add Comment to PR
+#         env:
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#         if: steps.findExistingComment.outputs.comment-id == 0
+#         # In the event of 401 bad credentials, check PAT expiry on bot
+#         run: |
+#           git config --local user.email "matthew.magnotta@avb.net"
+#           git config --local user.name "MattyMags"
+#           gh api \
+#             --method POST \
+#             -H "Accept: application/vnd.github+json" \
+#             https://api.github.com/repos/${{ github.event.repository.name }}/issues/${{github.event.pull_request.number}}/comments \
+#             -f body="${{ steps.splitCommentBack.outputs._0 }}"
