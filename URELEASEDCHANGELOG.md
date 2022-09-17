@@ -1,6 +1,6 @@
 
 ## Unreleased 
 
-### ✨ Features
+### 🐛 Fixes
 
-- sim new feat ([d205f57](https://github.com/BrandSourceDigital/alta/commit/d205f57d3e9d3182adaf8e7ade7f6ba6fdf1c4dc))
+- idk ([92e8aad](https://github.com/BrandSourceDigital/alta/commit/92e8aadf5fce28e9b4fcfd1192a097df2b5f3274))
