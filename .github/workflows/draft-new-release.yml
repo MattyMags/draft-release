@@ -31,7 +31,7 @@ jobs:
           fetch-depth: 0
 
       - name: Update changelog
-        run: yarn install && yarn changelog:unreleased
+        run: yarn install && yarn unreleased
 
       - name: Commit package.json
         id: make-commit

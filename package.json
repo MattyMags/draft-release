@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "changelog": "node ./generateChangeLog.js && node ./changelog.js",
-    "changelog:unreleased": "node ./generateChangeLog && node ./unreleasedChangelog.js"
+    "unreleased": "node ./generateChangeLog && node ./unreleasedChangelog.js"
   },
   "dependencies": {
     "fs-extra": "^10.1.0",
