@@ -2,9 +2,11 @@
 
 on:
   pull_request:
+    types:
+      - opened
     branches:
-      - "release/*"
-
+      # branches in the case of PR specifies target/base branch
+      - "release/"
 jobs:
   add-cleanup-comment:
     # Check if is draft PR
