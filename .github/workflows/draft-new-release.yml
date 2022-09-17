@@ -43,14 +43,15 @@ jobs:
       - name: Push new branch
         run: git push origin release/${{ github.event.inputs.version }}
       
-      - name: listPullRequests
-        uses: buildsville/list-pull-requests@v1
+      - name: list all closed pull requests in last 24 hours
         id: list
+        uses: actions/github-list-pull-requests@v1.0
         with:
           token: ${{secrets.GITHUB_TOKEN}}
-          labels: '["release/"]'
+          state: 'open'
+          window: '1'
       - name: output
-        run: echo '${{ steps.list.outputs.pulls }}'
+        run: echo '${{ steps.list.outputs.pullRequestNumbers }}'
 
       - name: Create pull request
         uses: thomaseizinger/create-pull-request@1.0.0
