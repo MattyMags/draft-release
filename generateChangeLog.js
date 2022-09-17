@@ -140,7 +140,7 @@ const getLogTree = async (log) => {
 // let curTag = releaseAsVersion ? `v${version}` : 'unreleased';
 
 const log = gitLogSync({
-  startRef: "23f064e1dee8e8da0175aa25b506fe4a98f52b9d",
+  startRef: "70fa8467f9596e196bc7a7f708bd7b6ea9f00042",
 }).map((entry) => {
   const { subject, body } = entry;
   const subjectSanitize = subject.replace(/</g, "&lt;").replace(/>/g, "&gt;");
