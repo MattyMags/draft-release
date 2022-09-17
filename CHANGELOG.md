@@ -2,6 +2,22 @@
 ## Unreleased 
 
 
+## v15.0.0
+ (2022-9-17)
+
+### 🐛 Fixes
+
+- wip ([d95bf87](https://github.com/BrandSourceDigital/alta/commit/d95bf87f425efeb103d68c4700ffdece203119f8))
+
+
+## v12.10.0
+ (2022-9-17)
+
+### 🐛 Fixes
+
+- who knows ([d290847](https://github.com/BrandSourceDigital/alta/commit/d2908472fded932838c3b06375cf25f0f1be399e))
+
+
 ## v12.1.0
  (2022-9-17)
 
