@@ -2,6 +2,14 @@
 ## Unreleased 
 
 
+## v11.5.0
+ (2022-9-17)
+
+### 🐛 Fixes
+
+- add stuff ([ea740f5](https://github.com/BrandSourceDigital/alta/commit/ea740f554e4ac8f530d5021c885fa4914b375b17))
+
+
 ## v11.1.0
  (2022-9-17)
 
