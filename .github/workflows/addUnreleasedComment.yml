@@ -2,8 +2,7 @@
 
 on:
   pull_request:
-    branches-ignore:
-      # ignore branches named release/*
+    branches:
       - "release/*"
 
 jobs:
