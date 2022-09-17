@@ -36,7 +36,7 @@ jobs:
       - name: Commit package.json
         id: make-commit
         run: |
-          git add package.json. UNRELEASEDCHANGELOG.md
+          git add ./package.json ./UNRELEASED.md
           git commit --message "Prepare release ${{ github.event.inputs.version }}"
 
           echo "::set-output name=commit::$(git rev-parse HEAD)"
