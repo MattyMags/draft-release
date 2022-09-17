@@ -3,6 +3,10 @@
 name: Add comment
 
 on:
+  workflow_run:
+    workflows: ["Publish new release", "Hotfix new release"]
+    types:
+      - completed
   push:
     branches:
       # branches in the case of PR specifies target/base branch
