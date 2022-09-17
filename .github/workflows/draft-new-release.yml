@@ -42,6 +42,15 @@ jobs:
           echo "::set-output name=commit::$(git rev-parse HEAD)"
       - name: Push new branch
         run: git push origin release/${{ github.event.inputs.version }}
+      
+      - name: listPullRequests
+        uses: buildsville/list-pull-requests@v1
+        id: list
+        with:
+          token: ${{secrets.GITHUB_TOKEN}}
+          labels: '["release/"]'
+      - name: output
+        run: echo '${{ steps.list.outputs.pulls }}'
 
       - name: Create pull request
         uses: thomaseizinger/create-pull-request@1.0.0
