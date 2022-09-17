@@ -4,7 +4,7 @@ name: Add comment
 
 on:
   workflow_run:
-    workflows: ["Publish new release", "Hotfix new release"]
+    workflows: ["Draft new release"]
     types:
       - completed
   push:
