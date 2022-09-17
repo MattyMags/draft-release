@@ -3,10 +3,10 @@
 name: Add comment
 
 on:
-  pull_request:
+  push:
     branches:
       # branches in the case of PR specifies target/base branch
-      - 'release/*'
+      - 'release/**'
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
