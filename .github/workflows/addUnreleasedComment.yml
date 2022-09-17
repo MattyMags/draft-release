@@ -8,7 +8,7 @@ on:
       # branches in the case of PR specifies target/base branch
       - "release/*"
 jobs:
-  # add-cleanup-comment:
+  add-cleanup-comment:
   #   # Check if is draft PR
   #   if: github.event.pull_request.draft == false
   #   runs-on: ubuntu-latest
