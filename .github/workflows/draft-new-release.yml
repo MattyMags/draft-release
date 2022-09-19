@@ -83,7 +83,7 @@ jobs:
 
       - name: Add Comment to PR
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         if: steps.findExistingComment.outputs.comment-id == 0
         # In the event of 401 bad credentials, check PAT expiry on bot
         run: |
