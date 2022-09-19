@@ -34,7 +34,7 @@ jobs:
 
           echo "::set-output name=commit::$(git rev-parse HEAD)"
 
-      - name: Push new branch
+      - name: Push to master
         run: git push origin master
 
       - name: Create Release
