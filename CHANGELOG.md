@@ -1,6 +1,10 @@
 
 ## Unreleased 
 
+### 🐛 Fixes
+
+- **App:** sim a hot fix ([e46d32b](https://github.com/BrandSourceDigital/alta/commit/e46d32b2ae11b513ea7fc484f9b72135dfbe17f8))
+
 
 ## v80.0.0
  (2022-9-19)
