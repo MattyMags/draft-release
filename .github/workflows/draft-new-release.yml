@@ -11,6 +11,8 @@ jobs:
   draft-new-release:
     name: "Draft a new release"
     runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
     steps:
       - uses: actions/checkout@v2
         with:
@@ -48,7 +50,7 @@ jobs:
         uses: thomaseizinger/create-pull-request@1.0.0
         id: create-pr
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           head: release/${{ github.event.inputs.version }}
           base: master
@@ -82,8 +84,6 @@ jobs:
 #         #     split-by: " <!--"
 
       - name: Add Comment to PR
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         if: steps.findExistingComment.outputs.comment-id == 0
         # In the event of 401 bad credentials, check PAT expiry on bot
         run: |
