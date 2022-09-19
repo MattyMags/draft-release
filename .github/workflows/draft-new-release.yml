@@ -48,7 +48,7 @@ jobs:
         uses: thomaseizinger/create-pull-request@1.0.0
         id: create-pr
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         with:
           head: release/${{ github.event.inputs.version }}
           base: master
