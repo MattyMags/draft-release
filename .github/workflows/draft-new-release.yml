@@ -50,7 +50,8 @@ jobs:
         with:
           head: release/${{ github.event.inputs.version }}
           base: master
-          title: Release version ${{ github.event.inputs.version }}
+          title: > 
+                chore: Prerelease - ${{ github.event.inputs.version }}
           reviewers: ${{ github.actor }}
           body: |
             Hi @${{ github.actor }}!
