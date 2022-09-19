@@ -2,6 +2,14 @@
 ## Unreleased 
 
 
+## v70.1.0
+ (2022-9-19)
+
+### 🐛 Fixes
+
+- **App:** Remove commit step for changelog ([fc445f1](https://github.com/BrandSourceDigital/alta/commit/fc445f1e101232b54e9fc62edc96319187a4e588))
+
+
 ## v70.0.0
  (2022-9-19)
 
