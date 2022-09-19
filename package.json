@@ -1,6 +1,6 @@
 {
   "name": "draft-release",
-  "version": "v38.21.32",
+  "version": "v39.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
