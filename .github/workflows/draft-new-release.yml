@@ -48,8 +48,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          head: > 
-              chore: Prerelease - ${{ github.event.inputs.version }}
+          head: chore Prerelease/${{ github.event.inputs.version }}
           base: master
           title: Release version ${{ github.event.inputs.version }}
           reviewers: ${{ github.actor }}
