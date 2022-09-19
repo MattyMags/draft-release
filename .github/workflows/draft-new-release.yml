@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          fetch-depth: 0
+          fetch-depth: 0 # Do not change, fetches all the commits to pass to the starting ref. 
           
       - name: Create release branch
         run: git checkout -b release/${{ github.event.inputs.version }}
@@ -65,7 +65,6 @@ jobs:
           path: ./URELEASEDCHANGELOG.md
 
       - name: Add Unreleased Changes to PR
-        # In the event of 401 bad credentials, check PAT expiry on bot
         run: |
           git config --local user.email "matthew.magnotta@avb.net"
           git config --local user.name "MattyMags"
