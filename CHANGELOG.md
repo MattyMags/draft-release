@@ -2,6 +2,19 @@
 ## Unreleased 
 
 
+## v80.0.0
+ (2022-9-19)
+
+### ✨ Features
+
+- sim a new feature ([5362a46](https://github.com/BrandSourceDigital/alta/commit/5362a4630bef6df2216ddc588b955683720faa47))
+
+### 🐛 Fixes
+
+- **App:** sim new fix ([528b973](https://github.com/BrandSourceDigital/alta/commit/528b973ddf345f4817c3ab7c889730c4191c89f4))
+- **App:** fix hotfix action ([918b26c](https://github.com/BrandSourceDigital/alta/commit/918b26ccd9a2b28051b06c87422a49c3cd3fc8f2))
+
+
 ## v70.1.0
  (2022-9-19)
 
