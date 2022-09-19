@@ -2,6 +2,14 @@
 ## Unreleased 
 
 
+## v80.2.0
+ (2022-9-19)
+
+### 🐛 Fixes
+
+- **App:** fix commit title ([f988257](https://github.com/BrandSourceDigital/alta/commit/f98825775b4060f33103da55763b4c006c653bd0))
+
+
 ## v80.0.1
  (2022-9-19)
 
