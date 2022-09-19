@@ -2,6 +2,14 @@
 ## Unreleased 
 
 
+## v80.3.0
+ (2022-9-19)
+
+### 🐛 Fixes
+
+- **App:** simulate a new feature ([2c8ff24](https://github.com/BrandSourceDigital/alta/commit/2c8ff24273e988c86a2b19609a62e4e283bca690))
+
+
 ## v80.2.0
  (2022-9-19)
 
