@@ -11,6 +11,8 @@ jobs:
   draft-new-release:
     name: "Draft a new release"
     runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
     steps:
       - uses: actions/checkout@v2
         with:
