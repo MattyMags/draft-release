@@ -2,6 +2,14 @@
 ## Unreleased 
 
 
+## v80.7.0
+ (2022-9-20)
+
+### 🐛 Fixes
+
+- **App:** sim fix ([54b1e21](https://github.com/BrandSourceDigital/alta/commit/54b1e21b707b3df45c98b7b5cef3b1dd4d23e314))
+
+
 ## v80.6.0
  (2022-9-20)
 
