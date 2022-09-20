@@ -29,7 +29,7 @@ jobs:
       - name: Bump version in package.json
         run: yarn version --new-version ${{ github.event.inputs.version }} --no-git-tag-version
 
-      - name: Update changelog
+      - name: Update Unreleased Changelog 
         run: yarn install && yarn unreleased
 
       - name: Commit package.json
@@ -43,7 +43,7 @@ jobs:
         run: git push origin release/${{ github.event.inputs.version }}
         
       - name: Generate Comment String from Markdown
-        id: getCommentContent
+        id: get-comment-content
         uses: juliangruber/read-file-action@v1
         with:
           path: ./URELEASEDCHANGELOG.md
@@ -59,6 +59,6 @@ jobs:
           title: > 
                 chore: Prerelease - ${{ github.event.inputs.version }}
           reviewers: ${{ github.actor }}
-          body: ${{ steps.getCommentContent.outputs.content }}
+          body: ${{ steps.get-comment-content.outputs.content }}
                   
 
