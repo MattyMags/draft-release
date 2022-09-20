@@ -1,6 +1,10 @@
 
 ## Unreleased 
 
+### 🔧 Chores
+
+- update - v100.0.0 ([b2bc182](https://github.com/BrandSourceDigital/alta/commit/b2bc182f1dfd35cdfcbe732ad0adcbd0fa5493ff))
+
 
 ## v100.1.0 (2022-9-20)
 
