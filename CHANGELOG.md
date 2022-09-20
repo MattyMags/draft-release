@@ -2,6 +2,14 @@
 ## Unreleased 
 
 
+## v80.4.0
+ (2022-9-20)
+
+### 🐛 Fixes
+
+- **App:** change readme ([c67b733](https://github.com/BrandSourceDigital/alta/commit/c67b733d22e97e844a309da705cc5435ce295506))
+
+
 ## v80.3.0
  (2022-9-19)
 
