@@ -1,9 +1,6 @@
 
 ## Unreleased 
 
-
-## v80.9.1 (2022-9-20)
-
 ### 🐛 Fixes
 
 - hotfix ([27d8f19](https://github.com/BrandSourceDigital/alta/commit/27d8f190c302a173e1afd9c8ed70fcfc84b37db8))
