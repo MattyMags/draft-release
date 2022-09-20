@@ -15,7 +15,12 @@ jobs:
         with:
           ref: master
           fetch-depth: 0
+      - name: Get version and tag
+        run: |
+          version=$(node -p "require('./package.json').version")
+          echo "CURRENT_VERSION=$version" >> $GITHUB_ENV
 
+      
       - name: Update changelog
         run: yarn install && yarn changelog
 
@@ -23,7 +28,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           branch: master
-          commit_message: Update CHANGELOG ${{  github.ref_name }}
+          commit_message: Update CHANGELOG ${{ env.CURRENT_VERSION }}
           file_pattern: CHANGELOG.md
 
       - name: Set Git config
