@@ -2,6 +2,13 @@
 ## Unreleased 
 
 
+## v81.2.0 (2022-9-20)
+
+### 🔧 Chores
+
+- Prerealease - v81.2.0 ([6e469be](https://github.com/BrandSourceDigital/alta/commit/6e469be579718f7940f23f6d05255db90c2e3385))
+
+
 ## v81.1.0 (2022-9-20)
 
 ### 🔧 Chores
