@@ -29,7 +29,7 @@ jobs:
       - name: Bump version in package.json
         run: yarn version --new-version ${{ github.event.inputs.version }} --no-git-tag-version
 
-      - name: Update Unrelease Changelog 
+      - name: Update Unreleased Changelog 
         run: yarn install && yarn unreleased
 
       - name: Commit package.json
