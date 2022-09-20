@@ -1,6 +1,14 @@
 
 ## Unreleased 
 
+### 🐛 Fixes
+
+- fix ([23e6182](https://github.com/BrandSourceDigital/alta/commit/23e6182c03769a12c4a0f23326da7fab96fcafe7))
+
+### 🔧 Chores
+
+- update - v81.2.0 ([828e75a](https://github.com/BrandSourceDigital/alta/commit/828e75a6bc11662bffc5035740dc5db6ff0d2daa))
+
 
 ## v81.2.0 (2022-9-20)
 
