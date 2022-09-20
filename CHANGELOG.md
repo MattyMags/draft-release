@@ -2,6 +2,14 @@
 ## Unreleased 
 
 
+## v80.5.0
+ (2022-9-20)
+
+### 🐛 Fixes
+
+- **App:** add heading to readme ([4647a94](https://github.com/BrandSourceDigital/alta/commit/4647a94dddf710fffc6baa68b3235c7c6d033e09))
+
+
 ## v80.4.0
  (2022-9-20)
 
