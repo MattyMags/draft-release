@@ -1,12 +1,17 @@
 
 ## Unreleased 
 
+
+## v82.1.0 (2022-9-20)
+
 ### 🐛 Fixes
 
+- update publish action ([5938faa](https://github.com/BrandSourceDigital/alta/commit/5938faa72bf3714e309cfa74af383c6b69493ac4))
 - fix ([23e6182](https://github.com/BrandSourceDigital/alta/commit/23e6182c03769a12c4a0f23326da7fab96fcafe7))
 
 ### 🔧 Chores
 
+- update - v81.2.0 ([bc3f755](https://github.com/BrandSourceDigital/alta/commit/bc3f75573cb118df3be46ff30e24d0cecf8908c7))
 - update - v81.2.0 ([828e75a](https://github.com/BrandSourceDigital/alta/commit/828e75a6bc11662bffc5035740dc5db6ff0d2daa))
 
 
