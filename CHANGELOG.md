@@ -2,6 +2,14 @@
 ## Unreleased 
 
 
+## v80.8.0
+ (2022-9-20)
+
+### ✨ Features
+
+- **Product:** add new btn ([dccc023](https://github.com/BrandSourceDigital/alta/commit/dccc023fd78c96f4ddce6e5f5d9d8290eaa17061))
+
+
 ## v80.7.0
  (2022-9-20)
 
