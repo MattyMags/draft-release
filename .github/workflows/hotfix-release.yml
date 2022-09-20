@@ -3,11 +3,11 @@ name: "Hotfix new release"
 on:
   workflow_dispatch:
     inputs:
-      Did you change the branch?:
+      verify-branch:
         type: boolean
-        description: "Make sure the branch is nextjs-prod."
+        description: "Verify branch is nextjs-prod"
         required: true
-      Version:
+      version:
         description: "The version you want to release."
         required: true
 
