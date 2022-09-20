@@ -12,7 +12,7 @@ __HOTFIX FLOW__
 
 __Depends on: No deps, manual trigger dispatch in GH UI__
 
-The first action that kicks off and is set to dispatch on a button and an input to set the version is required. Once the action is dispatched, it performs a series of operations, they are as follows: 
+The first action that kicks off and is executed by a button in the actions panel. Requires a version number to be inputted. Once the action is dispatched, it performs a series of operations, they are as follows: 
 
 - Creates a release branch - release/{{ version that was inputted}}
 
