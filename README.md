@@ -1,1 +1,1 @@
-An automated verisioning approach for git-flow using github actions.
+# An automated verisioning approach for git-flow using github actions.
