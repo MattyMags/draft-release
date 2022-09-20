@@ -2,6 +2,17 @@
 ## Unreleased 
 
 
+## v81.0.0 (2022-9-20)
+
+### 🐛 Fixes
+
+- hotfix! ([048d9de](https://github.com/BrandSourceDigital/alta/commit/048d9de23fc00b1586ea1b8cd270f0fe25c9fa9b))
+
+### 🔧 Chores
+
+- Prerealease - v81.0.0 ([b5894db](https://github.com/BrandSourceDigital/alta/commit/b5894dbad893777b4b82520e2daf13023c273130))
+
+
 ## v80.9.1 (2022-9-20)
 
 ### 🐛 Fixes
