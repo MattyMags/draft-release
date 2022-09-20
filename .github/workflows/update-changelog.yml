@@ -28,7 +28,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           branch: master
-          commit_message: Update CHANGELOG ${{ env.CURRENT_VERSION }}
+          commit_message: "chore: update - ${{ env.CURRENT_VERSION }}"
           file_pattern: CHANGELOG.md
 
       - name: Set Git config
