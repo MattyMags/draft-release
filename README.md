@@ -1,5 +1,13 @@
 # An automated verisioning approach for git-flow using github actions.
 
+__NORMAL FLOW__
+![image](https://user-images.githubusercontent.com/85508050/191331335-a7b4c9a7-ea76-434b-ac9a-e5fe7cc4e0b1.png)
+
+__HOTFIX FLOW__
+
+![image](https://user-images.githubusercontent.com/85508050/191331311-de403200-7e23-4afa-b46b-8d9ac804e3a3.png)
+
+
 `Draft New Release (Manual):` 
 
 __Depends on: No deps, manual trigger dispatch in GH UI__
