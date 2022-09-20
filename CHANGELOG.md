@@ -2,6 +2,14 @@
 ## Unreleased 
 
 
+## v100.1.0 (2022-9-20)
+
+### 🔧 Chores
+
+- update - v100.0.0 ([aaa647b](https://github.com/BrandSourceDigital/alta/commit/aaa647bc02e14f0a5846b4584c2b3b96a28670b5))
+- bump version - v82.1.0 ([5808e6c](https://github.com/BrandSourceDigital/alta/commit/5808e6ca41661e88588ee4d36f70bb58862d46e3))
+
+
 ## v100.0.0 (2022-9-20)
 
 ### ✨ Features
