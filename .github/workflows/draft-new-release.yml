@@ -61,19 +61,4 @@ jobs:
           reviewers: ${{ github.actor }}
           body: ${{ steps.getCommentContent.outputs.content }
                   
-#       - name: Generate Comment String from Markdown
-#         id: getCommentContent
-#         uses: juliangruber/read-file-action@v1
-#         with:
-#           path: ./URELEASEDCHANGELOG.md
-
-#       - name: Add Unreleased Changes to PR
-#         run: |
-#           git config --local user.email "matthew.magnotta@avb.net"
-#           git config --local user.name "MattyMags"
-#           gh api \
-#             --method POST \
-#             -H "Accept: application/vnd.github+json" \
-#             https://api.github.com/repos/Mattymags/draft-release/issues/${{ steps.create-pr.outputs.number }}/comments \
-#             -f body="${{ steps.getCommentContent.outputs.content }}"
 
