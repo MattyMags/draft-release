@@ -1,77 +1,71 @@
 
 ## Unreleased 
 
+
+## v80.9.0 (2022-9-20)
+
 ### 🐛 Fixes
 
+- drop in new changelog generator ([1736e19](https://github.com/BrandSourceDigital/alta/commit/1736e19db46ec79349441cb99fc1524bb9f3ea7d))
 - **App:** simulated hotfix ([6e9fa6b](https://github.com/BrandSourceDigital/alta/commit/6e9fa6b3e67e5876c1d4d0b423e9a3d39a7513fb))
 
 
-## v80.8.1
- (2022-9-20)
+## v80.8.1 (2022-9-20)
 
 
-## v80.8.0
- (2022-9-20)
+## v80.8.0 (2022-9-20)
 
 ### ✨ Features
 
 - **Product:** add new btn ([dccc023](https://github.com/BrandSourceDigital/alta/commit/dccc023fd78c96f4ddce6e5f5d9d8290eaa17061))
 
 
-## v80.7.0
- (2022-9-20)
+## v80.7.0 (2022-9-20)
 
 ### 🐛 Fixes
 
 - **App:** sim fix ([54b1e21](https://github.com/BrandSourceDigital/alta/commit/54b1e21b707b3df45c98b7b5cef3b1dd4d23e314))
 
 
-## v80.6.0
- (2022-9-20)
+## v80.6.0 (2022-9-20)
 
 
-## v80.5.0
- (2022-9-20)
+## v80.5.0 (2022-9-20)
 
 ### 🐛 Fixes
 
 - **App:** add heading to readme ([4647a94](https://github.com/BrandSourceDigital/alta/commit/4647a94dddf710fffc6baa68b3235c7c6d033e09))
 
 
-## v80.4.0
- (2022-9-20)
+## v80.4.0 (2022-9-20)
 
 ### 🐛 Fixes
 
 - **App:** change readme ([c67b733](https://github.com/BrandSourceDigital/alta/commit/c67b733d22e97e844a309da705cc5435ce295506))
 
 
-## v80.3.0
- (2022-9-19)
+## v80.3.0 (2022-9-19)
 
 ### 🐛 Fixes
 
 - **App:** simulate a new feature ([2c8ff24](https://github.com/BrandSourceDigital/alta/commit/2c8ff24273e988c86a2b19609a62e4e283bca690))
 
 
-## v80.2.0
- (2022-9-19)
+## v80.2.0 (2022-9-19)
 
 ### 🐛 Fixes
 
 - **App:** fix commit title ([f988257](https://github.com/BrandSourceDigital/alta/commit/f98825775b4060f33103da55763b4c006c653bd0))
 
 
-## v80.0.1
- (2022-9-19)
+## v80.0.1 (2022-9-19)
 
 ### 🐛 Fixes
 
 - **App:** sim a hot fix ([e46d32b](https://github.com/BrandSourceDigital/alta/commit/e46d32b2ae11b513ea7fc484f9b72135dfbe17f8))
 
 
-## v80.0.0
- (2022-9-19)
+## v80.0.0 (2022-9-19)
 
 ### ✨ Features
 
@@ -83,48 +77,39 @@
 - **App:** fix hotfix action ([918b26c](https://github.com/BrandSourceDigital/alta/commit/918b26ccd9a2b28051b06c87422a49c3cd3fc8f2))
 
 
-## v70.1.0
- (2022-9-19)
+## v70.1.0 (2022-9-19)
 
 ### 🐛 Fixes
 
 - **App:** Remove commit step for changelog ([fc445f1](https://github.com/BrandSourceDigital/alta/commit/fc445f1e101232b54e9fc62edc96319187a4e588))
 
 
-## v70.0.0
- (2022-9-19)
+## v70.0.0 (2022-9-19)
 
 ### ✨ Features
 
 - **Product:** this should be in the unreleased section in the changelog comment ([8395735](https://github.com/BrandSourceDigital/alta/commit/8395735710e7fa03c9dbffc95573042b01568cfe))
 
 
-## v65.5.5
- (2022-9-19)
+## v65.5.5 (2022-9-19)
 
 
-## v60.1.2
- (2022-9-19)
+## v60.1.2 (2022-9-19)
 
 
-## v58.23.63
- (2022-9-19)
+## v58.23.63 (2022-9-19)
 
 
-## v51.34.5
- (2022-9-19)
+## v51.34.5 (2022-9-19)
 
 
-## v10.2.3
- (2022-9-19)
+## v10.2.3 (2022-9-19)
 
 
-## 51.2.3
- (2022-9-19)
+## 51.2.3 (2022-9-19)
 
 
-## 35.32.32
- (2022-9-19)
+## 35.32.32 (2022-9-19)
 
 ### ✨ Features
 
