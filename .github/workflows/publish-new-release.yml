@@ -25,7 +25,17 @@ jobs:
           VERSION=${BRANCH_NAME#release/}
 
           echo "RELEASE_VERSION=$VERSION" >> $GITHUB_ENV
-
+          
+      - name: Bump version in package.json
+        run: yarn version --new-version ${{ env.RELEASE_VERSION }} --no-git-tag-version
+        
+      - name: Commit package.json
+        id: make-commit
+        run: |
+          git add ./package.json
+          git commit --message "chore: bump version - ${{ env.RELEASE_VERSION }}"
+          echo "::set-output name=commit::$(git rev-parse HEAD)"
+        
       - name: Create Release
         uses: thomaseizinger/create-release@1.0.0
         env:
