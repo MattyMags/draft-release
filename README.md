@@ -1,4 +1,4 @@
-# An automated verisioning approach for git-flow using github actions.
+# An automated verisioning approach for Git-Flow using GitHub actions.
 
 __NORMAL FLOW__
 ![image](https://user-images.githubusercontent.com/85508050/191331335-a7b4c9a7-ea76-434b-ac9a-e5fe7cc4e0b1.png)
