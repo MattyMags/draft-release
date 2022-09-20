@@ -6,6 +6,10 @@
 - **App:** simulated hotfix ([6e9fa6b](https://github.com/BrandSourceDigital/alta/commit/6e9fa6b3e67e5876c1d4d0b423e9a3d39a7513fb))
 
 
+## v80.8.1
+ (2022-9-20)
+
+
 ## v80.8.0
  (2022-9-20)
 
