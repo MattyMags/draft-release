@@ -3,7 +3,10 @@
 
 ### 🔧 Chores
 
-- update - v100.0.0 ([b2bc182](https://github.com/BrandSourceDigital/alta/commit/b2bc182f1dfd35cdfcbe732ad0adcbd0fa5493ff))
+- update - v100.0.0 ([c4fa576](https://github.com/BrandSourceDigital/alta/commit/c4fa5766a74389605f9a25ff7241ce2146615329))
+
+
+## v100.2.0 (2022-9-20)
 
 
 ## v100.1.0 (2022-9-20)
