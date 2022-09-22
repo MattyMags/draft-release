@@ -23,8 +23,8 @@ jobs:
 
       - name: Initialize mandatory git config
         run: |
-          git config user.name "GitHub actions"
-          git config user.email noreply@github.com
+          git config --local user.email "avb-dev-services@avb.net"
+          git config --local user.name "AVB Dev Bot"
 
       - name: Update Unreleased Changelog 
         run: yarn install && yarn unreleased
