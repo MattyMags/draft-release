@@ -16,7 +16,7 @@ jobs:
           ref: master
           fetch-depth: 0
           
-      - name: Get version and tag
+      - name: Get version and tag # in order topass to the commit message
         run: |
           version=$(node -p "require('./package.json').version")
           echo "CURRENT_VERSION=$version" >> $GITHUB_ENV
