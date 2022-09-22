@@ -18,3 +18,4 @@ const uhoh = "uhoh";
 const fixme = "this is a fix";
 const fixmeagain = "fix this now";
 const newhotfix = "this is a hotfix";
+const ohlook = "a new hotfix";
