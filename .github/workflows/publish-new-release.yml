@@ -52,7 +52,7 @@ jobs:
             -H "Accept: application/vnd.github+json" \ 
             -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
             https://api.github.com/repos/mattymags/draft-release/releases \
-            -d '{"tag_name": ${{ env.RELEASE_VERSION }},"target_commitish":"master","name":"v1.0.0","body":"Description of the release","draft":false,"prerelease":false,"generate_release_notes":false}'
+            -d "{"tag_name": ${{ env.RELEASE_VERSION }},"target_commitish":"master","name":"v1.0.0","body":"Description of the release","draft":false,"prerelease":false,"generate_release_notes":false}"
       # - name: Create Release
       #   uses: thomaseizinger/create-release@1.0.0
       #   env:
