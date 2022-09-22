@@ -33,11 +33,10 @@ jobs:
         run: yarn version --new-version ${{ github.event.inputs.version }} 
           
       - name: Push Tags
-        run: |
-          git push --follow-tags
+        run: git push --follow-tags
 
-      - name: Push to master
-        run: git push origin master
+#       - name: Push to master
+#         run: git push origin master
 
       - name: Create Release
         env:
