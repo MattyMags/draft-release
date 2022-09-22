@@ -22,18 +22,17 @@ jobs:
 
       - name: Update changelog
         run: yarn install && yarn changelog
-
-      - name: Commit updated CHANGELOG
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          branch: master
-          commit_message: "chore: update - ${{ env.CURRENT_VERSION }}"
-          file_pattern: CHANGELOG.md
-
+        
       - name: Set Git config
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "Github Actions"
+
+      - name: Commit updated CHANGELOG
+        run: | 
+            git add CHANGELOG.md
+            git commit -m 'chore: update - ${{ env.CURRENT_VERSION }}
+            git push        
 
       - name: Merge master back to dev
         run: |
