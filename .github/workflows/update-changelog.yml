@@ -8,14 +8,15 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    if: ${{ github.event.workflow_run.conclusion == 'success' }} # GitHub worflows are dumb and dont have a way to only run this if the workflow's in the above array are successfull, so this is the work-around.
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
         with:
           ref: master
           fetch-depth: 0
-      - name: Get version and tag
+          
+      - name: Get version and tag # in order to pass to the commit message
         run: |
           version=$(node -p "require('./package.json').version")
           echo "CURRENT_VERSION=$version" >> $GITHUB_ENV
