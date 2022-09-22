@@ -2,6 +2,35 @@
 ## Unreleased 
 
 
+## 150.12.0 (2022-9-22)
+
+### 🔧 Chores
+
+- update - 150.11.0 ([83c577d](https://github.com/BrandSourceDigital/alta/commit/83c577d63a0fbe8fc70595a59edf177e4e9d9c72))
+
+
+## 150.11.0 (2022-9-22)
+
+### 🐛 Fixes
+
+- add avb-dev-services bot to commiter ([a7335f7](https://github.com/BrandSourceDigital/alta/commit/a7335f7ca45eae77a67036317234946f7cba0023))
+
+### 🔧 Chores
+
+- update - 150.10.4 ([ba0bcd9](https://github.com/BrandSourceDigital/alta/commit/ba0bcd91cb67d576e12f2e0d1dc9b91d118ccce9))
+
+
+## 150.10.4 (2022-9-22)
+
+### 🐛 Fixes
+
+- **App:** test a fix ([d0ab41f](https://github.com/BrandSourceDigital/alta/commit/d0ab41f46e9727c45ed65a19c6b03d391c833d5f))
+
+### 🔧 Chores
+
+- update - 150.10.3 ([82d2384](https://github.com/BrandSourceDigital/alta/commit/82d23844ae1a2a0960dd5a35b99eea6efb3ab0a4))
+
+
 ## 150.10.3 (2022-9-22)
 
 ### 🔧 Chores
