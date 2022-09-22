@@ -8,7 +8,8 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    
+    if: ${{ github.event.workflow_run.conclusion == 'success' }} # GitHub worflows are dumb and dont have a way to only run this if the workflow's in the above array are succesfull, so this is the work-around.
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
