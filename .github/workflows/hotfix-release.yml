@@ -15,7 +15,7 @@ jobs:
   hotfix-new-release:
     name: "Draft a new release"
     runs-on: ubuntu-latest
-    if: ${{ github.event.inputs.verify-branch != 'true' }}
+    if: ${{ github.event.inputs.verify-branch == 'true' }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -24,35 +24,44 @@ jobs:
           fetch-depth: 0
 
       - name: Bump version in package.json
-        run: yarn version --new-version ${{ github.event.inputs.version }} --no-git-tag-version
+        run: yarn version --new-version ${{ github.event.inputs.version }} 
 
       - name: Set Git config
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "Github Actions"
-
-      - name: Commit changelog and manifest files
-        id: make-commit
+          
+      - name: Push Tags
         run: |
-          git add package.json
-          git commit --message "Hotfix release/${{ github.event.inputs.version }}"
+          git push --follow-tags
+          
+#       - name: Commit changelog and manifest files
+#         id: make-commit
+#         run: |
+#           git add package.json
+#           git commit --message "Hotfix release/${{ github.event.inputs.version }}"
 
-          echo "::set-output name=commit::$(git rev-parse HEAD)"
+#           echo "::set-output name=commit::$(git rev-parse HEAD)"
 
       - name: Push to master
         run: git push origin master
 
       - name: Create Release
-        uses: thomaseizinger/create-release@1.0.0
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          target_commitish: ${{ github.event.pull_request.merge_commit_sha }}
-          tag_name: ${{ github.event.inputs.version }}
-          name: ${{ github.event.inputs.version }}
-          draft: false
-          prerelease: false
-
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api \
+            --method POST \
+            -H "Accept: application/vnd.github+json" \
+            /repos/mattymags/draft-release/releases \
+            -f tag_name=${{ github.event.inputs.version }}  \
+           -f target_commitish='master' \
+           -f name=${{ github.event.inputs.version }} \
+           -f body='Description of the release' \
+           -F draft=false \
+           -F prerelease=false \
+           -F generate_release_notes=true 
+           
       - name: Merge master back to dev
         run: |
           git fetch 
