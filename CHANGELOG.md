@@ -2,6 +2,17 @@
 ## Unreleased 
 
 
+## 150.10.4 (2022-9-22)
+
+### 🐛 Fixes
+
+- **App:** test a fix ([d0ab41f](https://github.com/BrandSourceDigital/alta/commit/d0ab41f46e9727c45ed65a19c6b03d391c833d5f))
+
+### 🔧 Chores
+
+- update - 150.10.3 ([82d2384](https://github.com/BrandSourceDigital/alta/commit/82d23844ae1a2a0960dd5a35b99eea6efb3ab0a4))
+
+
 ## 150.10.3 (2022-9-22)
 
 ### 🔧 Chores
