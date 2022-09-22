@@ -30,9 +30,9 @@ jobs:
 
       - name: Commit updated CHANGELOG
         run: | 
-            git add CHANGELOG.md
-            git commit -m 'chore: update - ${{ env.CURRENT_VERSION }}
-            git push        
+          git add CHANGELOG.md
+          git commit -m 'chore: update - ${{ env.CURRENT_VERSION }}'
+          git push        
 
       - name: Merge master back to dev
         run: |
