@@ -1,12 +1,17 @@
 
 ## Unreleased 
 
+
+## vv102.0.0 (2022-9-22)
+
 ### 🐛 Fixes
 
+- remove package.json commit ([3ac22af](https://github.com/BrandSourceDigital/alta/commit/3ac22affcc3e36a9299a84628a941eb472a32fa6))
 - push git tags ([91de920](https://github.com/BrandSourceDigital/alta/commit/91de92030c1084798bdb2fe0c5cb0abcdb23afef))
 
 ### 🔧 Chores
 
+- update - v100.2.0 ([1216ad1](https://github.com/BrandSourceDigital/alta/commit/1216ad130363b1afd893b836626996b8126019f2))
 - update - v100.2.0 ([07e676d](https://github.com/BrandSourceDigital/alta/commit/07e676d3e20ed359b38f488bdcc15cfaa44ff151))
 - update - v100.0.0 ([c4fa576](https://github.com/BrandSourceDigital/alta/commit/c4fa5766a74389605f9a25ff7241ce2146615329))
 - bump version - v100.1.0 ([56602fe](https://github.com/BrandSourceDigital/alta/commit/56602fec5deb1d3b709840ba1e08098334ad21b0))
