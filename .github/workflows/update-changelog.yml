@@ -20,7 +20,6 @@ jobs:
           version=$(node -p "require('./package.json').version")
           echo "CURRENT_VERSION=$version" >> $GITHUB_ENV
 
-      
       - name: Update changelog
         run: yarn install && yarn changelog
 
