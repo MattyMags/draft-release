@@ -33,9 +33,8 @@ jobs:
       - name: Bump version in package.json
         run: yarn version --new-version ${{ env.RELEASE_VERSION }}
 
-      - name: Push Tags
-        run: |
-          git push --follow-tags
+      - name: Push Tags 
+        run: git push --follow-tags
           
       - name: Create Release
         env:
