@@ -2,65 +2,10 @@
 ## Unreleased 
 
 
-## v111.0.0 (2022-9-22)
-
-### 🔧 Chores
-
-- update - 110.0.0 ([e681527](https://github.com/BrandSourceDigital/alta/commit/e681527c52337d47878e4e0bafdbdd148d68dfcc))
+## v121.1.0 (2022-9-22)
 
 
-## v110.0.0 (2022-9-22)
-
-### 🔧 Chores
-
-- update - 107.0.0 ([c6e20dd](https://github.com/BrandSourceDigital/alta/commit/c6e20dda4b57a9cf225853ba1edf896588538e88))
-
-
-## v107.0.0 (2022-9-22)
-
-### 🔧 Chores
-
-- update - 104.0.0 ([6edb8b2](https://github.com/BrandSourceDigital/alta/commit/6edb8b212cd012728dc85bd9aa7332a1223c4ff8))
-- update - 104.0.0 ([3074882](https://github.com/BrandSourceDigital/alta/commit/3074882575e0a3160e96098445822a1d9ef45d7d))
-
-
-## v104.0.0 (2022-9-22)
-
-### 🔧 Chores
-
-- update - 106.0.0 ([f531270](https://github.com/BrandSourceDigital/alta/commit/f53127078592ffcad9253447711bc64840493a88))
-- update - 105.0.0 ([e067f76](https://github.com/BrandSourceDigital/alta/commit/e067f7616536ea2fe3567e43c58b7acabb0eaec2))
-- update - 103.0.0 ([7e8f931](https://github.com/BrandSourceDigital/alta/commit/7e8f93132f6a721ef4d7f5f2f14affec25b05841))
-
-
-## v103.0.0 (2022-9-22)
-
-### 🐛 Fixes
-
-- remove package.json commit ([3ac22af](https://github.com/BrandSourceDigital/alta/commit/3ac22affcc3e36a9299a84628a941eb472a32fa6))
-- push git tags ([91de920](https://github.com/BrandSourceDigital/alta/commit/91de92030c1084798bdb2fe0c5cb0abcdb23afef))
-
-### 🔧 Chores
-
-- update - v102.0.0 ([45cf94d](https://github.com/BrandSourceDigital/alta/commit/45cf94dd67dee02139745ddf704dae5861366a24))
-- update - v100.2.0 ([1216ad1](https://github.com/BrandSourceDigital/alta/commit/1216ad130363b1afd893b836626996b8126019f2))
-- update - v100.2.0 ([07e676d](https://github.com/BrandSourceDigital/alta/commit/07e676d3e20ed359b38f488bdcc15cfaa44ff151))
-- update - v100.0.0 ([c4fa576](https://github.com/BrandSourceDigital/alta/commit/c4fa5766a74389605f9a25ff7241ce2146615329))
-- bump version - v100.1.0 ([56602fe](https://github.com/BrandSourceDigital/alta/commit/56602fec5deb1d3b709840ba1e08098334ad21b0))
-
-
-## v100.2.0 (2022-9-20)
-
-
-## v100.1.0 (2022-9-20)
-
-### 🔧 Chores
-
-- update - v100.0.0 ([aaa647b](https://github.com/BrandSourceDigital/alta/commit/aaa647bc02e14f0a5846b4584c2b3b96a28670b5))
-- bump version - v82.1.0 ([5808e6c](https://github.com/BrandSourceDigital/alta/commit/5808e6ca41661e88588ee4d36f70bb58862d46e3))
-
-
-## v100.0.0 (2022-9-20)
+## v1.0.0 (2022-9-22)
 
 ### ✨ Features
 
@@ -70,6 +15,8 @@
 
 ### 🐛 Fixes
 
+- remove package.json commit ([3ac22af](https://github.com/BrandSourceDigital/alta/commit/3ac22affcc3e36a9299a84628a941eb472a32fa6))
+- push git tags ([91de920](https://github.com/BrandSourceDigital/alta/commit/91de92030c1084798bdb2fe0c5cb0abcdb23afef))
 - update publish action ([5938faa](https://github.com/BrandSourceDigital/alta/commit/5938faa72bf3714e309cfa74af383c6b69493ac4))
 - fix ([23e6182](https://github.com/BrandSourceDigital/alta/commit/23e6182c03769a12c4a0f23326da7fab96fcafe7))
 - hotfix! ([048d9de](https://github.com/BrandSourceDigital/alta/commit/048d9de23fc00b1586ea1b8cd270f0fe25c9fa9b))
@@ -88,17 +35,30 @@
 
 ### 🔧 Chores
 
+- update - 110.0.0 ([e681527](https://github.com/BrandSourceDigital/alta/commit/e681527c52337d47878e4e0bafdbdd148d68dfcc))
+- update - 107.0.0 ([c6e20dd](https://github.com/BrandSourceDigital/alta/commit/c6e20dda4b57a9cf225853ba1edf896588538e88))
+- update - 104.0.0 ([6edb8b2](https://github.com/BrandSourceDigital/alta/commit/6edb8b212cd012728dc85bd9aa7332a1223c4ff8))
+- update - 104.0.0 ([3074882](https://github.com/BrandSourceDigital/alta/commit/3074882575e0a3160e96098445822a1d9ef45d7d))
+- update - 106.0.0 ([f531270](https://github.com/BrandSourceDigital/alta/commit/f53127078592ffcad9253447711bc64840493a88))
+- update - 105.0.0 ([e067f76](https://github.com/BrandSourceDigital/alta/commit/e067f7616536ea2fe3567e43c58b7acabb0eaec2))
+- update - 103.0.0 ([7e8f931](https://github.com/BrandSourceDigital/alta/commit/7e8f93132f6a721ef4d7f5f2f14affec25b05841))
+- update - v102.0.0 ([45cf94d](https://github.com/BrandSourceDigital/alta/commit/45cf94dd67dee02139745ddf704dae5861366a24))
+- update - v100.2.0 ([1216ad1](https://github.com/BrandSourceDigital/alta/commit/1216ad130363b1afd893b836626996b8126019f2))
+- update - v100.2.0 ([07e676d](https://github.com/BrandSourceDigital/alta/commit/07e676d3e20ed359b38f488bdcc15cfaa44ff151))
+- update - v100.0.0 ([c4fa576](https://github.com/BrandSourceDigital/alta/commit/c4fa5766a74389605f9a25ff7241ce2146615329))
+- update - v100.0.0 ([b2bc182](https://github.com/BrandSourceDigital/alta/commit/b2bc182f1dfd35cdfcbe732ad0adcbd0fa5493ff))
+- bump version - v100.1.0 ([56602fe](https://github.com/BrandSourceDigital/alta/commit/56602fec5deb1d3b709840ba1e08098334ad21b0))
+- update - v100.0.0 ([aaa647b](https://github.com/BrandSourceDigital/alta/commit/aaa647bc02e14f0a5846b4584c2b3b96a28670b5))
+- update - v92.10.10 ([6855542](https://github.com/BrandSourceDigital/alta/commit/6855542d56d69430f9e03a0ab6b88fda3ee7a113))
 - update - v91.0.0 ([868bbcc](https://github.com/BrandSourceDigital/alta/commit/868bbcc56cab16289f9d79c67ddab03570eac91e))
 - update - v90.0.0 ([45931e8](https://github.com/BrandSourceDigital/alta/commit/45931e84fccfd3c0163ca0a8722a7ef5939d91df))
 - update - v81.2.0 ([20a05a9](https://github.com/BrandSourceDigital/alta/commit/20a05a9cb945be792f0e2fc476e035eaef90f7fd))
+- bump version - v82.1.0 ([5808e6c](https://github.com/BrandSourceDigital/alta/commit/5808e6ca41661e88588ee4d36f70bb58862d46e3))
 - update - v81.2.0 ([bc3f755](https://github.com/BrandSourceDigital/alta/commit/bc3f75573cb118df3be46ff30e24d0cecf8908c7))
 - update - v81.2.0 ([828e75a](https://github.com/BrandSourceDigital/alta/commit/828e75a6bc11662bffc5035740dc5db6ff0d2daa))
 - Prerealease - v81.2.0 ([6e469be](https://github.com/BrandSourceDigital/alta/commit/6e469be579718f7940f23f6d05255db90c2e3385))
 - Prerealease - v81.1.0 ([570900b](https://github.com/BrandSourceDigital/alta/commit/570900b36ccf470e3eada26d4b679f07af06d2dc))
 - Prerealease - v81.0.0 ([b5894db](https://github.com/BrandSourceDigital/alta/commit/b5894dbad893777b4b82520e2daf13023c273130))
-
-
-## v10.2.3 (2022-9-19)
 
 
 ## 51.2.3 (2022-9-19)
