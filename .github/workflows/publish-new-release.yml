@@ -45,18 +45,12 @@ jobs:
           git push --follow-tags
       - name: Create Release
         run: |
-          git config --local user.email "actions@github.com"
-          git config --local user.name "Github Actions"
-          
           curl \
-          -X POST \
-          -H "Accept: application/vnd.github+json" \ 
-          -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
-          https://api.github.com/repos/MattyMags/draft-release/releases \
-          -d "{"tag_name": "${{ env.RELEASE_VERSION }}","target_commitish":"master","name":"v1.0.0","body":"Description of the release","draft":false,"prerelease":false,"generate_release_notes":false}"
-
-
-          
+            -X POST \
+            -H "Accept: application/vnd.github+json" \ 
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            https://api.github.com/repos/mattymags/draft-release/releases \
+            -d '{"tag_name":"v130.0.0","target_commitish":"master","name":"v130.0.0","body":"Description of the release","draft":false,"prerelease":false,"generate_release_notes":false}'
           
           
           
