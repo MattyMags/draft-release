@@ -45,15 +45,17 @@ jobs:
           git push --follow-tags
       - name: Create Release
         run: |
-          curl \
-            -X POST \
-            -H "Accept: application/vnd.github+json" \ 
-            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
-            https://api.github.com/repos/mattymags/draft-release/releases \
-            -d '{"tag_name":"v130.0.0","target_commitish":"master","name":"v130.0.0","body":"Description of the release","draft":false,"prerelease":false,"generate_release_notes":false}'
-          
-          
-          
+          gh api \
+            --method POST \
+            -H "Accept: application/vnd.github+json" \
+            /repos/mattymags/draft-release/releases \
+            -f tag_name='${{ env.RELEASE_VERSION }}' \
+           -f target_commitish='master' \
+           -f name='$ {{ env.RELEASE_VERSION }}' \
+           -f body='Description of the release' \
+           -F draft=false \
+           -F prerelease=false \
+           -F generate_release_notes=false 
       # - name: Create Release
       #   uses: thomaseizinger/create-release@1.0.0
       #   env:
