@@ -1,12 +1,16 @@
 
 ## Unreleased 
 
+
+## 150.6.1 (2022-9-22)
+
 ### 🐛 Fixes
 
 - **App:** sim a hotfix ([1824cd2](https://github.com/BrandSourceDigital/alta/commit/1824cd217ea703469d5a769fbc294d477f82e033))
 
 ### 🔧 Chores
 
+- update - 150.6.0 ([37cac0b](https://github.com/BrandSourceDigital/alta/commit/37cac0b787889f38a944b14427000c34cc263336))
 - update - 150.6.0 ([f8fd4b0](https://github.com/BrandSourceDigital/alta/commit/f8fd4b0d5337df9b1f2c5bd4adeff8b66434b7b0))
 
 
