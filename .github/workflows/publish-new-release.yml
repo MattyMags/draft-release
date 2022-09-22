@@ -33,9 +33,8 @@ jobs:
       - name: Bump version in package.json
         run: yarn version --new-version ${{ env.RELEASE_VERSION }}
 
-      - name: Push Tags
-        run: |
-          git push --follow-tags
+      - name: Push Tags 
+        run: git push --follow-tags
           
       - name: Create Release
         env:
@@ -52,11 +51,6 @@ jobs:
            -F draft=false \
            -F prerelease=false \
            -F generate_release_notes=true 
-
-#       - name: Set Git config
-#         run: |
-#           git config --local user.email "actions@github.com"
-#           git config --local user.name "Github Actions"
 
       - name: Merge master back to dev
         run: |
