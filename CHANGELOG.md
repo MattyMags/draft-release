@@ -7,6 +7,7 @@
 
 ### 🔧 Chores
 
+- update - 150.3.0 ([3562e47](https://github.com/BrandSourceDigital/alta/commit/3562e473cda682fa5b5692719001514a43b0d295))
 - update - 150.3.0 ([dc6ad66](https://github.com/BrandSourceDigital/alta/commit/dc6ad662fb3a4e174e46493d3805e88a9c676f2f))
 - update - 150.3.0 ([2a83f85](https://github.com/BrandSourceDigital/alta/commit/2a83f85bf749013c8b5922d5297b79b7465c29ca))
 
