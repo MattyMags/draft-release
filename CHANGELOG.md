@@ -2,6 +2,17 @@
 ## Unreleased 
 
 
+## 150.11.0 (2022-9-22)
+
+### 🐛 Fixes
+
+- add avb-dev-services bot to commiter ([a7335f7](https://github.com/BrandSourceDigital/alta/commit/a7335f7ca45eae77a67036317234946f7cba0023))
+
+### 🔧 Chores
+
+- update - 150.10.4 ([ba0bcd9](https://github.com/BrandSourceDigital/alta/commit/ba0bcd91cb67d576e12f2e0d1dc9b91d118ccce9))
+
+
 ## 150.10.4 (2022-9-22)
 
 ### 🐛 Fixes
