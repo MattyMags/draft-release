@@ -1,12 +1,16 @@
 
 ## Unreleased 
 
+
+## 150.4.0 (2022-9-22)
+
 ### 🐛 Fixes
 
 - **Product:** add a hotfix ([0e6379c](https://github.com/BrandSourceDigital/alta/commit/0e6379c08557e564a301239fda64af14b3ca2eb8))
 
 ### 🔧 Chores
 
+- update - 150.3.0 ([860a39d](https://github.com/BrandSourceDigital/alta/commit/860a39d12da998a3e81e6d7a9fd1e7e0509027ea))
 - update - 150.3.0 ([a129a29](https://github.com/BrandSourceDigital/alta/commit/a129a2936553fea6bb4409c9a97d407191e56bd1))
 - update - 150.3.0 ([3b9070e](https://github.com/BrandSourceDigital/alta/commit/3b9070e8fd30d0198301576c94f22080d334951a))
 - update - 150.3.0 ([9bacbdd](https://github.com/BrandSourceDigital/alta/commit/9bacbdd7fdcc37af072cfb83f13b7249984a17cf))
