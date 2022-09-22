@@ -33,12 +33,12 @@ jobs:
       - name: Bump version in package.json
         run: yarn version --new-version ${{ env.RELEASE_VERSION }}
 
-      - name: Commit package.json
-        id: make-commit
-        run: |
-          git add ./package.json
-          git commit --message "chore: bump version - ${{ env.RELEASE_VERSION }}"
-          echo "::set-output name=commit::$(git rev-parse HEAD)"
+      # - name: Commit package.json
+      #   id: make-commit
+      #   run: |
+      #     git add ./package.json
+      #     git commit --message "chore: bump version - ${{ env.RELEASE_VERSION }}"
+      #     echo "::set-output name=commit::$(git rev-parse HEAD)"
 
       - name: Push Tags
         run: |
