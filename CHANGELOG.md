@@ -2,6 +2,17 @@
 ## Unreleased 
 
 
+## 150.5.0 (2022-9-22)
+
+### ✨ Features
+
+- **App:** sim new feature ([0ef8fba](https://github.com/BrandSourceDigital/alta/commit/0ef8fba95f4310d1f297cba317c01a76cb194b72))
+
+### 🔧 Chores
+
+- update - 150.4.2 ([04057b8](https://github.com/BrandSourceDigital/alta/commit/04057b8ecba75129e8ca47d4aee1f1069723be86))
+
+
 ## 150.4.2 (2022-9-22)
 
 ### 🐛 Fixes
