@@ -2,6 +2,13 @@
 ## Unreleased 
 
 
+## 150.13.0 (2022-9-22)
+
+### 🐛 Fixes
+
+- **App:** sim new button ([d8bd6b1](https://github.com/BrandSourceDigital/alta/commit/d8bd6b17eceddbb35282c702f9631b2131a6571d))
+
+
 ## 150.12.0 (2022-9-22)
 
 ### 🔧 Chores
