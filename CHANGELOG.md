@@ -2,91 +2,34 @@
 ## Unreleased 
 
 
-## 150.9.0 (2022-9-22)
-
-
-## 150.8.0 (2022-9-22)
-
-### 🔧 Chores
-
-- update - 150.7.1 ([4023123](https://github.com/BrandSourceDigital/alta/commit/4023123f94f23cbece6931052d2f32c45bf2f964))
-
-
-## 150.7.1 (2022-9-22)
-
-### 🔧 Chores
-
-- update - 150.7.0 ([237778e](https://github.com/BrandSourceDigital/alta/commit/237778ed6f9401784938f923e1661710b5653640))
-
-
-## 150.7.0 (2022-9-22)
-
-### 🔧 Chores
-
-- update - 150.6.1 ([12eba43](https://github.com/BrandSourceDigital/alta/commit/12eba43c7b5399c9a2d4b458af88324b2c6100ba))
-
-
-## 150.6.1 (2022-9-22)
-
-### 🐛 Fixes
-
-- **App:** sim a hotfix ([1824cd2](https://github.com/BrandSourceDigital/alta/commit/1824cd217ea703469d5a769fbc294d477f82e033))
-
-### 🔧 Chores
-
-- update - 150.6.0 ([37cac0b](https://github.com/BrandSourceDigital/alta/commit/37cac0b787889f38a944b14427000c34cc263336))
-- update - 150.6.0 ([f8fd4b0](https://github.com/BrandSourceDigital/alta/commit/f8fd4b0d5337df9b1f2c5bd4adeff8b66434b7b0))
-
-
-## 150.6.0 (2022-9-22)
-
-### 🐛 Fixes
-
-- **App:** sim new component ([69050f5](https://github.com/BrandSourceDigital/alta/commit/69050f55b86a7bffdd2f5164f11fe83cfe5cbfef))
-
-### 🔧 Chores
-
-- update - 150.5.0 ([5b49478](https://github.com/BrandSourceDigital/alta/commit/5b49478747e9abe8b72fcfaaa393b6cd1e444bb8))
-
-
-## 150.5.0 (2022-9-22)
+## 150.10.0 (2022-9-22)
 
 ### ✨ Features
 
 - **App:** sim new feature ([0ef8fba](https://github.com/BrandSourceDigital/alta/commit/0ef8fba95f4310d1f297cba317c01a76cb194b72))
-
-### 🔧 Chores
-
-- update - 150.4.2 ([04057b8](https://github.com/BrandSourceDigital/alta/commit/04057b8ecba75129e8ca47d4aee1f1069723be86))
-
-
-## 150.4.2 (2022-9-22)
+- **Button:** new btn ([faed022](https://github.com/BrandSourceDigital/alta/commit/faed022d596e1c74bd3e5ba032e95726fda96eb9))
 
 ### 🐛 Fixes
 
+- **App:** sim a hotfix ([1824cd2](https://github.com/BrandSourceDigital/alta/commit/1824cd217ea703469d5a769fbc294d477f82e033))
+- **App:** sim new component ([69050f5](https://github.com/BrandSourceDigital/alta/commit/69050f55b86a7bffdd2f5164f11fe83cfe5cbfef))
 - **App:** sim a hotfix ([543d53b](https://github.com/BrandSourceDigital/alta/commit/543d53b4e50da3dab7a2a5e88a9b018f275618d9))
-
-### 🔧 Chores
-
-- update - 150.4.1 ([b445b95](https://github.com/BrandSourceDigital/alta/commit/b445b952e0de4be3af5f6067b4a074ce83b07373))
-- update - 150.4.1 ([1f94046](https://github.com/BrandSourceDigital/alta/commit/1f94046a9f05328bd2b48d31195ef97ba2be2566))
-
-
-## 150.4.1 (2022-9-22)
-
-### 🔧 Chores
-
-- update - 150.4.0 ([7cccd35](https://github.com/BrandSourceDigital/alta/commit/7cccd35dc91339d9b5e65958a809cb64d050b324))
-
-
-## 150.4.0 (2022-9-22)
-
-### 🐛 Fixes
-
 - **Product:** add a hotfix ([0e6379c](https://github.com/BrandSourceDigital/alta/commit/0e6379c08557e564a301239fda64af14b3ca2eb8))
 
 ### 🔧 Chores
 
+- **Actions:** fix update-changelog ([83447cc](https://github.com/BrandSourceDigital/alta/commit/83447cc47a4676e656350cfb37b62d54d1ebd3dd))
+- update - 150.9.0 ([c7c570e](https://github.com/BrandSourceDigital/alta/commit/c7c570efdfdf2c02c9b150d6139c862ed32e9815))
+- update - 150.7.1 ([4023123](https://github.com/BrandSourceDigital/alta/commit/4023123f94f23cbece6931052d2f32c45bf2f964))
+- update - 150.7.0 ([237778e](https://github.com/BrandSourceDigital/alta/commit/237778ed6f9401784938f923e1661710b5653640))
+- update - 150.6.1 ([12eba43](https://github.com/BrandSourceDigital/alta/commit/12eba43c7b5399c9a2d4b458af88324b2c6100ba))
+- update - 150.6.0 ([37cac0b](https://github.com/BrandSourceDigital/alta/commit/37cac0b787889f38a944b14427000c34cc263336))
+- update - 150.6.0 ([f8fd4b0](https://github.com/BrandSourceDigital/alta/commit/f8fd4b0d5337df9b1f2c5bd4adeff8b66434b7b0))
+- update - 150.5.0 ([5b49478](https://github.com/BrandSourceDigital/alta/commit/5b49478747e9abe8b72fcfaaa393b6cd1e444bb8))
+- update - 150.4.2 ([04057b8](https://github.com/BrandSourceDigital/alta/commit/04057b8ecba75129e8ca47d4aee1f1069723be86))
+- update - 150.4.1 ([b445b95](https://github.com/BrandSourceDigital/alta/commit/b445b952e0de4be3af5f6067b4a074ce83b07373))
+- update - 150.4.1 ([1f94046](https://github.com/BrandSourceDigital/alta/commit/1f94046a9f05328bd2b48d31195ef97ba2be2566))
+- update - 150.4.0 ([7cccd35](https://github.com/BrandSourceDigital/alta/commit/7cccd35dc91339d9b5e65958a809cb64d050b324))
 - update - 150.3.0 ([860a39d](https://github.com/BrandSourceDigital/alta/commit/860a39d12da998a3e81e6d7a9fd1e7e0509027ea))
 - update - 150.3.0 ([a129a29](https://github.com/BrandSourceDigital/alta/commit/a129a2936553fea6bb4409c9a97d407191e56bd1))
 - update - 150.3.0 ([3b9070e](https://github.com/BrandSourceDigital/alta/commit/3b9070e8fd30d0198301576c94f22080d334951a))
@@ -94,35 +37,14 @@
 - update - 150.3.0 ([3562e47](https://github.com/BrandSourceDigital/alta/commit/3562e473cda682fa5b5692719001514a43b0d295))
 - update - 150.3.0 ([dc6ad66](https://github.com/BrandSourceDigital/alta/commit/dc6ad662fb3a4e174e46493d3805e88a9c676f2f))
 - update - 150.3.0 ([2a83f85](https://github.com/BrandSourceDigital/alta/commit/2a83f85bf749013c8b5922d5297b79b7465c29ca))
-
-
-## 150.3.0 (2022-9-22)
-
-### ✨ Features
-
-- **Button:** new btn ([faed022](https://github.com/BrandSourceDigital/alta/commit/faed022d596e1c74bd3e5ba032e95726fda96eb9))
-
-### 🔧 Chores
-
 - update - 150.2.3 ([aa98a55](https://github.com/BrandSourceDigital/alta/commit/aa98a5561fb7bd95a1c4f835d652f0615842dc3e))
+- update - 150.2.0 ([5f064ab](https://github.com/BrandSourceDigital/alta/commit/5f064ab4d7e83ccf8f59e01607f9e60744f71525))
 - **Actions:** update boolean in hotfix-release ([1797425](https://github.com/BrandSourceDigital/alta/commit/17974259ed5dd8340d857e0f20686b56de9ad9a2))
+- update - 150.2.0 ([5ef40ad](https://github.com/BrandSourceDigital/alta/commit/5ef40ad37e62c1d01bfdbaea98e87f1b43f53d6f))
 - **Actions:** update hotfix-release ([6c88efb](https://github.com/BrandSourceDigital/alta/commit/6c88efbdbb9ef64bf3c08ba2b42da0824944dadf))
 - **Actions:** comment code out ([0a66e32](https://github.com/BrandSourceDigital/alta/commit/0a66e322d15546746d442ed7108ba11b415e893b))
 - **Actions:** update publish new release ([3c4bb63](https://github.com/BrandSourceDigital/alta/commit/3c4bb63382566208f6cb82c9966f2ea6c4d7d172))
-
-
-## 150.2.3 (2022-9-22)
-
-### 🔧 Chores
-
-- update - 150.2.0 ([5ef40ad](https://github.com/BrandSourceDigital/alta/commit/5ef40ad37e62c1d01bfdbaea98e87f1b43f53d6f))
 - update - 150.2.0 ([a54e9a0](https://github.com/BrandSourceDigital/alta/commit/a54e9a0c92084ecabef1f4cffb6d3905b1b15fde))
-
-
-## 150.2.0 (2022-9-22)
-
-### 🔧 Chores
-
 - update - 150.1.0 ([12507fd](https://github.com/BrandSourceDigital/alta/commit/12507fd4cd1ddfb89ee5145f4634704dbe7a5bae))
 
 
