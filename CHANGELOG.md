@@ -1,6 +1,14 @@
 
 ## Unreleased 
 
+### 🐛 Fixes
+
+- **Product:** add a hotfix ([0e6379c](https://github.com/BrandSourceDigital/alta/commit/0e6379c08557e564a301239fda64af14b3ca2eb8))
+
+### 🔧 Chores
+
+- update - 150.3.0 ([2a83f85](https://github.com/BrandSourceDigital/alta/commit/2a83f85bf749013c8b5922d5297b79b7465c29ca))
+
 
 ## 150.3.0 (2022-9-22)
 
