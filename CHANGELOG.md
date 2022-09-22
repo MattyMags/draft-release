@@ -2,10 +2,15 @@
 ## Unreleased 
 
 
-## v150.10.1 (2022-9-22)
+## 150.10.2 (2022-9-22)
+
+### 🐛 Fixes
+
+- **App:** sim hotfix ([3446069](https://github.com/BrandSourceDigital/alta/commit/344606916e6cc7b85cd7588f00f6cf9e6aad2e21))
 
 ### 🔧 Chores
 
+- update - v150.10.1 ([65af2e5](https://github.com/BrandSourceDigital/alta/commit/65af2e5cedbc431714bc69544e76db144ca1b785))
 - update - 150.10.0 ([e793bf4](https://github.com/BrandSourceDigital/alta/commit/e793bf4a28f1f1433f61f5dfe9ce00e1c919b7c8))
 
 
