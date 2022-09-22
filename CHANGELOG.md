@@ -2,6 +2,13 @@
 ## Unreleased 
 
 
+## v111.0.0 (2022-9-22)
+
+### 🔧 Chores
+
+- update - 110.0.0 ([e681527](https://github.com/BrandSourceDigital/alta/commit/e681527c52337d47878e4e0bafdbdd148d68dfcc))
+
+
 ## v110.0.0 (2022-9-22)
 
 ### 🔧 Chores
