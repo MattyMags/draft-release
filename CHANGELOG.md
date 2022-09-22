@@ -2,6 +2,13 @@
 ## Unreleased 
 
 
+## 150.10.3 (2022-9-22)
+
+### 🔧 Chores
+
+- update - 150.10.2 ([eb6af6a](https://github.com/BrandSourceDigital/alta/commit/eb6af6a6b2d6cffce757c0832770a8468f67e3f4))
+
+
 ## 150.10.2 (2022-9-22)
 
 ### 🐛 Fixes
