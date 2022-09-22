@@ -5,3 +5,4 @@ const newBtn = "newBtn";
 const idk = "idk";
 const sim = "simulate new btn work";
 const newSim = "sim a new component";
+const test = "test a fix";
