@@ -15,7 +15,7 @@ jobs:
   hotfix-new-release:
     name: "Draft a new release"
     runs-on: ubuntu-latest
-    if: ${{ github.event.inputs.verify-branch != 'true' }}
+    if: ${{ github.event.inputs.verify-branch == 'true' }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
