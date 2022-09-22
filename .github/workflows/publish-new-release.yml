@@ -24,32 +24,36 @@ jobs:
           BRANCH_NAME="${{ github.event.pull_request.head.ref }}"
           VERSION=${BRANCH_NAME#release/}
           echo "RELEASE_VERSION=$VERSION" >> $GITHUB_ENV
-          
+
       - name: Initialize mandatory git config
         run: |
           git config user.name "GitHub actions"
           git config user.email noreply@github.com
-                    
+
       - name: Bump version in package.json
-        run: yarn version --new-version ${{ env.RELEASE_VERSION }} --no-git-tag-version
-        
+        run: yarn version --new-version ${{ env.RELEASE_VERSION }}
+
       - name: Commit package.json
         id: make-commit
         run: |
           git add ./package.json
           git commit --message "chore: bump version - ${{ env.RELEASE_VERSION }}"
           echo "::set-output name=commit::$(git rev-parse HEAD)"
-        
-      - name: Create Release
-        uses: thomaseizinger/create-release@1.0.0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          target_commitish: ${{ github.event.pull_request.merge_commit_sha }}
-          tag_name: ${{ env.RELEASE_VERSION }}
-          name: ${{ env.RELEASE_VERSION }}
-          draft: false
-          prerelease: false
+
+      - name: Push Tags
+        run: |
+          git push --follow-tags
+
+      # - name: Create Release
+      #   uses: thomaseizinger/create-release@1.0.0
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   with:
+      #     target_commitish: ${{ github.event.pull_request.merge_commit_sha }}
+      #     tag_name: ${{ env.RELEASE_VERSION }}
+      #     name: ${{ env.RELEASE_VERSION }}
+      #     draft: false
+      #     prerelease: false
 
       - name: Set Git config
         run: |
@@ -63,4 +67,3 @@ jobs:
           git pull
           git merge --no-ff master -m "Auto-merge master back to dev"
           git push
-
