@@ -15,6 +15,7 @@ jobs:
         with:
           ref: master
           fetch-depth: 0
+          
       - name: Get version and tag
         run: |
           version=$(node -p "require('./package.json').version")
