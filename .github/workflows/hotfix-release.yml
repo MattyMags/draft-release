@@ -3,7 +3,7 @@ name: "Hotfix new release"
 on:
   workflow_dispatch:
     inputs:
-      verify-branch:
+      verify-branch-is-master:
         type: boolean
         description: "Verify branch is nextjs-prod"
         required: true
@@ -15,7 +15,7 @@ jobs:
   hotfix-new-release:
     name: "Draft a new release"
     runs-on: ubuntu-latest
-    if: ${{ github.event.inputs.verify-branch == 'true' }}
+    if: ${{ github.event.inputs.verify-branch-is-master == 'true' }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
