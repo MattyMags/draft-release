@@ -2,13 +2,6 @@
 ## Unreleased 
 
 
-## 150.14.0 (2022-9-29)
-
-### ✨ Features
-
-- **Product:** add new feature ([f068758](https://github.com/BrandSourceDigital/alta/commit/f0687582e5b756f268b16bc509ff8e5f60198c61))
-
-
 ## 150.13.0 (2022-9-22)
 
 ### 🐛 Fixes
