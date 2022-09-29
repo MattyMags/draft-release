@@ -8,3 +8,5 @@ const newSim = "sim a new component";
 const test = "test a fix";
 const fake = "this is a fix on a btn";
 const news = "new";
+
+const knock2 = "dashstar";

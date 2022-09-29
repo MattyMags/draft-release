@@ -3,7 +3,7 @@ name: "Hotfix new release"
 on:
   workflow_dispatch:
     inputs:
-      verify-branch:
+      verify-branch-is-master:
         type: boolean
         description: "Verify branch is nextjs-prod"
         required: true
@@ -15,28 +15,24 @@ jobs:
   hotfix-new-release:
     name: "Draft a new release"
     runs-on: ubuntu-latest
-    if: ${{ github.event.inputs.verify-branch == 'true' }}
+    if: ${{ github.event.inputs.verify-branch-is-master == 'true' }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
         with:
           ref: master
           fetch-depth: 0
-      
 
       - name: Initialize mandatory git config
         run: |
-          git config user.name "GitHub actions"
-          git config user.email noreply@github.com
+          git config --local user.email "avb-dev-services@avb.net"
+          git config --local user.name "AVB Dev Bot"
           
-      - name: Bump version in package.json
+      - name: Bump Version
         run: yarn version --new-version ${{ github.event.inputs.version }} 
           
       - name: Push Tags
         run: git push --follow-tags
-
-#       - name: Push to master
-#         run: git push origin master
 
       - name: Create Release
         env:
