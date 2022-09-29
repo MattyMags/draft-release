@@ -2,6 +2,18 @@
 ## Unreleased 
 
 
+## 150.15.0 (2022-9-29)
+
+### ✨ Features
+
+- **Product:** knock2-dashstar ([ff5f64d](https://github.com/BrandSourceDigital/alta/commit/ff5f64dbd9612333ec5b0841dca31ce14e7ce515))
+
+### 🐛 Fixes
+
+- update hotfix-release again ([b8a1b92](https://github.com/BrandSourceDigital/alta/commit/b8a1b92616ee293ec4828b6663d834d386c7f991))
+- **App:** fix hotfix-release ([d986f61](https://github.com/BrandSourceDigital/alta/commit/d986f61e06d0b912a1bd2136d96f63ff3af41a11))
+
+
 ## 150.14.1 (2022-9-29)
 
 ### 🐛 Fixes
