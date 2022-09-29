@@ -2,6 +2,21 @@
 ## Unreleased 
 
 
+## 150.14.1 (2022-9-29)
+
+### 🐛 Fixes
+
+- **Product:** sim a hotfix ([cd70581](https://github.com/BrandSourceDigital/alta/commit/cd705815755a3aa10a87f5d14ee3325c497411c7))
+- **Product:** sim a hotfix ([4f29120](https://github.com/BrandSourceDigital/alta/commit/4f291208e089e3bc308e0e110d8866fee7db062d))
+
+
+## 150.14.0 (2022-9-29)
+
+### ✨ Features
+
+- **Product:** add new feature ([f068758](https://github.com/BrandSourceDigital/alta/commit/f0687582e5b756f268b16bc509ff8e5f60198c61))
+
+
 ## 150.13.0 (2022-9-22)
 
 ### 🐛 Fixes
