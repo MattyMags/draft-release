@@ -19,7 +19,7 @@ jobs:
           ref: master
           fetch-depth: 0
 
-      - name: Extract version from branch name (for release branches)
+      - name: Extract version from branch name
         run: |
           BRANCH_NAME="${{ github.event.pull_request.head.ref }}"
           VERSION=${BRANCH_NAME#release/}
@@ -30,13 +30,13 @@ jobs:
           git config --local user.email "avb-dev-services@avb.net"
           git config --local user.name "AVB Dev Bot"
 
-      - name: Bump version in package.json
+      - name: Bump version
         run: yarn version --new-version ${{ env.RELEASE_VERSION }}
 
-      - name: Push Tags 
+      - name: Push tags 
         run: git push --follow-tags
           
-      - name: Create Release
+      - name: Create release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
