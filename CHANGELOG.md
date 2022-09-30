@@ -2,6 +2,13 @@
 ## Unreleased 
 
 
+## 150.16.1 (2022-9-30)
+
+### 🐛 Fixes
+
+- **App:** new hotfix ([b03a9d5](https://github.com/BrandSourceDigital/alta/commit/b03a9d5e006950ab3de9ed5992867ec79362ebee))
+
+
 ## 150.16.0 (2022-9-30)
 
 ### ✨ Features
