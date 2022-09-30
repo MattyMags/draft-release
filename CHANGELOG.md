@@ -2,6 +2,13 @@
 ## Unreleased 
 
 
+## 150.16.0 (2022-9-30)
+
+### ✨ Features
+
+- **App:** new feature ([dbcc0e7](https://github.com/BrandSourceDigital/alta/commit/dbcc0e7b0749abb7a59f546888517f546a0ad1d2))
+
+
 ## 150.15.0 (2022-9-29)
 
 ### ✨ Features
