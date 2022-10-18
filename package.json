@@ -1,12 +1,12 @@
 {
   "name": "draft-release",
-  "version": "154.0.0",
+  "version": "153.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "changelog": "node ./generateChangeLog.js && node ./changelog.js",
-    "unreleased": "node ./changelog.js -U"
+    "unreleased": "node ./generateChangeLog && node ./changelog.js -U"
   },
   "dependencies": {
     "fs-extra": "^10.1.0",
