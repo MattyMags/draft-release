@@ -21,7 +21,7 @@ var argv = require("yargs/yargs")(process.argv.slice(2)).argv;
 // };
 // console.log(Object.keys(changelogJson).slice(0, 1));
 const changelogArr = Object.keys(changelogJson)
-  .slice(0, argv.u ? 1 : null)
+  .slice(0, argv.u ? 1 : Object.keys(changelogJson).length - 1)
   .map((tag) => {
     const { commits, title, date } = changelogJson[tag];
     let body = "";
