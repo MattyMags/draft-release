@@ -11,7 +11,7 @@ var argv = require("yargs/yargs")(process.argv.slice(2)).argv;
 const changelogJsonToPass = () => {
   let arr;
   if (argv.u) {
-    const json = changelogJson["unreleased"];
+    const json = changelogJson[0];
     arr = json;
     return arr;
   } else {
@@ -19,64 +19,66 @@ const changelogJsonToPass = () => {
     return arr;
   }
 };
-const changelogArr = Object.keys(changelogJsonToPass).map((tag) => {
-  // const tagToPass = argv.u ? "unreleased" : tag;
-  const { commits, title, date } = changelogJson[tag];
-  let body = "";
 
-  const { feat, fix, enh, refactor, revert, chore, test } =
-    getCommitsByType(commits);
+const changelogArr = Object.keys(changelogJson)
+  .slice(argv.u ? 1 : null)
+  .map((tag) => {
+    const { commits, title, date } = changelogJson[tag];
+    let body = "";
 
-  const createSection = (sectionTitle, commitsList) => {
-    const transformList = commitsList
-      .map((commit) => {
-        const { scopeText, description, fullHash, partialHash } = commit;
-        return (
-          `- ${scopeText ? `**${scopeText}:** ` : ""}` +
-          `${description} ([${partialHash}](https://github.com/BrandSourceDigital/alta/commit/${fullHash}))`
-        );
-      })
-      .join("\n");
+    const { feat, fix, enh, refactor, revert, chore, test } =
+      getCommitsByType(commits);
 
-    return `
+    const createSection = (sectionTitle, commitsList) => {
+      const transformList = commitsList
+        .map((commit) => {
+          const { scopeText, description, fullHash, partialHash } = commit;
+          return (
+            `- ${scopeText ? `**${scopeText}:** ` : ""}` +
+            `${description} ([${partialHash}](https://github.com/BrandSourceDigital/alta/commit/${fullHash}))`
+          );
+        })
+        .join("\n");
+
+      return `
 ### ${sectionTitle}
 
 ${transformList}
 `;
-  };
+    };
 
-  if (test.length > 0) {
-    body = body + createSection("BREAKING CHANGES", test);
-  }
+    if (test.length > 0) {
+      body = body + createSection("BREAKING CHANGES", test);
+    }
 
-  if (feat.length > 0) {
-    body = body + createSection("✨ Features", feat);
-  }
+    if (feat.length > 0) {
+      body = body + createSection("✨ Features", feat);
+    }
 
-  if (fix.length > 0) {
-    body = body + createSection("🐛 Fixes", fix);
-  }
+    if (fix.length > 0) {
+      body = body + createSection("🐛 Fixes", fix);
+    }
 
-  if (refactor.length > 0) {
-    body = body + createSection("🔨 Refactors", refactor);
-  }
+    if (refactor.length > 0) {
+      body = body + createSection("🔨 Refactors", refactor);
+    }
 
-  if (enh.length > 0) {
-    body = body + createSection("🧪 Enhancements", enh);
-  }
+    if (enh.length > 0) {
+      body = body + createSection("🧪 Enhancements", enh);
+    }
 
-  if (revert.length > 0) {
-    body = body + createSection("🚧 Reverts", revert);
-  }
+    if (revert.length > 0) {
+      body = body + createSection("🚧 Reverts", revert);
+    }
 
-  if (chore.length > 0) {
-    body = body + createSection("🔧 Chores", chore);
-  }
+    if (chore.length > 0) {
+      body = body + createSection("🔧 Chores", chore);
+    }
 
-  return `
+    return `
 ## ${title} ${date ? `(${date})` : ""}
 ${body}`;
-});
+  });
 
 /**
  * Write to the file.
