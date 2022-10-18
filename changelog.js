@@ -7,9 +7,21 @@ var argv = require("yargs/yargs")(process.argv.slice(2)).argv;
 /**
  * The final markup for the CHANGELOG.
  */
-const changelogArr = Object.keys(changelogJson).map((tag) => {
-  const tagToPass = argv.u ? "unreleased" : tag;
-  const { commits, title, date } = changelogJson[tagToPass];
+
+const changelogJsonToPass = () => {
+  let arr;
+  if (argv.u) {
+    const json = changelogJson["unreleased"];
+    arr = json;
+    return arr;
+  } else {
+    arr = changelogJson;
+    return arr;
+  }
+};
+const changelogArr = Object.keys(changelogJsonToPass).map((tag) => {
+  // const tagToPass = argv.u ? "unreleased" : tag;
+  const { commits, title, date } = changelogJson[tag];
   let body = "";
 
   const { feat, fix, enh, refactor, revert, chore, test } =
@@ -73,7 +85,7 @@ fs.writeFileSync(
   path.resolve(
     __dirname,
     ".",
-    argv.u ? "UNRELEASEDCHANGELOG.md" : "CHANGELOG.md"
+    argv.u ? "UNRELEASEDCHANGELOG .md" : "CHANGELOG.md"
   ),
   changelogArr.join("\n"),
   {
