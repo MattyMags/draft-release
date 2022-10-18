@@ -70,7 +70,11 @@ ${body}`;
  * Write to the file.
  */
 fs.writeFileSync(
-  path.resolve(__dirname, ".", argv.u ? "UNRELEASED.md" : "CHANGELOG.md"),
+  path.resolve(
+    __dirname,
+    ".",
+    argv.u ? "UNRELEASEDCHANGELOG.md" : "CHANGELOG.md"
+  ),
   changelogArr.join("\n"),
   {
     encoding: "utf8",
