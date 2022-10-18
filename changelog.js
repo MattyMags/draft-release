@@ -85,7 +85,7 @@ fs.writeFileSync(
   path.resolve(
     __dirname,
     ".",
-    argv.u ? "UNRELEASEDCHANGELOG .md" : "CHANGELOG.md"
+    argv.u ? "UNRELEASEDCHANGELOG.md" : "CHANGELOG.md"
   ),
   changelogArr.join("\n"),
   {
