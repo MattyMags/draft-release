@@ -1,17 +1,14 @@
 ## An automated verisioning approach for Git-Flow using GitHub actions.
 
-__NORMAL FLOW__
+**NORMAL FLOW**
 
+**HOTFIX FLOW**
 
-__HOTFIX FLOW__
+`Draft New Release (Manual):`
 
+**Depends on: No deps, manual trigger dispatch in GH UI**
 
-
-`Draft New Release (Manual):` 
-
-__Depends on: No deps, manual trigger dispatch in GH UI__
-
-The first action that kicks off and is executed by a button in the actions panel. Requires a version number to be inputted. Once the action is dispatched, it performs a series of operations, they are as follows: 
+The first action that kicks off and is executed by a button in the actions panel. Requires a version number to be inputted. Once the action is dispatched, it performs a series of operations, they are as follows:
 
 - Creates a release branch - release/{{ version that was inputted}}
 
@@ -27,13 +24,13 @@ The first action that kicks off and is executed by a button in the actions panel
 
 - Adds the unreleased changes from UNRELEASEDCHANGELOG.md as a comment on the PR
 
-- Once the PR is created it is now just a normal release pr. When this PR is merged it kicks off the next sequence of actions. 
+- Once the PR is created it is now just a normal release pr. When this PR is merged it kicks off the next sequence of actions.
 
 <hr/>
 
 `Publish New Release (Automated):`
 
-__Depends on: Release branches being merged into master__
+**Depends on: Release branches being merged into master**
 
 - Extracts version number
 
@@ -43,9 +40,9 @@ __Depends on: Release branches being merged into master__
 
  <hr/>
 
-`Update Changelog (Automated)`: 
+`Update Changelog (Automated)`:
 
-__Depends on: Publish New Release or Hotfix New Release successful completion__
+**Depends on: Publish New Release or Hotfix New Release successful completion**
 
 - Runs changelog generator
 
@@ -57,9 +54,9 @@ __Depends on: Publish New Release or Hotfix New Release successful completion__
 
 `Hotfix New Release (Manual):`
 
-__Depends on: No deps, manual trigger dispatch in GH UI__
+**Depends on: No deps, manual trigger dispatch in GH UI**
 
-- Bumps version in package.json 
+- Bumps version in package.json
 
 - Commits package.json
 
@@ -70,4 +67,3 @@ __Depends on: No deps, manual trigger dispatch in GH UI__
 - Merges master back into dev
 
 - Kicks off Update Changelog action
-
