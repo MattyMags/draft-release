@@ -79,7 +79,6 @@ ${transformList}
 ## ${title} ${date ? `(${date})` : ""}
 ${body}`;
   });
-console.log(changelogArr);
 /**
  * Write to the file.
  */
