@@ -19,7 +19,7 @@ const changelogJsonToPass = () => {
     return arr;
   }
 };
-const changelogArr = changelogJsonToPass.map((tag) => {
+const changelogArr = object.keys(changelogJsonToPass()).map((tag) => {
   // const tagToPass = argv.u ? "unreleased" : tag;
   const { commits, title, date } = changelogJson[tagToPass];
   let body = "";
