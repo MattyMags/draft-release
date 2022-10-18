@@ -11,3 +11,4 @@ const news = "new";
 
 const knock2 = "dashstar";
 const newFeature = "newFeature";
+const testing = "test";
