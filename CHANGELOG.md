@@ -2,6 +2,13 @@
 ## Unreleased 
 
 
+## 154.0.0 (2022-10-18)
+
+### 🐛 Fixes
+
+- who knows ([6f3c4b7](https://github.com/BrandSourceDigital/alta/commit/6f3c4b79bc0935f246a23f567c4264801c88b6a9))
+
+
 ## 153.0.0 (2022-10-18)
 
 ### 🐛 Fixes
