@@ -16,8 +16,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          fetch-depth: 0 # Do not change, fetches all the commits to pass to the starting ref. 
-          
+          fetch-depth: 0 # Do not change, fetches all the commits to pass to the starting ref.
+
       - name: Create release branch
         run: git checkout -b release/${{ github.event.inputs.version }}
 
@@ -26,17 +26,17 @@ jobs:
           git config --local user.email "avb-dev-services@avb.net"
           git config --local user.name "AVB Dev Bot"
 
-      - name: Update Unreleased Changelog 
+      - name: Update Unreleased Changelog
         run: yarn install && yarn unreleased
-          
+
       - name: Push new branch
         run: git push origin release/${{ github.event.inputs.version }}
-        
+
       - name: Generate Comment String from Markdown
         id: get-comment-content
         uses: juliangruber/read-file-action@v1
         with:
-          path: ./URELEASEDCHANGELOG.md
+          path: ./UNRELEASEDCHANGELOG.md
 
       - name: Create pull request
         uses: thomaseizinger/create-pull-request@1.0.0
@@ -46,9 +46,7 @@ jobs:
         with:
           head: release/${{ github.event.inputs.version }}
           base: master
-          title: > 
-                chore: Prerelease - ${{ github.event.inputs.version }}
+          title: >
+            chore: Prerelease - ${{ github.event.inputs.version }}
           reviewers: ${{ github.actor }}
           body: ${{ steps.get-comment-content.outputs.content }}
-                  
-
