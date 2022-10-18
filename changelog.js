@@ -8,20 +8,20 @@ var argv = require("yargs/yargs")(process.argv.slice(2)).argv;
  * The final markup for the CHANGELOG.
  */
 
-const changelogJsonToPass = () => {
-  let arr;
-  if (argv.u) {
-    const json = changelogJson[0];
-    arr = json;
-    return arr;
-  } else {
-    arr = changelogJson;
-    return arr;
-  }
-};
-
+// const changelogJsonToPass = () => {
+//   let arr;
+//   if (argv.u) {
+//     const json = changelogJson[0];
+//     arr = json;
+//     return arr;
+//   } else {
+//     arr = changelogJson;
+//     return arr;
+//   }
+// };
+// console.log(Object.keys(changelogJson).slice(0, 1));
 const changelogArr = Object.keys(changelogJson)
-  .slice(argv.u ? 1 : null)
+  .slice(0, argv.u ? 1 : null)
   .map((tag) => {
     const { commits, title, date } = changelogJson[tag];
     let body = "";
@@ -79,7 +79,6 @@ ${transformList}
 ## ${title} ${date ? `(${date})` : ""}
 ${body}`;
   });
-
 /**
  * Write to the file.
  */
