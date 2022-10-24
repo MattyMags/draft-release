@@ -2,6 +2,13 @@
 ## Unreleased 
 
 
+## 180.0.0 (2022-10-24)
+
+### 🐛 Fixes
+
+- **App:** sim new fix ([0f7dba0](https://github.com/BrandSourceDigital/alta/commit/0f7dba0465f4b182f96a633ada60d3b6fdeaa59d))
+
+
 ## 165.3.4 (2022-10-18)
 
 ### 🐛 Fixes
