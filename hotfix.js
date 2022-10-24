@@ -23,3 +23,4 @@ const newHotfix = "aaaaaaaa";
 const newerHotfix = "newHotifx";
 const test = "tests";
 const newTesst = "test";
+const simFix = "new fix";
