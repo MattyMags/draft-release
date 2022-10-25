@@ -2,6 +2,14 @@
 ## Unreleased 
 
 
+## vv187.0.0 (2022-10-25)
+
+### 🐛 Fixes
+
+- add v to push ([70f5b71](https://github.com/BrandSourceDigital/alta/commit/70f5b71f14ac704b48973cb7cf16c0281e270e22))
+- **Testing:** this should show in release notes ([84e8169](https://github.com/BrandSourceDigital/alta/commit/84e8169436c0c00c1e78d5c222d6d802e996c66e))
+
+
 ## v186.0.0 (2022-10-25)
 
 ### 🐛 Fixes
