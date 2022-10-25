@@ -44,7 +44,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          head: release/${{ github.event.inputs.version }}
+          head: release/v${{ github.event.inputs.version }}
           base: master
           title: >
             chore: Prerelease - v${{ github.event.inputs.version }}
