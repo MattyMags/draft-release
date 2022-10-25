@@ -30,7 +30,7 @@ jobs:
         run: yarn install && yarn unreleased
 
       - name: Push new branch
-        run: git push origin release/${{ github.event.inputs.version }}
+        run: git push origin release/v${{ github.event.inputs.version }}
 
       - name: Generate Comment String from Markdown
         id: get-comment-content
