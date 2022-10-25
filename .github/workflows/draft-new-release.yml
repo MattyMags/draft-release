@@ -19,7 +19,7 @@ jobs:
           fetch-depth: 0 # Do not change, fetches all the commits to pass to the starting ref.
 
       - name: Create release branch
-        run: git checkout -b release/${{ github.event.inputs.version }}
+        run: git checkout -b release/v${{ github.event.inputs.version }}
 
       - name: Initialize mandatory git config
         run: |
@@ -30,7 +30,7 @@ jobs:
         run: yarn install && yarn unreleased
 
       - name: Push new branch
-        run: git push origin release/${{ github.event.inputs.version }}
+        run: git push origin release/v${{ github.event.inputs.version }}
 
       - name: Generate Comment String from Markdown
         id: get-comment-content
@@ -44,9 +44,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          head: release/${{ github.event.inputs.version }}
+          head: release/v${{ github.event.inputs.version }}
           base: master
           title: >
-            chore: Prerelease - ${{ github.event.inputs.version }}
+            chore: Prerelease - v${{ github.event.inputs.version }}
           reviewers: ${{ github.actor }}
           body: ${{ steps.get-comment-content.outputs.content }}
