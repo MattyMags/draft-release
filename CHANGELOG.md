@@ -2,6 +2,13 @@
 ## Unreleased 
 
 
+## v186.0.0 (2022-10-25)
+
+### 🐛 Fixes
+
+- **Actions:** add v to name ([3f31f22](https://github.com/BrandSourceDigital/alta/commit/3f31f22b489eade1948dff865da94db269d87cf8))
+
+
 ## v185.0.0 (2022-10-25)
 
 ### 🐛 Fixes
