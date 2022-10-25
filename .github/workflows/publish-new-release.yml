@@ -46,7 +46,7 @@ jobs:
             /repos/mattymags/draft-release/releases \
             -f tag_name=v${{ env.RELEASE_VERSION }}  \
            -f target_commitish='master' \
-           -f name=${{ env.RELEASE_VERSION }} \
+           -f name="Release - v${{ env.RELEASE_VERSION }}" \
            -f body='Description of the release' \
            -F draft=false \
            -F prerelease=false \
