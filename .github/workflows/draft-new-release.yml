@@ -19,7 +19,7 @@ jobs:
           fetch-depth: 0 # Do not change, fetches all the commits to pass to the starting ref.
 
       - name: Create release branch
-        run: git checkout -b release/${{ github.event.inputs.version }}
+        run: git checkout -b release/v${{ github.event.inputs.version }}
 
       - name: Initialize mandatory git config
         run: |
@@ -47,6 +47,6 @@ jobs:
           head: release/${{ github.event.inputs.version }}
           base: master
           title: >
-            chore: Prerelease - ${{ github.event.inputs.version }}
+            chore: Prerelease - v${{ github.event.inputs.version }}
           reviewers: ${{ github.actor }}
           body: ${{ steps.get-comment-content.outputs.content }}
