@@ -14,7 +14,8 @@ const changelogTagToPass = argv.tag
   ? changelogJSONTags.filter((tag) => tag === argv.tag)
   : changelogJSONTags;
 
-const changelogArr = changelogTagToPass.map((tag) => {
+const changelogArr = changelogJSONTags.map((tag) => {
+  console.log(tag);
   const { commits, title, date } = changelogJson[tag];
   let body = "";
 
