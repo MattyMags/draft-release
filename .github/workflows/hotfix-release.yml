@@ -40,6 +40,12 @@ jobs:
       - name: Update tagged release with changelog
         run: yarn install && node ./generateChangeLog.js && node ./taggedChangelog.js --tag=v${{ github.event.inputs.version }}
 
+      - name: Generate Comment String from Markdown
+        id: get-comment-content
+        uses: juliangruber/read-file-action@v1
+        with:
+          path: ./TAGGEDCHANGELOG.md
+
       - name: Create Release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -48,13 +54,13 @@ jobs:
             --method POST \
             -H "Accept: application/vnd.github+json" \
             /repos/mattymags/draft-release/releases \
-            -f tag_name=v${{ github.event.inputs.version }}  \
+            -f tag_name="v${{ github.event.inputs.version }}" \
            -f target_commitish='master' \
-           -f name=Release - v${{ github.event.inputs.version }} \
-           -f body='Description of the release' \
+           -f name="Release - v${{ github.event.inputs.version }}" \
+           -f body="${{ steps.get-comment-content.outputs.content }}" \
            -F draft=false \
            -F prerelease=false \
-           -F generate_release_notes=true
+           -F generate_release_notes=false
 
       - name: Commit updated CHANGELOG
         run: |
