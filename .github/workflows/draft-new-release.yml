@@ -5,7 +5,7 @@ on:
     inputs:
       verify-branch-is-master:
         type: boolean
-        description: "Verify no "v" prefix"
+        description: "Verify no 'v' prefix"
         required: true
       version:
         description: "The version you want to release."
