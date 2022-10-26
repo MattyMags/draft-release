@@ -56,7 +56,7 @@ jobs:
             -f tag_name=${{ env.RELEASE_VERSION }}  \
            -f target_commitish='master' \
            -f name="Release - ${{ env.RELEASE_VERSION }}" \
-           -f body=${{ steps.get-comment-content.outputs.content }}\
+           -f body=${{ steps.get-comment-content.outputs.content }} \
            -F draft=false \
            -F prerelease=false \
            -F generate_release_notes=false
