@@ -40,7 +40,7 @@ jobs:
         run: git push --follow-tags
 
       - name: Update tagged release with changelog
-        run: yarn install && node ./generateChangeLog.js && node ./taggedChangelog.js --tag=${{ env.RELEASE_VERSION }}
+        run: yarn install && node ./generateChangeLog.js && node ./taggedChangelog.js --tag=v${{ env.RELEASE_VERSION }}
 
       - name: Generate Comment String from Markdown
         id: get-comment-content
