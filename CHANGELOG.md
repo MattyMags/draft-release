@@ -2,34 +2,27 @@
 ## Unreleased 
 
 
-## vv213.0.0 (2022-10-26)
+## v215.0.0 (2022-10-26)
+
+### 🐛 Fixes
+
+- add v to env var ([dad37ea](https://github.com/BrandSourceDigital/alta/commit/dad37ea597ce027112a79639a75d3edcc2dd77a8))
+
+
+## v214.0.0 (2022-10-26)
+
+### 🐛 Fixes
+
+- **Publish Release:** split string char ([fe72788](https://github.com/BrandSourceDigital/alta/commit/fe727880dcdfea28a1f80611aebb2de95bae9ab8))
+
+
+## v213.0.0 (2022-10-26)
 
 ### 🐛 Fixes
 
 - more stuff ([6d78793](https://github.com/BrandSourceDigital/alta/commit/6d78793a3ee6a9eb4ca33c5bf04321adacdbf25d))
-
-
-## vv212.0.0 (2022-10-26)
-
-### 🐛 Fixes
-
 - stuff ([d207036](https://github.com/BrandSourceDigital/alta/commit/d2070362862a093403e36806d3493e7be9085ba0))
-
-
-## vv211.0.0 (2022-10-26)
-
-
-## vv206.0.0 (2022-10-26)
-
-### 🐛 Fixes
-
 - **App:** remove version prefix ([4d7f594](https://github.com/BrandSourceDigital/alta/commit/4d7f594c04fcc2e0b83d39acb7c2cc45b6890628))
-
-
-## vv205.0.0 (2022-10-26)
-
-### 🐛 Fixes
-
 - publish release ([95a9a3b](https://github.com/BrandSourceDigital/alta/commit/95a9a3b03f790a0268158bf34c74d75395f28ea9))
 
 
