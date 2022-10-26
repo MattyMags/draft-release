@@ -31,7 +31,7 @@ jobs:
           git config --local user.name "AVB Dev Bot"
 
       - name: Update Unreleased Changelog
-        run: yarn install && yarn unreleased
+        run: yarn install && node ./generateChangeLog.js && node ./taggedChangelog.js --tag=unreleased
 
       - name: Push new branch
         run: git push origin release/v${{ github.event.inputs.version }}
@@ -40,7 +40,7 @@ jobs:
         id: get-comment-content
         uses: juliangruber/read-file-action@v1
         with:
-          path: ./UNRELEASEDCHANGELOG.md
+          path: ./TAGGEDCHANGELOG.md
 
       - name: Create pull request
         uses: thomaseizinger/create-pull-request@1.0.0
