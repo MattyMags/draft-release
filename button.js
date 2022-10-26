@@ -18,3 +18,4 @@ const newfix = "fixxx";
 const again = "test again";
 const tr = "t";
 const trs = "ts";
+const hotfixxxxx = "hotfixing stuff";
