@@ -2,12 +2,40 @@
 ## Unreleased 
 
 
-<<<<<<< Updated upstream
-## vv201.0.0 (2022-10-26)
+## vv213.0.0 (2022-10-26)
+
+### 🐛 Fixes
+
+- more stuff ([6d78793](https://github.com/BrandSourceDigital/alta/commit/6d78793a3ee6a9eb4ca33c5bf04321adacdbf25d))
 
 
-=======
->>>>>>> Stashed changes
+## vv212.0.0 (2022-10-26)
+
+### 🐛 Fixes
+
+- stuff ([d207036](https://github.com/BrandSourceDigital/alta/commit/d2070362862a093403e36806d3493e7be9085ba0))
+
+
+## vv211.0.0 (2022-10-26)
+
+
+## vv206.0.0 (2022-10-26)
+
+### 🐛 Fixes
+
+- **App:** remove version prefix ([4d7f594](https://github.com/BrandSourceDigital/alta/commit/4d7f594c04fcc2e0b83d39acb7c2cc45b6890628))
+
+
+## vv205.0.0 (2022-10-26)
+
+### 🐛 Fixes
+
+- publish release ([95a9a3b](https://github.com/BrandSourceDigital/alta/commit/95a9a3b03f790a0268158bf34c74d75395f28ea9))
+
+
+## v201.0.0 (2022-10-26)
+
+
 ## v200.0.0 (2022-10-26)
 
 ### 🐛 Fixes
@@ -120,21 +148,21 @@
 ## 155.0.0 (2022-10-18)
 
 
-## 154.0.0 (2022-10-17)
+## 154.0.0 (2022-10-18)
 
 ### 🐛 Fixes
 
 - who knows ([6f3c4b7](https://github.com/BrandSourceDigital/alta/commit/6f3c4b79bc0935f246a23f567c4264801c88b6a9))
 
 
-## 153.0.0 (2022-10-17)
+## 153.0.0 (2022-10-18)
 
 ### 🐛 Fixes
 
 - idk ([0d64694](https://github.com/BrandSourceDigital/alta/commit/0d64694caf5b5b6ae7dea143a1fc3849dfd7f7ff))
 
 
-## 152.0.0 (2022-10-17)
+## 152.0.0 (2022-10-18)
 
 
 ## 150.16.1 (2022-9-30)
