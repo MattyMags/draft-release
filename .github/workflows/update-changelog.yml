@@ -1,7 +1,7 @@
 name: "Update Changelog"
 on:
   workflow_run:
-    # workflows: ["Publish new release", "Hotfix new release"]
+    workflows: ["Publish new release", "Hotfix new release"]
     types:
       - completed
 
