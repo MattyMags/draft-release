@@ -56,9 +56,9 @@ jobs:
             --method POST \
             -H "Accept: application/vnd.github+json" \
             /repos/mattymags/draft-release/releases \
-            -f tag_name=${{ env.RELEASE_VERSION }}  \
+            -f tag_name=v${{ env.RELEASE_VERSION }}  \
            -f target_commitish='master' \
-           -f name="Release - ${{ env.RELEASE_VERSION }}" \
+           -f name="Release - v${{ env.RELEASE_VERSION }}" \
            -f body="${{ steps.get-comment-content.outputs.content }}" \
            -F draft=false \
            -F prerelease=false \
