@@ -1,7 +1,7 @@
 name: "Update Changelog"
 on:
   workflow_run:
-    workflows: ["Publish new release", "Hotfix new release"]
+    # workflows: ["Publish new release", "Hotfix new release"]
     types:
       - completed
 
@@ -15,7 +15,7 @@ jobs:
         with:
           ref: master
           fetch-depth: 0
-          
+
       - name: Extract version
         run: |
           version=$(node -p "require('./package.json').version")
@@ -23,17 +23,17 @@ jobs:
 
       - name: Update changelog
         run: yarn install && yarn changelog
-        
+
       - name: Set Git config
         run: |
           git config --local user.email "avb-dev-services@avb.net"
           git config --local user.name "AVB Dev Bot"
 
       - name: Commit updated CHANGELOG
-        run: | 
+        run: |
           git add CHANGELOG.md
           git commit -m 'chore: update - ${{ env.CURRENT_VERSION }}'
-          git push        
+          git push
 
       - name: Merge master back to dev
         run: |

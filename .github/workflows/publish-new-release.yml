@@ -33,8 +33,17 @@ jobs:
       - name: Bump version
         run: yarn version --new-version ${{ env.RELEASE_VERSION }}
 
+      - name: Update changelog
+        run: yarn install && yarn changelog
+
       - name: Push tags
         run: git push --follow-tags
+
+      - name: Generate Comment String from Markdown
+        id: get-comment-content
+        uses: juliangruber/read-file-action@v1
+        with:
+          path: ./CHANGELOG.md
 
       - name: Create release
         env:
@@ -44,13 +53,19 @@ jobs:
             --method POST \
             -H "Accept: application/vnd.github+json" \
             /repos/mattymags/draft-release/releases \
-            -f tag_name=v${{ env.RELEASE_VERSION }}  \
+            -f tag_name=${{ env.RELEASE_VERSION }}  \
            -f target_commitish='master' \
-           -f name="Release - v${{ env.RELEASE_VERSION }}" \
-           -f body='Description of the release' \
+           -f name="Release - ${{ env.RELEASE_VERSION }}" \
+           -f body=${{ steps.get-comment-content.outputs.content }}\
            -F draft=false \
            -F prerelease=false \
-           -F generate_release_notes=true
+           -F generate_release_notes=false
+
+      - name: Commit updated CHANGELOG
+        run: |
+          git add CHANGELOG.md
+          git commit -m 'chore: update - ${{ env.RELEASE_VERSION }}'
+          git push
 
       - name: Merge master back to dev
         run: |

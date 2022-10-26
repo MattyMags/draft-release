@@ -3,6 +3,10 @@ name: "Draft New Release"
 on:
   workflow_dispatch:
     inputs:
+      verify-branch-is-master:
+        type: boolean
+        description: "Verify no "v" prefix"
+        required: true
       version:
         description: "The version you want to release."
         required: true
