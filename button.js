@@ -16,3 +16,4 @@ const idkd = "idk";
 const fixx = "fixn stuff";
 const newfix = "fixxx";
 const again = "test again";
+const tr = "t";
