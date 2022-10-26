@@ -34,10 +34,10 @@ jobs:
       - name: Update changelog
         run: yarn install && yarn changelog
 
-      - name: Push Tags
+      - name: Push tags
         run: git push --follow-tags
 
-      - name: Update tagged release with changelog
+      - name: Run tagged changelog
         run: yarn install && node ./generateChangeLog.js && node ./taggedChangelog.js --tag=v${{ github.event.inputs.version }}
 
       - name: Generate Comment String from Markdown
@@ -65,7 +65,7 @@ jobs:
       - name: Commit updated CHANGELOG
         run: |
           git add CHANGELOG.md
-          git commit -m 'chore: update - ${{ env.RELEASE_VERSION }}'
+          git commit -m 'chore: update - v${{ github.event.inputs.version }}'
           git push
 
       - name: Merge master back to dev
