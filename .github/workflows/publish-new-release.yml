@@ -39,14 +39,14 @@ jobs:
       - name: Push tags
         run: git push --follow-tags
 
-      - name: Update tagged release with changelog
-        run: yarn install && node ./generateChangeLog.js && node ./taggedChangelog.js --tag=${{ env.RELEASE_VERSION }}
+      # - name: Update tagged release with changelog
+      #   run: yarn install && node ./generateChangeLog.js && node ./taggedChangelog.js --tag=${{ env.RELEASE_VERSION }}
 
       - name: Generate Comment String from Markdown
         id: get-comment-content
         uses: juliangruber/read-file-action@v1
         with:
-          path: ./CHANGELOG.md
+          path: ./TAGGEDCHANGELOG.md
 
       - name: Create release
         env:
