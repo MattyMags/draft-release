@@ -2,10 +2,26 @@
 ## Unreleased 
 
 
-## vv187.0.0 (2022-10-25)
+## vv192.0.0 (2022-10-26)
 
 ### 🐛 Fixes
 
+- **Pub:** fix syntax again ([ef508e0](https://github.com/BrandSourceDigital/alta/commit/ef508e0fee7fc821b1d75075dfe513a6a9c284de))
+
+
+## v191.0.0 (2022-10-26)
+
+### 🐛 Fixes
+
+- **Pub:** fix syntax i think ([09caa48](https://github.com/BrandSourceDigital/alta/commit/09caa4838d29cccadb6bbdc28dc45160459647eb))
+
+
+## v190.0.0 (2022-10-26)
+
+### 🐛 Fixes
+
+- **Draft Release:** syntax error ([a4fd3dc](https://github.com/BrandSourceDigital/alta/commit/a4fd3dca0fe8e83973d893f18dafc93d14806ed6))
+- fix stuff ([a54ba00](https://github.com/BrandSourceDigital/alta/commit/a54ba00e15e2e1af884eae02883a7b45e90fa4fc))
 - add v to push ([70f5b71](https://github.com/BrandSourceDigital/alta/commit/70f5b71f14ac704b48973cb7cf16c0281e270e22))
 - **Testing:** this should show in release notes ([84e8169](https://github.com/BrandSourceDigital/alta/commit/84e8169436c0c00c1e78d5c222d6d802e996c66e))
 
@@ -87,21 +103,21 @@
 ## 155.0.0 (2022-10-18)
 
 
-## 154.0.0 (2022-10-17)
+## 154.0.0 (2022-10-18)
 
 ### 🐛 Fixes
 
 - who knows ([6f3c4b7](https://github.com/BrandSourceDigital/alta/commit/6f3c4b79bc0935f246a23f567c4264801c88b6a9))
 
 
-## 153.0.0 (2022-10-17)
+## 153.0.0 (2022-10-18)
 
 ### 🐛 Fixes
 
 - idk ([0d64694](https://github.com/BrandSourceDigital/alta/commit/0d64694caf5b5b6ae7dea143a1fc3849dfd7f7ff))
 
 
-## 152.0.0 (2022-10-17)
+## 152.0.0 (2022-10-18)
 
 
 ## 150.16.1 (2022-9-30)
