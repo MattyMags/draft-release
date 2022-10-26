@@ -31,7 +31,7 @@ jobs:
           git config --local user.name "AVB Dev Bot"
 
       - name: Update Unreleased Changelog
-        run: node ./generateChangeLog.js && node ./taggedChangelog.js --tag=unreleased
+        run: yarn install && node ./generateChangeLog.js && node ./taggedChangelog.js --tag=unreleased
 
       - name: Push new branch
         run: git push origin release/v${{ github.event.inputs.version }}
