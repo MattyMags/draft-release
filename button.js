@@ -24,3 +24,4 @@ const idkanymore = "idk";
 const hmm = "hmm";
 const s = "s";
 const t = "t";
+const commit = "commit";
