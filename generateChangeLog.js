@@ -119,7 +119,6 @@ const getLogTree = async (log) => {
       };
     }
     logTree[earliestTagFormatted].commits.push(entry);
-    console.log(logTree);
   }
   return logTree;
 };
@@ -139,7 +138,6 @@ const log = gitLogSync({
     body: bodySanitize,
   };
 });
-console.log(log[0]);
 getLogTree(log)
   .then((logTree) => {
     fs.writeFileSync(
