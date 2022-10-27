@@ -2,6 +2,14 @@
 ## Unreleased 
 
 
+## v295.0.0 (2022-10-27)
+
+### 🐛 Fixes
+
+- test commit 2 ([9c0d84a](https://github.com/BrandSourceDigital/alta/commit/9c0d84a282ae6c73d7027b12e892d7d105d8fa67))
+- test commit 1 ([e942a9e](https://github.com/BrandSourceDigital/alta/commit/e942a9ec2cf76813665ae18bae20da1901808fdd))
+
+
 ## v294.0.0 (2022-10-27)
 
 ### 🐛 Fixes
