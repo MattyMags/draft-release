@@ -2,6 +2,13 @@
 ## Unreleased 
 
 
+## v293.0.0 (2022-10-27)
+
+### 🔧 Chores
+
+- delete changelog.json ([870f585](https://github.com/BrandSourceDigital/alta/commit/870f5851d7e450679b0cd065976be03b8a6b0f30))
+
+
 ## v292.0.0 (2022-10-27)
 
 
