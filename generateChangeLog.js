@@ -109,7 +109,6 @@ const getLogTree = async (log) => {
       logTree["unreleased"].commits.push(entry);
       continue;
     }
-
     const earliestTagFormatted = earliestTag.trim();
 
     if (!logTree[earliestTagFormatted]) {
@@ -118,11 +117,10 @@ const getLogTree = async (log) => {
         date: getTitleDate(commitTime),
         commits: [],
       };
-    } else {
-      logTree[earliestTagFormatted].commits.push(entry);
     }
+    logTree[earliestTagFormatted].commits.push(entry);
+    console.log(logTree);
   }
-
   return logTree;
 };
 // let curTag = releaseAsVersion ? `v${version}` : 'unreleased';
@@ -141,7 +139,7 @@ const log = gitLogSync({
     body: bodySanitize,
   };
 });
-
+console.log(log[0]);
 getLogTree(log)
   .then((logTree) => {
     fs.writeFileSync(
