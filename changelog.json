@@ -4,6 +4,34 @@
     "date": null,
     "commits": []
   },
+  "v270.0.0": {
+    "title": "v270.0.0",
+    "date": "2022-10-27",
+    "commits": [
+      {
+        "fullHash": "9b9a326625376b0b7ba23321f23311a125f40134",
+        "partialHash": "9b9a326",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-10-27T18:43:55.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-10-27T18:43:55.000Z",
+        "subject": "fix: hotfix4",
+        "body": "",
+        "tags": [],
+        "type": "fix",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "hotfix4"
+      }
+    ]
+  },
   "v265.0.0": {
     "title": "v265.0.0",
     "date": "2022-10-27",
