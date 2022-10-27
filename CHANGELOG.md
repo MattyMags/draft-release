@@ -2,20 +2,40 @@
 ## Unreleased 
 
 
+## v294.0.0 (2022-10-27)
+
+### 🐛 Fixes
+
+- **Changelog:** add commit to log tree ([2de8233](https://github.com/BrandSourceDigital/alta/commit/2de823328814646a4633de298bc70c021e8d64d5))
+
+
 ## v293.0.0 (2022-10-27)
 
 ### 🔧 Chores
 
+- add gitignore ([2f44557](https://github.com/BrandSourceDigital/alta/commit/2f4455771874be56c21416195fae097a9b93f5de))
 - delete changelog.json ([870f585](https://github.com/BrandSourceDigital/alta/commit/870f5851d7e450679b0cd065976be03b8a6b0f30))
 
 
 ## v292.0.0 (2022-10-27)
 
+### 🐛 Fixes
+
+- changelog ([73badb5](https://github.com/BrandSourceDigital/alta/commit/73badb50f012fe2a511f44e58f137f8ec90adffe))
+
 
 ## v291.0.0 (2022-10-27)
 
+### 🐛 Fixes
+
+- hotfix8 ([579e715](https://github.com/BrandSourceDigital/alta/commit/579e715d6264b0b89c4bed459e3f9ee4a07a2148))
+
 
 ## v290.0.0 (2022-10-27)
+
+### 🐛 Fixes
+
+- hotfix5 ([07cf531](https://github.com/BrandSourceDigital/alta/commit/07cf531fc798867fab3a42a8e4308c80d2402613))
 
 
 ## v270.0.0 (2022-10-27)
@@ -34,32 +54,65 @@
 
 ## v262.0.0 (2022-10-27)
 
+### 🐛 Fixes
+
+- hotfix3 ([3dfde9c](https://github.com/BrandSourceDigital/alta/commit/3dfde9c51e35dbd71cc7f31b6735997cb0f26939))
+
 
 ## v261.0.0 (2022-10-27)
+
+### 🐛 Fixes
+
+- move changelog ([5c14b47](https://github.com/BrandSourceDigital/alta/commit/5c14b477b74a6007c1ad823b895d5329d4411863))
 
 
 ## v260.0.0 (2022-10-27)
 
+### 🐛 Fixes
+
+- add changelog.json to git commit ([8cb4c22](https://github.com/BrandSourceDigital/alta/commit/8cb4c227840eb882df4151cccb1fec66c5cc86fd))
+
 
 ## v255.0.0 (2022-10-27)
+
+### 🐛 Fixes
+
+- hotfix2 ([5869505](https://github.com/BrandSourceDigital/alta/commit/58695053e9ef84018be3ec0af97c76ea7fd823c6))
 
 
 ## v252.0.0 (2022-10-27)
 
+### 🐛 Fixes
+
+- hotfix ([f5ca537](https://github.com/BrandSourceDigital/alta/commit/f5ca53762929edbd59e657f4e946719029b8af23))
+
 
 ## v250.0.0 (2022-10-26)
+
+### 🐛 Fixes
+
+- fixxxxxx ([fbac5a5](https://github.com/BrandSourceDigital/alta/commit/fbac5a5a9978bb31d801a157e4d57de101d7091b))
 
 
 ## v240.0.0 (2022-10-26)
 
+### 🐛 Fixes
+
+- fixn stuff ([167437c](https://github.com/BrandSourceDigital/alta/commit/167437c3287cf68d94b56467a65729d00067097a))
+
 
 ## v230.0.0 (2022-10-26)
+
+### 🐛 Fixes
+
+- fixing hotfix ([dbf1efb](https://github.com/BrandSourceDigital/alta/commit/dbf1efb61b6e58a5b561beda2b9f39d8c492b149))
 
 
 ## 220.0.0 (2022-10-26)
 
 ### 🐛 Fixes
 
+- this is a hotfix sim ([65d5c6a](https://github.com/BrandSourceDigital/alta/commit/65d5c6a8b174a3f8a9fa940a681320b58a3e9d84))
 - move v in tagname ([9dee648](https://github.com/BrandSourceDigital/alta/commit/9dee6487eddbb5e0f61a7d4b1c437e38752da4a8))
 
 
