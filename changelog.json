@@ -4,6 +4,34 @@
     "date": null,
     "commits": []
   },
+  "v265.0.0": {
+    "title": "v265.0.0",
+    "date": "2022-10-27",
+    "commits": [
+      {
+        "fullHash": "ec027d61475f4a5af4a49237c40c6f1355a9cbbe",
+        "partialHash": "ec027d6",
+        "author": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "authorTime": "2022-10-27T18:27:36.000Z",
+        "committer": {
+          "name": "Github Actions",
+          "email": "actions@github.com"
+        },
+        "commitTime": "2022-10-27T18:27:36.000Z",
+        "subject": "fix: hotfix",
+        "body": "",
+        "tags": [],
+        "type": "fix",
+        "scope": null,
+        "scopeText": null,
+        "breakingChange": false,
+        "description": "hotfix"
+      }
+    ]
+  },
   "v262.0.0": {
     "title": "v262.0.0",
     "date": "2022-10-27",

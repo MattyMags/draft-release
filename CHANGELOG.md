@@ -2,6 +2,13 @@
 ## Unreleased 
 
 
+## v265.0.0 (2022-10-27)
+
+### 🐛 Fixes
+
+- hotfix ([ec027d6](https://github.com/BrandSourceDigital/alta/commit/ec027d61475f4a5af4a49237c40c6f1355a9cbbe))
+
+
 ## v262.0.0 (2022-10-27)
 
 
