@@ -31,11 +31,11 @@ jobs:
       - name: Bump Version
         run: yarn version --new-version ${{ github.event.inputs.version }}
 
-      - name: Update changelog
-        run: yarn install && yarn changelog
-
       - name: Push tags
         run: git push --follow-tags
+
+      - name: Update changelog
+        run: yarn install && yarn changelog
 
       - name: Generate Comment String from Markdown
         id: get-comment-content
