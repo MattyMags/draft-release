@@ -37,9 +37,6 @@ jobs:
       - name: Push tags
         run: git push --follow-tags
 
-      - name: Run tagged changelog
-        run: yarn install && node ./generateChangeLog.js && node ./taggedChangelog.js --tag=v${{ github.event.inputs.version }}
-
       - name: Generate Comment String from Markdown
         id: get-comment-content
         uses: juliangruber/read-file-action@v1
@@ -61,6 +58,9 @@ jobs:
            -F draft=false \
            -F prerelease=false \
            -F generate_release_notes=false
+
+      - name: Run tagged changelog
+        run: yarn install && node ./generateChangeLog.js && node ./taggedChangelog.js --tag=v${{ github.event.inputs.version }}
 
       - name: Commit updated CHANGELOG
         run: |
