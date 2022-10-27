@@ -15,8 +15,8 @@ const changelogTagToPass = argv.tag
   : changelogJSONTags;
 
 const changelogArr = changelogJSONTags.map((tag) => {
-  console.log(tag);
   const { commits, title, date } = changelogJson[tag];
+  console.log(changelogJson[tag]);
   let body = "";
 
   const { feat, fix, enh, refactor, revert, chore, test } =
