@@ -26,3 +26,4 @@ const s = "s";
 const t = "t";
 const commit = "commit";
 const commit2 = "commit";
+const newFeatureForPat = "1234";
