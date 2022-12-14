@@ -27,3 +27,4 @@ const t = "t";
 const commit = "commit";
 const commit2 = "commit";
 const newFeatureForPat = "1234";
+const newAutomationsFeat = '13'
