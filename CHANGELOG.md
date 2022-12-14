@@ -2,6 +2,13 @@
 ## Unreleased 
 
 
+## v298.3.0 (2022-12-14)
+
+### 🐛 Fixes
+
+- **Product:** test feature ([c4bbacd](https://github.com/BrandSourceDigital/alta/commit/c4bbacd3971b57db66c437aacce077920f658d69))
+
+
 ## v298.2.0 (2022-12-14)
 
 ### ✨ Features
