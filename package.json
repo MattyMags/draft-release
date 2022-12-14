@@ -1,6 +1,10 @@
 {
   "name": "draft-release",
+<<<<<<< HEAD
+  "version": "v298.1.0",
+=======
   "version": "298.1.0",
+>>>>>>> cebe9cdf82cea56af5472286df4acf97591d1ba8
   "description": "",
   "main": "index.js",
   "scripts": {
