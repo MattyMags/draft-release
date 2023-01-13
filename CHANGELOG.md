@@ -2,6 +2,13 @@
 ## Unreleased 
 
 
+## v302.0.0 (2023-1-13)
+
+### 🔧 Chores
+
+- allan's second attempt ([4fe68ab](https://github.com/BrandSourceDigital/alta/commit/4fe68abcfe965794d1dbf6f8c341ea3890f4a06d))
+
+
 ## v301.0.0 (2023-1-13)
 
 ### 🐛 Fixes
