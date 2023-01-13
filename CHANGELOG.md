@@ -2,6 +2,18 @@
 ## Unreleased 
 
 
+## v299.0.0 (2023-1-13)
+
+### ✨ Features
+
+- sim new feature for allan ([dbbf9ac](https://github.com/BrandSourceDigital/alta/commit/dbbf9ac40d9d89eea260e9a7708eda66ea61d303))
+
+### 🐛 Fixes
+
+- **Product:** test feature ([ee73ef3](https://github.com/BrandSourceDigital/alta/commit/ee73ef3d2e1b17aa7ec6ec98cc6c889a902f1e36))
+- **App:** refactored analytics actions - moved to utils and ts update ([566b24f](https://github.com/BrandSourceDigital/alta/commit/566b24fcd195fc22d87004b11fabb2bc0f3b1d73))
+
+
 ## v298.3.0 (2022-12-14)
 
 ### 🐛 Fixes
