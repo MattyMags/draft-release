@@ -2,6 +2,13 @@
 ## Unreleased 
 
 
+## v301.0.0 (2023-1-13)
+
+### 🐛 Fixes
+
+- messed up first go at it ([f7721ba](https://github.com/BrandSourceDigital/alta/commit/f7721baf9ef846592f8884e628596083af89a409))
+
+
 ## v300.0.0 (2023-1-13)
 
 ### ✨ Features
