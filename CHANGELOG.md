@@ -2,37 +2,26 @@
 ## Unreleased 
 
 
-## v299.0.0 (2023-1-13)
+## v300.0.0 (2023-1-13)
+
+### ✨ Features
+
+- sim a new feat for allan ([d77b732](https://github.com/BrandSourceDigital/alta/commit/d77b732d722f207adc7d8a8c2b5942a4c28379f6))
+
+
+## false299.0.0 (2023-1-13)
 
 ### ✨ Features
 
 - sim new feature for allan ([dbbf9ac](https://github.com/BrandSourceDigital/alta/commit/dbbf9ac40d9d89eea260e9a7708eda66ea61d303))
+- sim new auto feature ([a426461](https://github.com/BrandSourceDigital/alta/commit/a426461bb7e52097dc787aec75a9104762c4af29))
+- simulating a new feature ([7d278ef](https://github.com/BrandSourceDigital/alta/commit/7d278efebde33e25200aed4d3a5f092c671186b9))
 
 ### 🐛 Fixes
 
 - **Product:** test feature ([ee73ef3](https://github.com/BrandSourceDigital/alta/commit/ee73ef3d2e1b17aa7ec6ec98cc6c889a902f1e36))
 - **App:** refactored analytics actions - moved to utils and ts update ([566b24f](https://github.com/BrandSourceDigital/alta/commit/566b24fcd195fc22d87004b11fabb2bc0f3b1d73))
-
-
-## v298.3.0 (2022-12-14)
-
-### 🐛 Fixes
-
 - **Product:** test feature ([c4bbacd](https://github.com/BrandSourceDigital/alta/commit/c4bbacd3971b57db66c437aacce077920f658d69))
-
-
-## v298.2.0 (2022-12-14)
-
-### ✨ Features
-
-- sim new auto feature ([a426461](https://github.com/BrandSourceDigital/alta/commit/a426461bb7e52097dc787aec75a9104762c4af29))
-
-
-## falsev298.1.0 (2022-12-14)
-
-### ✨ Features
-
-- simulating a new feature ([7d278ef](https://github.com/BrandSourceDigital/alta/commit/7d278efebde33e25200aed4d3a5f092c671186b9))
 
 
 ## false100.0.0-test.0 (2022-10-31)
