@@ -2,6 +2,13 @@
 ## Unreleased 
 
 
+## v304.0.0 (2023-1-19)
+
+### ✨ Features
+
+- added new feature ([d4a9952](https://github.com/BrandSourceDigital/alta/commit/d4a995215f5d504b682e87417fc1d8ba6a7a3f6d))
+
+
 ## v303.0.0 (2023-1-19)
 
 ### 🐛 Fixes
