@@ -2,6 +2,13 @@
 ## Unreleased 
 
 
+## v303.0.0 (2023-1-19)
+
+### 🐛 Fixes
+
+- clean file for demo ([5d403ff](https://github.com/BrandSourceDigital/alta/commit/5d403ff75250a78b0472210ffe5c98a09fd06f3e))
+
+
 ## v302.0.0 (2023-1-13)
 
 ### 🔧 Chores
