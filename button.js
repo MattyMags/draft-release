@@ -1,5 +1,5 @@
 const button = "button";
 const feature = "feature 2";
 const fix = "fix";
-const new feature = 'new feature'
-const anotherFeature = 'another feature'
+const newFeature = 'new feature'
+const anotherFeature = 'another feature' 
