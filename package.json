@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "changelog": "node ./generateChangeLog.js && node ./changelog.js"
   },
   "dependencies": {
@@ -13,5 +12,8 @@
     "yargs": "^17.5.1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.30.0"
+  }
 }
